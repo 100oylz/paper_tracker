@@ -69,3 +69,11 @@ python -m pytest tests/ -q
 - AI 服务仅使用 OpenCode Go（`https://opencode.ai/zen/go/v1`），Secrets 只放三件套。
 - 不同主线允许各自收录同一篇论文；同主线内跨 keyword 全局去重。
 - 消息渲染使用真实换行，`prod` 通过 `GITHUB_ENV` heredoc 写入 `MSG_*`，不要再退回 `$'...'` 转义写法。
+
+## 7. 任务总结（2026-08-05）
+
+- 双线重构完成：DP 由原 SCHED + VLM 合并，FL 为新增联邦学习线，共 25 个关键词、62 个 venue 缓存键。
+- 5 年探测完成：725 次 DBLP 查询，62 个 venue 键全部命中，4573 篇论文（2021-2026），`FL-Papers.md` 已提交。
+- 已发布总结性 issue：[#3](https://github.com/100oylz/paper_tracker/issues/3)。
+- 仓库历史已重建为干净历史并 force push；7 个 Actions workflow 注册，`watch.yml` 每日定时运行。
+- 待办：4573 篇论文的摘要/翻译/LLM 分诊富化回填。
