@@ -68,4 +68,4 @@ python -m pytest tests/ -q
 - 不要恢复 2020 年份绝对下限。
 - AI 服务仅使用 OpenCode Go（`https://opencode.ai/zen/go/v1`），Secrets 只放三件套。
 - 不同主线允许各自收录同一篇论文；同主线内跨 keyword 全局去重。
-- 消息渲染的换行是字面 `\n`，配合 `GITHUB_ENV` 的 `$'...'` 引用解析为真实换行，不要改成真实换行。
+- 消息渲染使用真实换行，`prod` 通过 `GITHUB_ENV` heredoc 写入 `MSG_*`，不要再退回 `$'...'` 转义写法。

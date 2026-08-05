@@ -119,9 +119,8 @@ def emit_msg(msg, env_file=None):
     print(msg)
     env_file = env_file if env_file is not None else os.getenv("GITHUB_ENV")
     if env_file:
-        env_value = msg.replace("\n", "\\n")
         with open(env_file, "a", encoding="utf-8") as f:
-            f.write("MSG=$'" + env_value + "'\n")
+            f.write(f"MSG<<_FL_TRACKER_MSG_EOF_\n{msg}\n_FL_TRACKER_MSG_EOF_\n")
     return msg
 
 

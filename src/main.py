@@ -225,7 +225,7 @@ class Scaffold:
                     if line_flags[tag]:
                         prefix = tag.upper()
                         with open(env_file, "a") as f:
-                            f.write(f"MSG_{prefix}=$'{msg}'\n")
+                            f.write(f"MSG_{prefix}<<_FL_TRACKER_MSG_EOF_\n{msg}\n_FL_TRACKER_MSG_EOF_\n")
                             f.write(f"ISSUE_TITLE_TOPICS_{prefix}={format_title_topics(line_active_topics[tag])}\n")
         else:
             for line in lines:

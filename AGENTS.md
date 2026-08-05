@@ -54,7 +54,7 @@
 
 ### 消息格式（`src/tracker/format.py`）
 
-- `get_msg` 输出字面 `\n`（反斜杠 + n），供 `GITHUB_ENV` 的 `$'...'` 引用解析为真实换行。
+- `get_msg` 输出真实换行，`prod` 用 `GITHUB_ENV` heredoc 写入 `MSG_*`，避免转义符号进入 Issue。
 - 有分诊字段时按 `subtopic` 分组、组内按 `triage_score` 降序；否则按普通行渲染。
 - 链接顺序：PDF → CODE → PUB，缺失省略；venue 徽章由 `src/tracker/venue_meta.py` 提供。
 

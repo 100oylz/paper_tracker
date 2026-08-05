@@ -92,12 +92,12 @@ def _build_msg(candidates, probed):
 
 
 def emit_msg(msg):
-    msg = msg.replace("'", "").replace("\n", "\\n")
+    msg = msg.replace("'", "")
     env_file = os.getenv("GITHUB_ENV")
-    print(msg.replace("\\n", "\n"))
+    print(msg)
     if env_file:
         with open(env_file, "a", encoding="utf-8") as f:
-            f.write("MSG=$'" + msg + "'\n")
+            f.write(f"MSG<<_FL_TRACKER_MSG_EOF_\n{msg}\n_FL_TRACKER_MSG_EOF_\n")
 
 
 def run(min_count=3, limit=20, no_llm=False, no_probe=False, cache_path="", config_path=""):

@@ -37,10 +37,10 @@ def _format_item_line(item, triaged):
 
 
 def get_msg(items, topic, aggregated=False):
-    """按 venue 生成消息块；返回的换行是字面 \\n（供 GITHUB_ENV $'...' 使用）。"""
+    """按 venue 生成消息块；返回真实换行，配合 GITHUB_ENV heredoc 写入。"""
     string_topic = urllib.parse.unquote(topic)
     name_topic = string_topic.split(":")[-2]
-    msg = f"## [{name_topic}](https://dblp.org/search?q={topic}) [+{len(items)}]\\n\\n"
+    msg = f"## [{name_topic}](https://dblp.org/search?q={topic}) [+{len(items)}]\n\n"
 
     if aggregated is False:
         triaged_items = [item for item in items if _is_triaged(item)]
@@ -56,20 +56,20 @@ def get_msg(items, topic, aggregated=False):
                 key=lambda g: (-max(_triage_score(it) for it in groups[g]), g),
             )
             for subtopic in group_order:
-                msg += f"### {subtopic}\\n"
+                msg += f"### {subtopic}\n"
                 for item in sorted(
                     groups[subtopic],
                     key=lambda it: (-_triage_score(it), it.get("title", "")),
                 ):
-                    msg += _format_item_line(item, triaged=True) + "\\n"
+                    msg += _format_item_line(item, triaged=True) + "\n"
                     summary = (item.get("triage_summary") or "").strip()
                     if summary:
-                        msg += f"  {summary}\\n"
-                msg += "\\n"
+                        msg += f"  {summary}\n"
+                msg += "\n"
 
         for item in plain_items:
-            msg += _format_item_line(item, triaged=False) + "\\n"
-        msg += "\\n"
+            msg += _format_item_line(item, triaged=False) + "\n"
+        msg += "\n"
 
     return msg.replace("'", "")
 

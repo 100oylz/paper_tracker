@@ -15,14 +15,14 @@ def _plain_items():
     ]
 
 
-def test_plain_items_literal_newline_format():
+def test_plain_items_real_newline_format():
     msg = get_msg(_plain_items(), TOPIC)
     assert msg == (
-        "## [ICML](https://dblp.org/search?q=document%20pars%20venue%3AICML%3A) [+3]\\n\\n"
-        "- Paper A. **[ICML · CCF-A]** [[CODE](https://github.com/x/y)] [[PUB](https://ee/a)]\\n"
-        "- Paper B. **[NeurIPS · CCF-A]** [[PUB](https://ee/b)]\\n"
-        "- Paper C.\\n"
-        "\\n"
+        "## [ICML](https://dblp.org/search?q=document%20pars%20venue%3AICML%3A) [+3]\n\n"
+        "- Paper A. **[ICML · CCF-A]** [[CODE](https://github.com/x/y)] [[PUB](https://ee/a)]\n"
+        "- Paper B. **[NeurIPS · CCF-A]** [[PUB](https://ee/b)]\n"
+        "- Paper C.\n"
+        "\n"
     )
 
 
@@ -47,13 +47,13 @@ def test_triaged_grouping_and_sorting():
          "triage_score": 4, "triage_summary": "中分", "subtopic": "personalization"},
     ]
     msg = get_msg(items, TOPIC)
-    assert "### personalization\\n" in msg
-    assert "### application\\n" in msg
+    assert "### personalization\n" in msg
+    assert "### application\n" in msg
     assert msg.index("### personalization") < msg.index("### application")
     assert msg.index("★5 High.") < msg.index("★4 Mid.")
-    assert "  高分\\n" in msg
+    assert "  高分\n" in msg
     assert "- ★2 Low. **[IJCAI · CCF-B · 第七版由A降B]]**" not in msg  # 括号完整性由下一行校验
-    assert "- ★2 Low. **[IJCAI · CCF-B · 第七版由A降B]** [[PUB](https://low)]\\n" in msg
+    assert "- ★2 Low. **[IJCAI · CCF-B · 第七版由A降B]** [[PUB](https://low)]\n" in msg
 
 
 def test_mixed_triaged_and_plain():
@@ -62,9 +62,9 @@ def test_mixed_triaged_and_plain():
          "triage_score": 3, "triage_summary": "导读", "subtopic": "other"},
     ]
     msg = get_msg(items, TOPIC)
-    assert "### other\\n" in msg
+    assert "### other\n" in msg
     assert "- Paper A. **[ICML · CCF-A]]**" not in msg
-    assert "- ★3 Triaged. **[NeurIPS · CCF-A]** [[PUB](https://t)]\\n" in msg
+    assert "- ★3 Triaged. **[NeurIPS · CCF-A]** [[PUB](https://t)]\n" in msg
 
 
 def test_single_quotes_stripped():
