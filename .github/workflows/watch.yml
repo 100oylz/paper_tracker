@@ -71,7 +71,8 @@ jobs:
 
       - name: Push done work
         run: |
-          git diff --exit-code || git commit -am "Fetch new papers @ $(date '+%Y-%m-%d %H:%M')"
+          git add -A
+          git diff --cached --quiet || git commit -m "Fetch new papers @ $(date '+%Y-%m-%d %H:%M')"
           git push --force origin main
 
       - name: Ensure labels exist
