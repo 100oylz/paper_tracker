@@ -1,4 +1,5 @@
 name: Close All Open Issues
+# Registered on 2026-08-05 rebuild.
 
 on:
   workflow_dispatch:

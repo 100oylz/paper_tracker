@@ -78,6 +78,7 @@
 
 ```bash
 cd src && python main.py run --env=dev [--primary_only] [--all_years]
+cd src && python main.py run --env=dev --skip_enrich
 python scripts/convert_cache_to_md.py
 python scripts/fetch_abstracts.py --year all
 python scripts/fetch_dois.py --year all

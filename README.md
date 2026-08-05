@@ -33,6 +33,9 @@ cd src && python main.py run --env=dev --primary_only
 
 # 全量年份（关闭年份过滤与富化）
 cd src && python main.py run --env=dev --all_years
+
+# 快速 5 年探测（保留年份过滤，跳过摘要/翻译/分诊）
+cd src && python main.py run --env=dev --skip_enrich
 ```
 
 ## 配置

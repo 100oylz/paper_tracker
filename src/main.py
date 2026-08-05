@@ -32,7 +32,8 @@ MAX_MSG_LEN = 4096
 
 
 class Scaffold:
-    def run(self, env="dev", cfg="./../config.yaml", primary_only=False, all_years=False):
+    def run(self, env="dev", cfg="./../config.yaml", primary_only=False, all_years=False,
+            skip_enrich=False):
         config = load_config(cfg)
         lines, keyword_to_line, subtopic_to_line, all_subtopics = parse_lines(config)
         runtime = runtime_settings(config)
@@ -50,7 +51,10 @@ class Scaffold:
         contact_email = os.getenv("CONTACT_EMAIL", "")
         cache = load_cache()
 
-        logger.info(f"running with env: {env}, primary_only: {primary_only}, all_years: {all_years}")
+        logger.info(
+            f"running with env: {env}, primary_only: {primary_only}, "
+            f"all_years: {all_years}, skip_enrich: {skip_enrich}"
+        )
         logger.info(f"lines: {[(ln['tag'], ln['name'], len(ln['venues'])) for ln in lines]}")
 
         line_msgs = {ln["tag"]: "" for ln in lines}
@@ -146,7 +150,7 @@ class Scaffold:
             if cache_key not in cache:
                 cache[cache_key] = []
 
-            if new_items and not all_years:
+            if new_items and not all_years and not skip_enrich:
                 if runtime["abstracts"]["enabled"]:
                     fetch_abstract_for_papers(
                         new_items,

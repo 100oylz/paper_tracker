@@ -35,13 +35,15 @@ jobs:
 
       - name: Run dblp watcher
         run: |
-          cd src && python main.py run --env=${{ env.RUN_ENV }} ${{ github.event_name != 'workflow_dispatch' && '--primary_only' || '' }}
+          cd src && python main.py run --env=${{ env.RUN_ENV }} ${{ github.event_name != 'workflow_dispatch' && '--primary_only' || '' }} ${{ github.event_name == 'workflow_dispatch' && '--skip_enrich' || '' }}
 
       - name: Extract related code links
+        if: ${{ github.event_name != 'workflow_dispatch' }}
         run: python scripts/fetch_related_code.py
         continue-on-error: true
 
       - name: Fetch missing abstracts
+        if: ${{ github.event_name != 'workflow_dispatch' }}
         run: python scripts/fetch_abstracts.py
         continue-on-error: true
 
