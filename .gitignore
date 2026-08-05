@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments and secrets
+.env
+.venv/
+venv/
+env/
+
+# Tooling and test artifacts
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# CodeGraph local index
+.codegraph/
+
+# Tracker runtime data
+cached/*.bak
+cached/abstract_progress.yaml
+cached/pdf_links.json
+
+# Logs
+*.log

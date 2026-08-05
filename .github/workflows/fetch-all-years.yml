@@ -1,0 +1,92 @@
+name: Fetch All Years Papers
+
+on:
+  workflow_dispatch:
+    inputs:
+      create_issue:
+        description: 'Create GitHub issue for new papers'
+        required: false
+        default: false
+        type: boolean
+
+permissions: write-all
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+      RUN_ENV: "prod"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run dblp watcher (all years)
+        run: |
+          cd src && python main.py run --env=${{ env.RUN_ENV }} --all_years
+
+      - name: Update FL-Papers.md
+        run: python scripts/convert_cache_to_md.py
+
+      - name: Setup var
+        id: vars
+        run: |
+          {
+            echo "content_dp<<EOF"
+            echo "$MSG_DP"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo "content_fl<<EOF"
+            echo "$MSG_FL"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Setup GIT user
+        run: |
+          git config --global user.name "100oylz"
+          git config --global user.email "100oylz@users.noreply.github.com"
+
+      - name: Push done work
+        run: |
+          git diff --exit-code || git commit -am "Fetch all-years papers @ $(date '+%Y-%m-%d %H:%M')"
+          git push --force origin main
+
+      - name: Ensure labels exist
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create dp-line --repo ${{ github.repository }} --force || true
+          gh label create fl-line --repo ${{ github.repository }} --force || true
+
+      - name: Create issue for DP line
+        if: ${{ inputs.create_issue && env.MSG_DP != '' }}
+        continue-on-error: true
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MSG_DP: ${{ steps.vars.outputs.content_dp }}
+          ISSUE_TITLE_TOPICS_DP: ${{ env.ISSUE_TITLE_TOPICS_DP }}
+        with:
+          filename: .github/issue-template-dp.md
+
+      - name: Create issue for FL line
+        if: ${{ inputs.create_issue && env.MSG_FL != '' }}
+        continue-on-error: true
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MSG_FL: ${{ steps.vars.outputs.content_fl }}
+          ISSUE_TITLE_TOPICS_FL: ${{ env.ISSUE_TITLE_TOPICS_FL }}
+        with:
+          filename: .github/issue-template-fl.md

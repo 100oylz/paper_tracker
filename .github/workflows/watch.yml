@@ -1,0 +1,114 @@
+name: Run DBLP Watch
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+  push:
+    branches: [main]
+
+permissions: write-all
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+      RUN_ENV: "prod"
+      LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      LLM_MODELS: ${{ secrets.LLM_MODELS }}
+      MAIL_TO: ${{ secrets.MAIL_TO }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run dblp watcher
+        run: |
+          cd src && python main.py run --env=${{ env.RUN_ENV }} ${{ github.event_name != 'workflow_dispatch' && '--primary_only' || '' }}
+
+      - name: Extract related code links
+        run: python scripts/fetch_related_code.py
+        continue-on-error: true
+
+      - name: Fetch missing abstracts
+        run: python scripts/fetch_abstracts.py
+        continue-on-error: true
+
+      - name: Update FL-Papers.md
+        run: python scripts/convert_cache_to_md.py
+
+      - name: Setup var
+        id: vars
+        run: |
+          {
+            echo "content_dp<<EOF"
+            echo "$MSG_DP"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          {
+            echo "content_fl<<EOF"
+            echo "$MSG_FL"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Setup GIT user
+        run: |
+          git config --global user.name "100oylz"
+          git config --global user.email "100oylz@users.noreply.github.com"
+
+      - name: Push done work
+        run: |
+          git diff --exit-code || git commit -am "Fetch new papers @ $(date '+%Y-%m-%d %H:%M')"
+          git push --force origin main
+
+      - name: Ensure labels exist
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create dp-line --repo ${{ github.repository }} --force || true
+          gh label create fl-line --repo ${{ github.repository }} --force || true
+
+      - name: Create issue for DP line
+        if: ${{ env.MSG_DP != '' }}
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MSG_DP: ${{ steps.vars.outputs.content_dp }}
+          ISSUE_TITLE_TOPICS_DP: ${{ env.ISSUE_TITLE_TOPICS_DP }}
+        with:
+          filename: .github/issue-template-dp.md
+
+      - name: Create issue for FL line
+        if: ${{ env.MSG_FL != '' }}
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MSG_FL: ${{ steps.vars.outputs.content_fl }}
+          ISSUE_TITLE_TOPICS_FL: ${{ env.ISSUE_TITLE_TOPICS_FL }}
+        with:
+          filename: .github/issue-template-fl.md
+
+      - name: Send email notification
+        if: ${{ env.MAIL_TO != '' && (env.MSG_DP != '' || env.MSG_FL != '') }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: DocPrivacy Paper Update [${{ env.ISSUE_TITLE_TOPICS_DP }} ${{ env.ISSUE_TITLE_TOPICS_FL }}]
+          convert_markdown: true
+          body: ${{ steps.vars.outputs.content_dp }}${{ steps.vars.outputs.content_fl }}
+          to: ${{ secrets.MAIL_TO }}
+          from: DocPrivacy Paper Tracker
