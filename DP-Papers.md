@@ -3179,6 +3179,12 @@
 
 ## Database
 
+### 2026
+
+#### SIGMOD
+
+- Scalable Privacy-Preserving Shortest Path Distance Computation via 2-Hop Labeling in MPC. [[PUB](https://doi.org/10.1145/3786695)]
+
 ### 2025
 
 #### SIGMOD

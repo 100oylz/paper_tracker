@@ -45598,6 +45598,19 @@
   triage_score: 0
   triage_summary: 提出基于模型与离群值存储的时间序列数据压缩方法，与文档隐私及联邦学习无关。
   subtopic: other
+- author: Huizhong Wang, Yuanyuan Zeng, Kun Chen 0004, Wei Dong 0007, Chenhao Ma 0001
+  title: Scalable Privacy-Preserving Shortest Path Distance Computation via 2-Hop
+    Labeling in MPC.
+  venue: Proc. ACM Manag. Data
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/WangZCDM26
+  doi: 10.1145/3786695
+  ee: https://doi.org/10.1145/3786695
+  url: https://dblp.org/rec/journals/pacmmod/WangZCDM26
+  abstract: ''
+  date_added: '2026-08-06'
 'DP:venue:ICDE:':
 - author: Zichong Li, Lan Zhang 0002, Mu Yuan, Miaohui Song, Qi Song 0004
   title: Efficient Deep Ensemble Inference via Query Difficulty-dependent Task Scheduling.
@@ -70949,6 +70962,34 @@
   triage_score: 4
   triage_summary: 提出面向关系数据的通信高效联邦特征选择框架，属于联邦学习与隐私保护主线。
   subtopic: other
+- author: Jinming Hu, Jiahao Gu, Kenta Ploch, Hao Wang 0022, Jingxian Wang, Wentao
+    Wu 0001, Qizhen Zhang 0001
+  title: 'Understanding the Impact of Data Noise in Federated Learning: [Experiments
+    &amp; Analysis].'
+  venue: Proc. ACM Manag. Data
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/HuGPWWWZ26
+  doi: 10.1145/3802124
+  ee: https://doi.org/10.1145/3802124
+  url: https://dblp.org/rec/journals/pacmmod/HuGPWWWZ26
+  abstract: ''
+  date_added: '2026-08-06'
+- author: Xiaochen Li, Fengyu Gao, Xizixiang Wei, Tianhao Wang 0001, Cong Shen 0001,
+    Jing Yang 0002
+  title: 'HeteroFedSyn: Differentially Private Tabular Data Synthesis for Heterogeneous
+    Federated Settings.'
+  venue: Proc. ACM Manag. Data
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/pacmmod/LiGWWSY26
+  doi: 10.1145/3802072
+  ee: https://doi.org/10.1145/3802072
+  url: https://dblp.org/rec/journals/pacmmod/LiGWWSY26
+  abstract: ''
+  date_added: '2026-08-06'
 'FL:venue:ICDE:':
 - author: Jihoon Moon, Ling Liu 0001, Hyuk-Yoon Kwon
   title: 'FedSDP: Federated Self-Derived Prototypes for Personalized Federated Learning.'
