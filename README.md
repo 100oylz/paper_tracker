@@ -1,6 +1,12 @@
 # FL Paper Update Tracker
 
-面向「文档解析的数据隐私保护关键技术研究」方向的论文追踪工具，基于 DBLP API 每天自动抓取、筛选、去重并发布 GitHub Issue。项目自建实现，不复刻上游仓库。
+一个**通过 DBLP API 检索、由 GitHub Actions 全托管运行的论文追踪工具**：定时自动抓取、筛选、去重并发布 GitHub Issue，面向「文档解析的数据隐私保护关键技术研究」方向。无需本地常驻进程，抓取、富化、更新 Markdown、发 Issue 全部在 CI 中完成。项目自建实现，不复刻上游仓库。
+
+## 工作原理
+
+1. **检索**：调用 [DBLP Search API](https://dblp.org/search/api) 按主线关键词与 venue 全量扫描。
+2. **托管**：GitHub Actions 定时（schedule）或手动（workflow_dispatch）触发，抓取结果写入 `cached/dblp.yaml` 并渲染 `DP-Papers.md` / `FL-Papers.md`，自动提交回仓库。
+3. **发布**：发现新论文时，按主线分别用 Issue 模板创建 GitHub Issue 推送通知。
 
 ## 双主线
 
@@ -18,7 +24,19 @@
 - 双线 Issue：分别使用 `.github/issue-template-dp.md` / `issue-template-fl.md`
 - 辅助脚本：Markdown 输出、摘要/DOI/代码链接回填、去重、分诊回填、月报、年度盘点、关键词建议
 
-## 快速开始
+## GitHub Actions 工作流
+
+仓库内工作流（`.github/workflows/`）即全部托管逻辑：
+
+- `watch.yml` — 每日定时抓取增量新论文（schedule 驱动的主入口）
+- `fetch-all-years.yml` — 手动触发，全量年份扫描并更新 Markdown
+- `backfill-abstracts.yml` / `backfill-dois.yml` — 回填缺失的摘要与 DOI
+- `monthly-digest.yml` — 月度盘点，`keyword-suggest.yml` — 关键词建议
+- `close-all-issues.yml` — 批量关闭 Issue
+
+本地运行仅用于调试，与 CI 同一套代码：
+
+## 本地调试
 
 ```bash
 python -m venv .venv
