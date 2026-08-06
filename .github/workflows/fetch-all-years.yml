@@ -59,7 +59,7 @@ jobs:
 
       - name: Push done work
         run: |
-          git add -A
+          git add -A -- . ':!.github/workflows'
           git diff --cached --quiet || git commit -m "Fetch all-years papers @ $(date '+%Y-%m-%d %H:%M')"
           git push --force origin main
 
