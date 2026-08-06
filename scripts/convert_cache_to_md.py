@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""把 cached/dblp.yaml 转换为结构化 FL-Papers.md。"""
+"""把 cached/dblp.yaml 按主线 tag 拆分为 DP-Papers.md / FL-Papers.md。"""
 
 import sys
 from collections import defaultdict
@@ -155,44 +155,30 @@ def _is_low_priority(title):
     return has_brackets or has_keywords
 
 
-def main():
-    root = project_root()
-    with open(root / "cached" / "dblp.yaml", "r", encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
-    with open(root / "config.yaml", "r", encoding="utf-8") as f:
-        config = yaml.safe_load(f) or {}
-
-    keywords = []
-    for line in (config.get("dblp") or {}).get("lines") or []:
-        keywords.extend(str(k).strip() for k in (line.get("keywords") or []) if str(k).strip())
-    priority_keyword = keywords[0].lower() if keywords else ""
-
+def _aggregate(papers_iter):
+    """按 category/year/venue 聚合一份论文列表。"""
     aggregated = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
     unknown_venues = set()
-    for _key, papers in data.items():
-        if not isinstance(papers, list):
+    for paper in papers_iter:
+        raw_venue = (paper.get("venue") or "").strip()
+        if not raw_venue:
             continue
-        for paper in papers:
-            raw_venue = (paper.get("venue") or "").strip()
-            if not raw_venue:
-                continue
-            venue = VENUE_MAP.get(raw_venue, raw_venue)
-            category = CATEGORY_MAP.get(venue)
-            if category is None:
-                unknown_venues.add(raw_venue)
-                continue
-            try:
-                year = int(paper.get("year", ""))
-            except (TypeError, ValueError):
-                continue
-            aggregated[category][year][venue].append(paper)
+        venue = VENUE_MAP.get(raw_venue, raw_venue)
+        category = CATEGORY_MAP.get(venue)
+        if category is None:
+            unknown_venues.add(raw_venue)
+            continue
+        try:
+            year = int(paper.get("year", ""))
+        except (TypeError, ValueError):
+            continue
+        aggregated[category][year][venue].append(paper)
+    return aggregated, unknown_venues
 
-    if unknown_venues:
-        print("[WARN] Unknown venues (skipped):")
-        for venue in sorted(unknown_venues):
-            print(f"  - {venue}")
 
-    lines = ["# FL Papers", ""]
+def _render(title, aggregated, priority_keyword):
+    """把聚合结果渲染成 Markdown 文本行。"""
+    lines = [f"# {title}", ""]
     for category in CATEGORY_ORDER:
         if category not in aggregated:
             continue
@@ -225,10 +211,44 @@ def main():
                         parts.append(f"[[CODE]({code})]")
                     lines.append(" ".join(parts))
                 lines.append("")
+    return lines
 
-    output = root / "FL-Papers.md"
-    output.write_text("\n".join(lines), encoding="utf-8")
-    print(f"Done! Written to {output}")
+
+def main():
+    root = project_root()
+    with open(root / "cached" / "dblp.yaml", "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    with open(root / "config.yaml", "r", encoding="utf-8") as f:
+        config = yaml.safe_load(f) or {}
+
+    # 每条主线的 primary keyword（用于排序置顶）
+    line_keywords = {}
+    for line in (config.get("dblp") or {}).get("lines") or []:
+        tag = (line.get("tag") or "").strip()
+        kws = [str(k).strip() for k in (line.get("keywords") or []) if str(k).strip()]
+        if tag and kws:
+            line_keywords[tag] = kws[0].lower()
+
+    # 按缓存键前缀 {tag}: 拆出各主线自己的论文
+    line_papers = defaultdict(list)
+    for key, papers in data.items():
+        if not isinstance(papers, list):
+            continue
+        tag = str(key).split(":", 1)[0].strip()
+        line_papers[tag].extend(papers)
+
+    for tag, papers in line_papers.items():
+        aggregated, unknown_venues = _aggregate(papers)
+        if unknown_venues:
+            print(f"[WARN] {tag} unknown venues (skipped):")
+            for venue in sorted(unknown_venues):
+                print(f"  - {venue}")
+        priority_keyword = line_keywords.get(tag, "")
+        lines = _render(f"{tag} Papers", aggregated, priority_keyword)
+        output = root / f"{tag}-Papers.md"
+        output.write_text("\n".join(lines), encoding="utf-8")
+        total = sum(len(ps) for y in aggregated.values() for vs in y.values() for ps in vs.values())
+        print(f"Done! {tag}: {total} papers -> {output}")
 
 
 if __name__ == "__main__":
