@@ -26,7 +26,8 @@
 │   └── tracker/            # 核心包
 ├── tests/                  # 离线 pytest
 ├── config.yaml             # 语义化分层配置
-└── FL-Papers.md            # 生成的 Markdown 汇总
+├── DP-Papers.md            # 生成的 Markdown 汇总（DP 主线）
+└── FL-Papers.md            # 生成的 Markdown 汇总（FL 主线）
 ```
 
 ## 核心逻辑

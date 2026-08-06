@@ -35,7 +35,7 @@ jobs:
         run: |
           cd src && python main.py run --env=${{ env.RUN_ENV }} --all_years
 
-      - name: Update FL-Papers.md
+      - name: Update DP-Papers.md / FL-Papers.md
         run: python scripts/convert_cache_to_md.py
 
       - name: Setup var
