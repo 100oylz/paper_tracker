@@ -2870,11 +2870,36 @@
   doi: ''
   ee: https://www.ndss-symposium.org/ndss-paper/vigtext-deepfake-image-detection-with-vision-language-model-explanations-and-graph-neural-networks/
   url: https://dblp.org/rec/conf/ndss/AlbarqawiNKKP26
-  abstract: ''
+  abstract: The rapid rise of deepfake technology, which produces realistic but fraudulent
+    digital content, threatens the authenticity of media. Traditional deepfake detection
+    approaches often struggle with sophisticated, customized deepfakes, especially
+    in terms of generalization and robustness against malicious attacks. This paper
+    introduces ViGText, a novel approach that integrates images with Vision Large
+    Language Model (VLLM) Text explanations within a Graph-based framework to improve
+    deepfake detection. The novelty of ViGText lies in its integration of detailed
+    explanations with visual data, as it provides a more context-aware analysis than
+    captions, which often lack specificity and fail to reveal subtle inconsistencies.
+    ViGText systematically divides images into patches, constructs image and text
+    graphs, and integrates them for analysis using Graph Neural Networks (GNNs) to
+    identify deepfakes. Through the use of multi-level feature extraction across spatial
+    and frequency domains, ViGText captures details that enhance its robustness and
+    accuracy to detect sophisticated deepfakes. Extensive experiments demonstrate
+    that ViGText significantly enhances generalization and achieves a notable performance
+    boost when it detects user-customized deepfakes. Specifically, average F1 scores
+    rise from 72.45% to 98.32% under generalization evaluation, and reflects the model's
+    superior ability to generalize to unseen, fine-tuned variations of stable diffusion
+    models. As for robustness, ViGText achieves an increase of 11.1% in recall compared
+    to other deepfake detection approaches. When facing targeted attacks that exploit
+    its graph-based architecture, ViGText limits classification performance degradation
+    to less than 4%. ViGText uses detailed visual and textual analysis to set a new
+    standard for detecting deepfakes, helping ensure media authenticity and information
+    integrity.
   date_added: '2026-08-05'
   triage_score: 0
   triage_summary: 利用视觉语言模型解释与图神经网络检测深度伪造图像，与文档解析及联邦学习无关。
   subtopic: other
+  related_code: ''
+  abstract_cn: 深度伪造技术的迅速兴起能够生成逼真但具有欺骗性的数字内容，对媒体的真实性构成了威胁。传统的深度伪造检测方法在面对复杂、定制化的深度伪造时往往力不从心，尤其是在泛化能力和抵御恶意攻击的鲁棒性方面。本文介绍了ViGText，一种新颖的方法，它将图像与视觉大语言模型（VLLM）的文本解释集成到基于图的框架中，以改进深度伪造检测。ViGText的新颖之处在于它将详细的解释与视觉数据相结合，相较于往往缺乏具体性且难以揭示细微不一致之处的图像标题，它提供了更具上下文感知能力的分析。ViGText系统地将图像分割成补丁，构建图像图和文本图，并使用图神经网络（GNNs）对它们进行集成分析以识别深度伪造。通过在空间域和频域进行多级特征提取，ViGText捕捉到了能够增强其对复杂深度伪造检测鲁棒性和准确性的细节。大量实验表明，ViGText显著增强了泛化能力，并在检测用户定制化深度伪造时实现了显著的性能提升。具体而言，在泛化评估下，平均F1分数从72.45%上升至98.32%，反映了该模型对未见过的、经过微调的稳定扩散模型变体的出色泛化能力。在鲁棒性方面，与其他深度伪造检测方法相比，ViGText的召回率提高了11.1%。当面对针对其基于图架构的定向攻击时，ViGText将分类性能的下降限制在4%以内。ViGText利用细致的视觉和文本分析，为检测深度伪造树立了新标准，有助于确保媒体真实性和信息完整性。
 'DP:streamid:journals/tpds:':
 - author: Ziyi Han, Ruiting Zhou, Chengzhong Xu 0001, Yifan Zeng, Renli Zhang
   title: 'InSS: An Intelligent Scheduling Orchestrator for Multi-GPU Inference With
