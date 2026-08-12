@@ -64351,6 +64351,114 @@
   triage_score: 5
   triage_summary: 用图自编码器实现数据无关的模型投毒攻击，揭示联邦学习安全脆弱性。
   subtopic: other
+- author: Heqiang Wang, Xiaoxiong Zhong, Weihong Yang, Hualong Wu, Fangming Liu, Weizhe
+    Zhang
+  title: Detection and Mitigation Data Poisoning Attacks in Multimodal Online Federated
+    Learning.
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/WangZYWLZ26
+  doi: 10.1109/TIFS.2026.3707417
+  ee: https://doi.org/10.1109/TIFS.2026.3707417
+  url: https://dblp.org/rec/journals/tifs/WangZYWLZ26
+  abstract: 'The Internet of Things (IoT) ecosystem produces vast quantities of multimodal
+    data from diverse sources such as sensors, cameras, and microphones. With the
+    growing integration of edge intelligence, IoT devices have evolved beyond simple
+    data collection units into intelligent edge nodes, necessitating distributed learning
+    paradigms to handle heterogeneous and dynamic multimodal data effectively. Moreover,
+    the real-time nature of data generation and the limited storage capabilities of
+    edge devices call for an online learning framework. To address these challenges,
+    Multimodal Online Federated Learning (MMO-FL) has emerged as a promising solution,
+    enabling decentralized and real-time model training across multiple modalities.
+    However, existing MMO-FL studies largely assume idealized environments and overlook
+    security threats. As a result, the security landscape of MMO-FL remains severely
+    underexplored. In practice, MMO-FL introduces unique and complex security vulnerabilities
+    across three dimensions: spatial (federated), temporal (online), and modal (multimodal).
+    These characteristics make the distributed and online data collection process
+    highly vulnerable to adversarial manipulation. To bridge this gap, we present
+    the first systematic study of data poisoning attacks within the MMO-FL scenario.
+    We begin with a theoretical analysis quantifying the impact of such attacks on
+    learning performance. To defend against them, we propose a novel detection and
+    mitigation algorithm tailored specifically for MMO-FL systems. Extensive experiments
+    conducted on two real-world multimodal datasets, UCI-HAR and USC-HAD, demonstrate
+    that our approach effectively detects and mitigates data poisoning attacks.'
+  related_code: ''
+  abstract_cn: 物联网（IoT）生态系统从传感器、摄像头和麦克风等多种来源产生大量多模态数据。随着边缘智能的日益融合，物联网设备已从简单的数据收集单元演变为智能边缘节点，需要分布式学习范式来有效处理异构和动态的多模态数据。此外，数据生成的实时性以及边缘设备的有限存储能力要求采用在线学习框架。为应对这些挑战，多模态在线联邦学习（MMO-FL）作为一种有前景的解决方案应运而生，支持跨多种模态的去中心化实时模型训练。然而，现有的MMO-FL研究大多假设理想化环境，忽视了安全威胁。因此，MMO-FL的安全状况仍未得到充分探索。在实践中，MMO-FL在三个维度上引入了独特而复杂的安全漏洞：空间维度（联邦）、时间维度（在线）和模态维度（多模态）。这些特征使得分布式在线数据收集过程极易受到对抗性操纵的攻击。为弥补这一空白，我们首次系统性地研究了MMO-FL场景中的数据投毒攻击。我们首先通过理论分析量化了此类攻击对学习性能的影响。为抵御这些攻击，我们提出了一种专门针对MMO-FL系统量身定制的新型检测与缓解算法。在两个真实世界多模态数据集UCI-HAR和USC-HAD上进行的大量实验表明，我们的方法能够有效检测并缓解数据投毒攻击。
+  triage_score: 5
+  triage_summary: 研究多模态在线联邦学习中的数据投毒攻击检测与缓解，涉及联邦学习安全与隐私保护。
+  subtopic: federated-privacy
+  date_added: '2026-08-12'
+- author: Bingnan Xiao, Feng Zhu 0025, Jingjing Zhang 0002, Wei Ni 0001, Xin Wang
+    0003
+  title: Divergence-Based Adaptive Aggregation for Byzantine Robust Federated Learning.
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/XiaoZZNW26
+  doi: 10.1109/TIFS.2026.3707437
+  ee: https://doi.org/10.1109/TIFS.2026.3707437
+  url: https://dblp.org/rec/journals/tifs/XiaoZZNW26
+  abstract: Inherent client drifts caused by data heterogeneity, as well as vulnerability
+    to Byzantine attacks within the system, hinder effective model training and convergence
+    in federated learning (FL). This paper presents two new frameworks, named DiveRgence-based
+    Adaptive aGgregation (DRAG) and Byzantine-Resilient DRAG (BR-DRAG), to mitigate
+    client drifts and resist attacks while expediting training. DRAG designs a reference
+    direction and a metric named divergence of degree to quantify the deviation of
+    local updates. Accordingly, each worker can align its local update via linear
+    calibration without extra communication cost. BR-DRAG refines DRAG under Byzantine
+    attacks by maintaining a vetted root dataset at the server to produce trusted
+    reference directions. The workers’ updates can be then calibrated to mitigate
+    divergence caused by malicious attacks. We analytically prove that DRAG and BR-DRAG
+    achieve fast convergence for non-convex models under partial worker participation,
+    data heterogeneity, and Byzantine attacks. Experiments validate the effectiveness
+    of DRAG and its superior performance over state-of-the-art methods in handling
+    client drifts, and highlight the robustness of BR-DRAG in maintaining resilience
+    against data heterogeneity and diverse Byzantine attacks.
+  related_code: ''
+  abstract_cn: 由数据异构性导致的内在客户端漂移，以及系统内易受拜占庭攻击的脆弱性，阻碍了联邦学习（FL）中有效的模型训练与收敛。本文提出了两个新框架，分别命名为基于发散度的自适应聚合（DRAG）和拜占庭鲁棒DRAG（BR-DRAG），以缓解客户端漂移、抵御攻击并加速训练。DRAG设计了一个参考方向和一个名为发散度的度量指标，用于量化局部更新的偏差。据此，每个工作节点可以通过线性校准对齐其局部更新，且无需额外的通信成本。BR-DRAG在拜占庭攻击下对DRAG进行了改进，通过在服务器端维护一个经过审核的根数据集来生成可信的参考方向。随后，工作节点的更新可被校准，以缓解恶意攻击造成的发散。我们从理论上证明了DRAG和BR-DRAG在部分工作节点参与、数据异构性及拜占庭攻击条件下，能够实现非凸模型的快速收敛。实验验证了DRAG在处理客户端漂移方面的有效性及其相较于最先进方法的优越性能，并突显了BR-DRAG在应对数据异构性和多种拜占庭攻击时保持鲁棒性的能力。
+  triage_score: 5
+  triage_summary: 提出基于散度的自适应聚合方法，抵御拜占庭攻击并缓解数据异构，提升联邦学习鲁棒性。
+  subtopic: federated-learning
+  date_added: '2026-08-12'
+- author: Furui Zhan, Ziyu Deng, Yingxin Liu, Chengwei Zhang 0001
+  title: Empowering Non-IID Federated Learning With Data Augmentation and Data-Free
+    Knowledge Distillation.
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/ZhanDLZ26
+  doi: 10.1109/TIFS.2026.3711861
+  ee: https://doi.org/10.1109/TIFS.2026.3711861
+  url: https://dblp.org/rec/journals/tifs/ZhanDLZ26
+  abstract: Federated learning (FL) is an emerging distributed machine learning framework
+    that enables collaborative learning among multiple parties while preserving data
+    privacy. However, the complexity of environments and node heterogeneity in the
+    real world result in uneven data distribution across nodes, leading to Non-IID
+    (Non-Independent and Identically Distributed) characteristics in data distribution.
+    Such data distribution significantly reduces the convergence and performance of
+    the model, becoming one of the fundamental challenges in federated learning mechanisms.
+    To address the above issue, this paper proposes a novel FL framework-FedGKD. For
+    the Non-IID client data distribution problem, we employ client-side local data
+    augmentation, where GAN models are deployed on each client to generate synthetic
+    samples so that local data distribution imbalance can be effectively alleviated.
+    To further overcome the limitations of client-side local data augmentation under
+    Non-IID, FedGKD introduces server-side privacy-preserving data-free knowledge
+    distillation, which can transfer the knowledge of selected clients to the server
+    while ensuring privacy protection, further mitigating the impact of Non-IID on
+    federated learning and solving the problem of model performance degradation caused
+    by direct aggregation. Extensive experiments demonstrate that FedGKD significantly
+    outperforms the baseline algorithms in terms of accuracy, while exhibiting excellent
+    performance in other metrics.
+  related_code: ''
+  abstract_cn: 联邦学习（FL）是一种新兴的分布式机器学习框架，能够在保护数据隐私的同时实现多方协作学习。然而，现实世界中环境的复杂性和节点的异构性导致各节点间的数据分布不均衡，使得数据分布呈现非独立同分布（Non-IID）特性。这种数据分布显著降低了模型的收敛速度和性能，成为联邦学习机制中的根本性挑战之一。为解决上述问题，本文提出了一种新颖的联邦学习框架——FedGKD。针对Non-IID客户端数据分布问题，我们采用客户端本地数据增强，在每个客户端部署GAN模型以生成合成样本，从而有效缓解本地数据分布不均衡。为进一步克服Non-IID下客户端本地数据增强的局限性，FedGKD引入了服务端隐私保护的无数据知识蒸馏，能够在确保隐私保护的同时将选定客户端的知识迁移到服务端，进一步减轻Non-IID对联邦学习的影响，并解决直接聚合导致的模型性能下降问题。大量实验表明，FedGKD在准确率方面显著优于基线算法，同时在其他指标上也表现出优异的性能。
+  triage_score: 5
+  triage_summary: 提出FedGKD框架，结合数据增强与无数据知识蒸馏解决非独立同分布问题，兼顾隐私保护。
+  subtopic: federated-distillation
+  date_added: '2026-08-12'
 'FL:streamid:journals/tkde:':
 - author: Fangcheng Fu, Xuanyu Wang, Jiawei Jiang 0001, Huanran Xue, Bin Cui 0001
   title: 'ProjPert: Projection-Based Perturbation for Label Protection in Split Learning
