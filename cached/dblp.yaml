@@ -21515,11 +21515,33 @@
   doi: 10.18653/V1/2026.FINDINGS-ACL.1371
   ee: https://doi.org/10.18653/v1/2026.findings-acl.1371
   url: https://dblp.org/rec/conf/acl/JhaK26
-  abstract: ''
+  abstract: Efficient inference in Large Vision-Language Models is constrained by
+    the high cost of processing thousands of visual tokens, yet it remains unclear
+    which tokens and computations can be safely removed. While attention scores are
+    commonly used to estimate visual token importance, they are an imperfect proxy
+    for actual contribution. We show that Attention Contribution, which weights attention
+    probabilities by value vector magnitude, provides a more accurate criterion for
+    visual token selection. Our empirical analysis reveals that visual attention sinks
+    are functionally heterogeneous, comprising Probability Dumps with low contribution
+    that can be safely pruned, and Structural Anchors with high contribution essential
+    for maintaining model performance. Further, we identify substantial redundancy
+    in Feed-Forward Networks (FFNs) associated with visual tokens, particularly in
+    intermediate layers where image tokens exhibit linear behavior. Based on our findings,
+    we introduce CAPA (Contribution-Aware Pruning and FFN Approximation), a dual-strategy
+    framework that prunes visual tokens using attention contribution at critical functional
+    transitions and reduces FFN computation through efficient linear approximations.
+    Experiments on various benchmarks across baselines show that CAPA achieves competent
+    efficiency--performance trade-offs with improved robustness.
   date_added: '2026-08-05'
   triage_score: 4
   triage_summary: 提出贡献感知剪枝与FFN近似方法压缩大型视觉语言模型，服务VLM端侧部署主线。
   subtopic: other
+  related_code: ''
+  abstract_cn: 大型视觉-语言模型的高效推理受制于处理数千个视觉令牌的高昂成本，然而目前尚不清楚哪些令牌和计算可以被安全移除。虽然注意力分数通常被用来估计视觉令牌的重要性，但它并非对实际贡献的完美代理。我们证明，注意力贡献（Attention
+    Contribution）——即用值向量幅值对注意力概率进行加权——能为视觉令牌选择提供更准确的标准。我们的实证分析揭示，视觉注意力汇聚点（attention
+    sinks）在功能上是异质的，包含贡献低、可被安全剪枝的“概率倾泻区”（Probability Dumps），以及贡献高、对维持模型性能至关重要的“结构锚点”（Structural
+    Anchors）。此外，我们发现与视觉令牌相关的前馈网络（FFNs）中存在大量冗余，尤其是在中间层，图像令牌在该处表现出线性行为。基于上述发现，我们提出了CAPA（贡献感知剪枝与FFN近似，Contribution-Aware
+    Pruning and FFN Approximation），一种双重策略框架，在关键功能转换处利用注意力贡献剪枝视觉令牌，并通过高效的线性近似减少FFN计算量。在多种基准上的实验表明，CAPA在实现高效能-性能权衡的同时，具备了更强的鲁棒性。
 - author: Huawei Ji, Yuanhao Sun, Yuan Jin, Cheng Deng 0001, Jiaxin Ding 0001, Luoyi
     Fu, Xinbing Wang
   title: 'VisPCO: Visual Token Pruning Configuration Optimization via Budget-Aware
