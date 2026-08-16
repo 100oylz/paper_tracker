@@ -1,8 +1,7 @@
 # ============================================================
-# 面向文档解析的数据隐私保护关键技术研究 — 论文追踪配置
-# 双主线：DP（文档解析、隐私合规与端侧部署，整合原 SCHED + VLM）
-#         FL（联邦学习与隐私保护）
-# 结构：dblp.shared 公共 venue 自动并入每条主线；runtime 统一控制运行参数
+# VLAM 论文追踪配置 — Vision-Language-Action Model（视觉-语言-动作模型）
+# 单主线：VLAM（VLA / 具身智能 / 机器人操作与多模态大模型）
+# 结构：dblp.shared 公共 venue 自动并入主线；runtime 统一控制运行参数
 # ============================================================
 dblp:
   url: https://dblp.org/search/publ/api?q={}&format=json&h=1000
@@ -14,118 +13,63 @@ dblp:
       - "venue:ICML:"
       - "venue:ICLR:"
       - "venue:SIGIR:"
-      - "streamid:conf/sigmod:"
-      - "venue:ICDE:"
-      - "streamid:journals/pvldb:"
-      - "venue:MLSys:"
       - "venue:KDD:"
       - "venue:WSDM:"
   lines:
-    - tag: "DP"
-      name: "文档解析、隐私合规与端侧部署"
+    - tag: "VLAM"
+      name: "视觉-语言-动作模型与具身智能"
       enabled: true
       keywords:
-        - document pars
-        - layout detect
-        - table recogn
-        - inference schedul
-        - privacy preserv
-        - model compress
-        - model quantiz
-        - knowledge distill
-        - structured prun
-        - vision language
+        # 第一条为 primary keyword：每日增量扫描（watch.yml --primary_only）
+        # 先用它全量扫所有 venue，命中新论文的 venue 才用其余关键词补扫。
+        # 因此把最宽、最有代表性的词放第一位。
+        - vision language action      # primary：VLA 模型主体
+        - vision-language-action
+        - vision language model       # 兜底 VLM
+        - multimodal large            # multimodal large language model
+        - embodied
+        - robot learning
+        - robot manipulation
+        - robot control
+        - robotic manipulation
+        - visuomotor
+        - affordance
+        - robot navigation
+        - mobile manipulation
+        - instruction following
+        - policy learning
       venues:
-        # 原 SCHED 线
-        - "venue:ICDAR:"
-        - "venue:DAC:"
-        - "streamid:conf/icse:"
-        - "streamid:conf/eurosys:"
-        - "venue:OSDI:"
-        - "venue:SOSP:"
-        - "venue:ISCA:"
-        - "streamid:conf/sp:"
-        - "venue:CCS:"
-        - "streamid:conf/uss:"
-        - "venue:NDSS:"
-        - "streamid:journals/tpds:"
-        - "streamid:journals/tc:"
-        - "streamid:journals/tcad:"
-        - "streamid:journals/tocs:"
-        - "streamid:journals/tos:"
-        - "streamid:journals/ai:"
-        - "streamid:journals/ml:"
-        # 原 VLM 线
+        # 计算机视觉 / 多模态
         - "venue:CVPR:"
         - "venue:ICCV:"
         - "venue:ECCV:"
         - "streamid:journals/ijcv:"
         - "streamid:journals/pami:"
+        # NLP / 多模态大模型
         - "venue:ACL:"
         - "venue:EMNLP:"
         - "venue:NAACL-HLT:"
         - "venue:COLING:"
         - "streamid:journals/jmlr:"
         - "streamid:conf/mm:"
+        # 机器人学（VLA 主要落地场景）
+        - "streamid:conf/corl:"
+        - "streamid:conf/rss:"
+        - "streamid:conf/icra:"
+        - "streamid:conf/iros:"
+        - "streamid:journals/tro:"
+        - "streamid:journals/ral:"
       subtopics:
-        - document-parsing
-        - layout-detection
-        - table-recognition
-        - inference-scheduling
-        - pipeline-grading
-        - sensitivity-detection
-        - privacy-compliance
-        - resource-allocation
+        - vision-language-action
         - vision-language-model
-        - model-quantization
-        - knowledge-distillation
-        - structured-pruning
-        - edge-deployment
-        - latency-optimization
-    - tag: "FL"
-      name: "联邦学习与隐私保护"
-      enabled: true
-      keywords:
-        - federated learning
-        - federated optimization
-        - personalized federat
-        - cross-device federat
-        - cross-silo federat
-        - horizontal federat
-        - vertical federat
-        - federated distillation
-        - secure aggregation
-        - communication efficient federat
-        - heterogeneous federat
-        - federated unlearning
-        - federated continual learning
-        - federated graph learning
-        - federated domain adaptation
-      venues:
-        - "venue:AISTATS:"
-        - "venue:UAI:"
-        - "venue:WWW:"
-        - "venue:CIKM:"
-        - "streamid:conf/bigdataconf:"
-        - "streamid:journals/tmlr:"
-        - "streamid:journals/tifs:"
-        - "streamid:journals/tkde:"
-        - "streamid:journals/tdsc:"
-      subtopics:
-        - federated-learning
-        - federated-optimization
-        - personalized-federated-learning
-        - cross-device-federated-learning
-        - cross-silo-federated-learning
-        - horizontal-federated-learning
-        - vertical-federated-learning
-        - secure-aggregation
-        - federated-privacy
-        - federated-unlearning
-        - communication-efficiency
-        - data-heterogeneity
-        - federated-distillation
-        - federated-graph-learning
+        - multimodal-large-model
+        - embodied-ai
+        - robot-learning
+        - robot-manipulation
+        - robot-navigation
+        - visuomotor-policy
+        - instruction-following
+        - sim2real-transfer
 # 运行参数：所有字段均有默认值，缺省时使用下方默认值
 runtime:
   year:
@@ -148,7 +92,7 @@ runtime:
     batch_size: 5
     max_papers_per_run: 50
 
-# LLM 分诊的通用标签；各线 subtopics 会在运行时合并进来
+# LLM 分诊的通用标签；主线 subtopics 会在运行时合并进来
 enrich:
   subtopics:
     - survey

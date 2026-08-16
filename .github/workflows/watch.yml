@@ -47,20 +47,15 @@ jobs:
         run: python scripts/fetch_abstracts.py
         continue-on-error: true
 
-      - name: Update DP-Papers.md / FL-Papers.md
+      - name: Update VLAM-Papers.md
         run: python scripts/convert_cache_to_md.py
 
       - name: Setup var
         id: vars
         run: |
           {
-            echo "content_dp<<EOF"
-            echo "$MSG_DP"
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
-          {
-            echo "content_fl<<EOF"
-            echo "$MSG_FL"
+            echo "content_vlam<<EOF"
+            echo "$MSG_VLAM"
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
 
@@ -79,39 +74,28 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh label create dp-line --repo ${{ github.repository }} --force || true
-          gh label create fl-line --repo ${{ github.repository }} --force || true
+          gh label create vlam-line --repo ${{ github.repository }} --force || true
 
-      - name: Create issue for DP line
-        if: ${{ env.MSG_DP != '' }}
+      - name: Create issue for VLAM line
+        if: ${{ env.MSG_VLAM != '' }}
         uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MSG_DP: ${{ steps.vars.outputs.content_dp }}
-          ISSUE_TITLE_TOPICS_DP: ${{ env.ISSUE_TITLE_TOPICS_DP }}
+          MSG_VLAM: ${{ steps.vars.outputs.content_vlam }}
+          ISSUE_TITLE_TOPICS_VLAM: ${{ env.ISSUE_TITLE_TOPICS_VLAM }}
         with:
-          filename: .github/issue-template-dp.md
-
-      - name: Create issue for FL line
-        if: ${{ env.MSG_FL != '' }}
-        uses: JasonEtco/create-an-issue@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MSG_FL: ${{ steps.vars.outputs.content_fl }}
-          ISSUE_TITLE_TOPICS_FL: ${{ env.ISSUE_TITLE_TOPICS_FL }}
-        with:
-          filename: .github/issue-template-fl.md
+          filename: .github/issue-template-vlam.md
 
       - name: Send email notification
-        if: ${{ env.MAIL_TO != '' && (env.MSG_DP != '' || env.MSG_FL != '') }}
+        if: ${{ env.MAIL_TO != '' && env.MSG_VLAM != '' }}
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.SMTP_SERVER }}
           server_port: ${{ secrets.SMTP_PORT }}
           username: ${{ secrets.SMTP_USERNAME }}
           password: ${{ secrets.SMTP_PASSWORD }}
-          subject: DocPrivacy Paper Update [${{ env.ISSUE_TITLE_TOPICS_DP }} ${{ env.ISSUE_TITLE_TOPICS_FL }}]
+          subject: VLAM Paper Update [${{ env.ISSUE_TITLE_TOPICS_VLAM }}]
           convert_markdown: true
-          body: ${{ steps.vars.outputs.content_dp }}${{ steps.vars.outputs.content_fl }}
+          body: ${{ steps.vars.outputs.content_vlam }}
           to: ${{ secrets.MAIL_TO }}
-          from: DocPrivacy Paper Tracker
+          from: VLAM Paper Tracker

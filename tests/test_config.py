@@ -60,10 +60,10 @@ def test_legacy_flat_config_fallback():
     assert lines[0]["venues"] == ["venue:ICML:"]
 
 
-def test_real_config_is_dp_plus_fl():
+def test_real_config_is_vlam():
     from tracker.config import load_config
 
     lines, kw_to_line, _, _ = parse_lines(load_config())
-    assert [ln["tag"] for ln in lines] == ["DP", "FL"]
-    assert kw_to_line["document pars"] == "DP"
-    assert kw_to_line["federated learning"] == "FL"
+    assert [ln["tag"] for ln in lines] == ["VLAM"]
+    assert kw_to_line["vision language action"] == "VLAM"
+    assert kw_to_line["robot manipulation"] == "VLAM"

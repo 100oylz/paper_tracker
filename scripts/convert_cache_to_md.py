@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""把 cached/dblp.yaml 按主线 tag 拆分为 DP-Papers.md / FL-Papers.md。"""
+"""把 cached/dblp.yaml 按主线 tag 拆分为 {tag}-Papers.md（本分支为 VLAM-Papers.md）。"""
 
 import sys
 from collections import defaultdict
