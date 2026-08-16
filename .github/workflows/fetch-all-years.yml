@@ -13,6 +13,9 @@ permissions: write-all
 
 jobs:
   build:
+    # 只允许在 main 上运行：本工作流会 git push --force origin main，
+    # 防止在 vlam-tracker 等分支上手动触发时覆盖主线。
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     env:
       TZ: "Asia/Shanghai"
