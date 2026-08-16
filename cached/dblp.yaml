@@ -28149,6 +28149,9 @@
   url: https://dblp.org/rec/conf/coling/IrawanWCP25
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 2
+  triage_summary: 利用大型视觉语言模型生成VQA-自然语言解释数据，关注效率与鲁棒性，与VLM应用相关但非轻量化或隐私。
+  subtopic: other
 - author: Harsha Vardhan Khurdula, Basem Rizk, Indus Khaitan
   title: Beyond Visual Understanding Introducing PARROT-360V for Vision Language Model
     Benchmarking.
@@ -28162,6 +28165,9 @@
   url: https://dblp.org/rec/conf/coling/KhurdulaRK25
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 2
+  triage_summary: 提出PARROT-360V基准用于视觉语言模型评测，超越视觉理解，属于VLM评测工作，与主线弱相关。
+  subtopic: other
 - author: Tatsuki Kuribayashi, Timothy Baldwin
   title: Does Vision Accelerate Hierarchical Generalization in Neural Language Learners?
   venue: COLING
@@ -28174,6 +28180,9 @@
   url: https://dblp.org/rec/conf/coling/KuribayashiB25
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 0
+  triage_summary: 研究视觉是否加速神经语言学习者的层级泛化，与本项目无关。
+  subtopic: other
 - author: Xuanyu Lei, Zonghan Yang, Xinrui Chen, Peng Li, Yang Liu
   title: Scaffolding Coordinates to Promote Vision-Language Coordination in Large
     Multi-Modal Models.
@@ -28187,6 +28196,9 @@
   url: https://dblp.org/rec/conf/coling/LeiYCLL25
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 0
+  triage_summary: 探讨大型多模态模型中视觉与语言协调的脚手架坐标，与本项目无关。
+  subtopic: other
 - author: HyeonSeok Lim, Dongjae Shin, Seohyun Song, Inho Won, Minjun Kim, Junghun
     Yuk, Haneol Jang, KyungTae Lim
   title: 'VLR-Bench: Multilingual Benchmark Dataset for Vision-Language Retrieval
@@ -28201,6 +28213,9 @@
   url: https://dblp.org/rec/conf/coling/LimSSWKYJL25
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 0
+  triage_summary: 提出多语言视觉-语言检索增强生成基准数据集，与本项目无关。
+  subtopic: other
 - author: Xiaoye Qu, Jiashuo Sun, Wei Wei 0002, Daizong Liu, Jianfeng Dong, Yu Cheng
     0001
   title: 'Look, Compare, Decide: Alleviating Hallucination in Large Vision-Language
@@ -28215,6 +28230,9 @@
   url: https://dblp.org/rec/conf/coling/QuS0LDC25
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 0
+  triage_summary: 通过多视角多路径推理缓解大视觉语言模型幻觉，与本项目无关。
+  subtopic: other
 - author: Lanrui Wang, Jiangnan Li, Chenxu Yang, Zheng Lin 0001, Hongyin Tang, Huan
     Liu, Yanan Cao 0001, Jingang Wang, Weiping Wang 0005
   title: 'Sibyl: Empowering Empathetic Dialogue Generation in Large Language Models
@@ -28229,6 +28247,9 @@
   url: https://dblp.org/rec/conf/coling/WangLY0TLCWW25
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 0
+  triage_summary: 利用常识推理增强大语言模型共情对话生成，与本项目无关。
+  subtopic: other
 - author: Peng Xia 0005, Xingtong Yu, Ming Hu, Lie Ju, Zhiyong Wang 0001, Peibo Duan,
     Zongyuan Ge
   title: 'HGCLIP: Exploring Vision-Language Models with Graph Representations for
@@ -28243,6 +28264,9 @@
   url: https://dblp.org/rec/conf/coling/XiaYHJ0DG25
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 2
+  triage_summary: 提出基于图表示的CLIP层次理解方法，属于视觉语言模型研究，与文档解析主线弱相关。
+  subtopic: other
 - author: Heng Yin, Shanlin Zhou, Pandong Wang, Zirui Wu, Yongtao Hao
   title: 'KIA: Knowledge-Guided Implicit Vision-Language Alignment for Chest X-Ray
     Report Generation.'
@@ -28256,6 +28280,9 @@
   url: https://dblp.org/rec/conf/coling/YinZWWH25
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 2
+  triage_summary: 提出知识引导的隐式视觉语言对齐用于胸部X光报告生成，属于VLM应用，不涉及隐私与联邦主线。
+  subtopic: other
 - author: Yue Zhang 0004, Parisa Kordjamshidi
   title: 'LOViS: Learning Orientation and Visual Signals for Vision and Language Navigation.'
   venue: COLING
@@ -28330,6 +28357,9 @@
   url: https://dblp.org/rec/journals/jmlr/LiZZZ25
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 2
+  triage_summary: 分析大视觉语言模型在token空间的能力扩展，属于VLM分析，与压缩和隐私无关。
+  subtopic: other
 'DP:streamid:conf/mm:':
 - author: Haosheng Cai, Yang Xue 0001
   title: 'G2LFormer: Global-to-Local Query Enhancement for Robust Table Structure
@@ -51847,6 +51877,9 @@
   date_added: '2026-08-06'
   related_code: ''
   abstract_cn: 最短距离计算是图数据分析中的一个基本问题，在金融欺诈检测、网站排名和社交网络分析中有着关键应用。然而，在现实场景中，图数据通常分布在多个互不信任的组织之间，这使得在严格隐私约束下准确计算最短路径成为一项重大挑战。现有解决方案存在两个关键局限：（1）传统的分布式算法缺乏隐私保护；（2）基于安全多方计算（MPC）的方法虽然具有隐私保护性，但计算开销高、可扩展性差，仅限于处理仅有数万个节点的图。为解决这些挑战，我们提出了PrivHop，一种新颖的算法，它将2跳标签与MPC集成在一个两阶段框架中。在离线阶段，PrivHop构建优化的边界图索引，将全局查询缩减为小规模边界图查询。在在线阶段，它引入了一种基于差分隐私的隐私感知动态剪枝策略，在保证隐私的前提下大幅降低迭代复杂度。在八个真实数据集上的大量实验表明，PrivHop在保护隐私的同时可扩展到百万节点图，与最先进的方法相比，运行时间和通信开销均降低高达10^6倍。
+  triage_score: 0
+  triage_summary: 提出基于安全多方计算与2-hop标签的隐私保护最短路径距离计算，面向图数据，与文档解析和联邦学习主线无关。
+  subtopic: other
 'DP:venue:ICDE:':
 - author: Zichong Li, Lan Zhang 0002, Mu Yuan, Miaohui Song, Qi Song 0004
   title: Efficient Deep Ensemble Inference via Query Difficulty-dependent Task Scheduling.
@@ -75969,6 +76002,9 @@
   url: https://dblp.org/rec/conf/nips/PanchalCPZG23
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 4
+  triage_summary: 提出实例级个性化联邦学习算法，解决数据异构下的个性化建模问题。
+  subtopic: other
 - author: Ziba Parsons, Fei Dou, Houyi Du, Zheng Song 0001, Jin Lu 0001
   title: Mobilizing Personalized Federated Learning in Infrastructure-Less and Heterogeneous
     Environments via Random Walk Stochastic ADMM.
@@ -75982,6 +76018,9 @@
   url: https://dblp.org/rec/conf/nips/ParsonsDDSL23
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 4
+  triage_summary: 提出随机游走随机ADMM的个性化联邦学习方法，适用于无基础设施异构环境。
+  subtopic: other
 - author: Mingjia Shi, Yuhao Zhou 0004, Kai Wang 0036, Huaizheng Zhang, Shudong Huang,
     Qing Ye, Jiancheng Lv 0001
   title: 'PRIOR: Personalized Prior for Reactivating the Information Overlooked in
@@ -75996,6 +76035,9 @@
   url: https://dblp.org/rec/conf/nips/ShiZWZHY023
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 4
+  triage_summary: 提出个性化先验以激活联邦学习中被忽略的信息，属于个性化联邦学习方法创新。
+  subtopic: other
 - author: Jiaqi Wang 0002, Xingyi Yang, Suhan Cui, Liwei Che, Lingjuan Lyu, Dongkuan
     Xu, Fenglong Ma
   title: Towards Personalized Federated Learning via Heterogeneous Model Reassembly.
@@ -76009,6 +76051,9 @@
   url: https://dblp.org/rec/conf/nips/WangYCCLXM23
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 4
+  triage_summary: 通过异构模型重组实现个性化联邦学习，属于联邦学习核心技术方法创新。
+  subtopic: other
 - author: Xiyuan Yang, Wenke Huang 0003, Mang Ye
   title: Dynamic Personalized Federated Learning with Adaptive Differential Privacy.
   venue: NeurIPS
@@ -76021,6 +76066,9 @@
   url: https://dblp.org/rec/conf/nips/YangHY23
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 5
+  triage_summary: 提出自适应差分隐私的动态个性化联邦学习方法，直接涉及联邦学习与隐私保护。
+  subtopic: other
 - author: Huili Chen, Jie Ding 0002, Eric W. Tramel, Shuang Wu, Anit Kumar Sahu, Salman
     Avestimehr, Tao Zhang
   title: Self-Aware Personalized Federated Learning.
@@ -81599,6 +81647,9 @@
   date_added: '2026-08-06'
   related_code: ''
   abstract_cn: 联邦学习（FL）已成为一种在分布式数据上进行分布式机器学习的流行范式。典型的FL训练任务涉及一批拥有私有数据的客户端设备，以及一个用于聚合全局模型的中心化服务器。FL客户端（如智能手机、车辆和摄像头）生成的数据容易受到噪声影响。尽管数据噪声对集中式学习（CL）的影响已被充分理解，但据我们所知，目前缺乏从这一角度对FL进行的系统性研究。在本文中，我们通过一项实证研究来填补这一空白，以更深入地理解数据噪声对FL的影响。我们的研究得益于DataNoiseGenerator——一个我们开发的开源且可扩展的工具包，它能够在五种不同的数据模态中注入受控的数据噪声：图像、视频、音频、文本和表格数据。随后，我们基于DataNoiseGenerator生成的噪声数据进行了大量实验，实验评估结果表明，就训练出的机器学习模型质量而言，FL相比CL对数据噪声显著更为敏感。随着数据噪声强度以及噪声FL客户端比例的增大，FL与CL之间的这种差距也不断扩大。我们进一步提供了详细分析，以诊断FL对数据噪声敏感性增强的根本原因。我们的分析发现，FL服务器执行的聚合操作可能会放大从基于噪声数据训练的FL客户端传来的分歧性更新，从而阻碍全局模型的收敛。我们得出结论：数据质量问题是在部署鲁棒的FL系统时面临的一项根本性挑战，需要新型的去中心化数据清洗机制。
+  triage_score: 3
+  triage_summary: 实验研究联邦学习在数据噪声下的鲁棒性，开发噪声生成工具并分析联邦与集中学习的差异，属于联邦学习应用实验。
+  subtopic: other
 - author: Xiaochen Li, Fengyu Gao, Xizixiang Wei, Tianhao Wang 0001, Cong Shen 0001,
     Jing Yang 0002
   title: 'HeteroFedSyn: Differentially Private Tabular Data Synthesis for Heterogeneous
@@ -81632,6 +81683,9 @@
   date_added: '2026-08-06'
   related_code: ''
   abstract_cn: 传统的差分隐私（DP）机制通常针对特定分析任务定制，这限制了受保护数据的可重用性。DP表格数据合成通过生成可共享用于任意下游任务的合成数据集来克服这一限制。然而，现有合成方法主要假设集中式或本地设置，忽略了更实用的水平联邦场景。在参与者之间数据分布异构的情况下，天真地本地合成数据或扰动单个记录要么产生有偏混合，要么引入过多噪声。我们提出了HeteroFedSyn，这是首个专门针对水平联邦设置设计的DP表格数据合成框架。基于PrivSyn的二元边际合成范式，HeteroFedSyn为分布式边际选择引入了三项关键创新：（i）基于l2的依赖度量，结合随机投影以实现噪声高效的关联测量；（ii）用于校正乘法噪声的无偏估计器；（iii）自适应选择策略，动态更新依赖分数以避免冗余。在范围查询、Wasserstein保真度和机器学习任务上的大量实验表明，尽管联邦执行固有地增加了噪声，HeteroFedSyn仍能达到与集中式合成相当的效用。我们的代码已通过链接开源。
+  triage_score: 4
+  triage_summary: 面向异构联邦场景提出差分隐私表格数据合成框架HeteroFedSyn，创新分布式边缘选择，实现与集中式相当的效用。
+  subtopic: other
 'FL:venue:ICDE:':
 - author: Jihoon Moon, Ling Liu 0001, Hyuk-Yoon Kwon
   title: 'FedSDP: Federated Self-Derived Prototypes for Personalized Federated Learning.'
@@ -82611,6 +82665,9 @@
   url: https://dblp.org/rec/conf/mlsys/QiRL24
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 4
+  triage_summary: 设计轻量事件驱动的无服务器联邦学习平台，直接面向联邦学习系统优化，与隐私保护主线相关。
+  subtopic: other
 - author: Yuxuan Zhu 0003, Jiachen Liu, Mosharaf Chowdhury, Fan Lai 0001
   title: 'FedTrans: Efficient Federated Learning via Multi-Model Transformation.'
   venue: MLSys
@@ -82623,6 +82680,9 @@
   url: https://dblp.org/rec/conf/mlsys/ZhuLCL24
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 4
+  triage_summary: 提出多模型变换实现高效联邦学习，提升通信效率，属于联邦学习核心技术。
+  subtopic: other
 - author: Shiqi He, Qifan Yan, Feijie Wu, Lanjun Wang, Mathias Lécuyer, Ivan Beschastnikh
   title: 'GlueFL: Reconciling Client Sampling and Model Masking for Bandwidth Efficient
     Federated Learning.'
@@ -82721,6 +82781,9 @@
   url: https://dblp.org/rec/conf/kdd/HanB0JJ0WWXYZZZ24
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 5
+  triage_summary: 构建联邦学习及联邦大模型攻击与防御基准，聚焦隐私攻击与防护，与隐私保护主线直接相关。
+  subtopic: other
 - author: Weirui Kuang, Bingchen Qian, Zitao Li, Daoyuan Chen, Dawei Gao, Xuchen Pan,
     Yuexiang Xie, Yaliang Li, Bolin Ding, Jingren Zhou 0001
   title: 'FederatedScope-LLM: A Comprehensive Package for Fine-tuning Large Language
@@ -82735,6 +82798,9 @@
   url: https://dblp.org/rec/conf/kdd/KuangQLCGPXLDZ24
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 4
+  triage_summary: 发布联邦学习环境下大模型微调工具包，支持跨设备与跨机构协作训练，属于联邦学习主线。
+  subtopic: other
 - author: Haozhao Wang, Peirong Zheng, Xingshuo Han, Wenchao Xu 0001, Ruixuan Li 0001,
     Tianwei Zhang 0004
   title: 'FedNLR: Federated Learning with Neuron-wise Learning Rates.'
@@ -82748,6 +82814,9 @@
   url: https://dblp.org/rec/conf/kdd/WangZH00024
   abstract: ''
   date_added: '2026-08-05'
+  triage_score: 4
+  triage_summary: 提出面向联邦学习的神经元级学习率方法，优化全局模型聚合与个性化训练。
+  subtopic: other
 - author: Gang Yan 0002, Hao Wang 0022, Xu Yuan 0001, Jian Li 0008
   title: 'CriticalFL: A Critical Learning Periods Augmented Client Selection Framework
     for Efficient Federated Learning.'

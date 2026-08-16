@@ -30,7 +30,7 @@ def _save(cache, path):
         yaml.safe_dump(cache, f, sort_keys=False, indent=2, allow_unicode=True)
 
 
-def run(year=None, retry_failed=False, clean_only=False):
+def run(year=None, retry_failed=False, clean_only=False, line="all"):
     year = year or str(datetime.date.today().year)
     cache_path = cache_file()
     if not cache_path.exists():
@@ -61,7 +61,9 @@ def run(year=None, retry_failed=False, clean_only=False):
         return
 
     targets = []
-    for items in cache.values():
+    for key, items in cache.items():
+        if line != "all" and not key.startswith(line + ":"):
+            continue
         if not isinstance(items, list):
             continue
         for item in items:
@@ -89,5 +91,6 @@ if __name__ == "__main__":
                         help="Year to process (default: current year, 'all' for all years)")
     parser.add_argument("--retry-failed", action="store_true", help="Retry empty abstracts")
     parser.add_argument("--clean-only", action="store_true", help="Only clean existing abstracts")
+    parser.add_argument("--line", type=str, default="all", help="Restrict to a research line tag (e.g. FL, DP; default all)")
     args = parser.parse_args()
-    run(year=args.year, retry_failed=args.retry_failed, clean_only=args.clean_only)
+    run(year=args.year, retry_failed=args.retry_failed, clean_only=args.clean_only, line=args.line)

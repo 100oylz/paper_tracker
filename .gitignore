@@ -28,3 +28,6 @@ cached/pdf_links.json
 
 # Logs
 *.log
+# Local recommendation bridge (machine-generated, not versioned)
+scripts/read-titles.txt
+FL-recommend.md

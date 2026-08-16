@@ -1,0 +1,93 @@
+name: Daily FL Recommendation
+
+# 云端出推荐：每日从 Gist 拉 read-titles.txt，生成 FL-recommend.md，发 Issue + 邮件。
+# 需配置 secrets：READ_TITLES_URL（read-titles.txt 的 raw URL，可由本地
+# scripts/upload_read_titles.py 上传到私有 Gist 后得到）、MAIL_TO / SMTP_*（邮件，
+# 可选）。若 READ_TITLES_URL 未配，则按空已读清单全量排序（仍会用云端缓存出推荐）。
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 0 * * *'   # watch.yml(0 0) 之后 30 分钟，等缓存先更新
+
+permissions:
+  issues: write
+  contents: write
+
+jobs:
+  recommend:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+      MAIL_TO: ${{ secrets.MAIL_TO }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Pull read-titles bridge
+        env:
+          READ_TITLES_URL: ${{ secrets.READ_TITLES_URL }}
+        run: |
+          if [ -n "$READ_TITLES_URL" ]; then
+            curl -fsSL "$READ_TITLES_URL" -o read-titles.txt
+            echo "已拉取 read-titles.txt（$(wc -l < read-titles.txt) 行）"
+          else
+            echo "READ_TITLES_URL 未配置，使用空已读清单（全量排序）"
+            : > read-titles.txt
+          fi
+
+      - name: Generate recommendation
+        run: python scripts/daily_recommend.py --read-titles read-titles.txt --top 15
+      - name: Setup email body
+        id: vars
+        run: |
+          {
+            echo "content<<EOF"
+            cat FL-recommend.md
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+
+      - name: Commit FL-recommend.md
+        run: |
+          git config user.name "100oylz"
+          git config user.email "100oylz@users.noreply.github.com"
+          git add FL-recommend.md
+          git diff --cached --quiet || git commit -m "Update FL recommendation @ $(date -u '+%Y-%m-%d')"
+          git push
+
+      - name: Ensure label exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh label create recommendation --repo ${{ github.repository }} --force || true
+
+      - name: Open recommendation issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --repo ${{ github.repository }} \
+            --title "🎯 FL 每日推荐 @ $(date '+%Y-%m-%d')" \
+            --label recommendation \
+            --body-file FL-recommend.md
+
+      - name: Send email notification
+        if: ${{ env.MAIL_TO != '' }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: "🎯 FL 每日推荐 @ $(date '+%Y-%m-%d')"
+          convert_markdown: true
+          body: ${{ steps.vars.outputs.content }}
+          to: ${{ secrets.MAIL_TO }}
+          from: FL Paper Recommender
