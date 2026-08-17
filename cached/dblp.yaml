@@ -53564,7 +53564,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/DuanXSL25
-  doi: ''
+  doi: 10.48550/arXiv.2503.22762
   ee: https://proceedings.mlr.press/v258/duan25a.html
   url: https://dblp.org/rec/conf/aistats/DuanXSL25
   abstract: ''
@@ -53580,7 +53580,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/KeshriSP25
-  doi: ''
+  doi: 10.1109/cdc45484.2021.9683443
   ee: https://proceedings.mlr.press/v258/keshri25a.html
   url: https://dblp.org/rec/conf/aistats/KeshriSP25
   abstract: ''
@@ -53595,7 +53595,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/KharratCH25
-  doi: ''
+  doi: 10.1109/bigdata59044.2023.10386159
   ee: https://proceedings.mlr.press/v258/kharrat25a.html
   url: https://dblp.org/rec/conf/aistats/KharratCH25
   abstract: ''
@@ -53706,7 +53706,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/BaoWH24
-  doi: ''
+  doi: 10.48550/arXiv.2208.12932
   ee: https://proceedings.mlr.press/v238/bao24a.html
   url: https://dblp.org/rec/conf/aistats/BaoWH24
   abstract: ''
@@ -53753,7 +53753,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/IsikPGKWZ24
-  doi: ''
+  doi: 10.1109/access.2022.3221401
   ee: https://proceedings.mlr.press/v238/isik24a.html
   url: https://dblp.org/rec/conf/aistats/IsikPGKWZ24
   abstract: ''
@@ -53798,7 +53798,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/LeconteJSM24
-  doi: ''
+  doi: 10.1016/j.future.2023.11.001
   ee: https://proceedings.mlr.press/v238/leconte24a.html
   url: https://dblp.org/rec/conf/aistats/LeconteJSM24
   abstract: ''
@@ -53861,7 +53861,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/ZakeriniaTNA24
-  doi: ''
+  doi: 10.52591/lxai2020071310
   ee: https://proceedings.mlr.press/v238/zakerinia24a.html
   url: https://dblp.org/rec/conf/aistats/ZakeriniaTNA24
   abstract: ''
@@ -53894,7 +53894,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/JothimurugesanH23
-  doi: ''
+  doi: 10.52202/079017-2586
   ee: https://proceedings.mlr.press/v206/jothimurugesan23a.html
   url: https://dblp.org/rec/conf/aistats/JothimurugesanH23
   abstract: ''
@@ -53909,7 +53909,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/KimSMJ23
-  doi: ''
+  doi: 10.1016/j.simpa.2023.100469
   ee: https://proceedings.mlr.press/v206/kim23a.html
   url: https://dblp.org/rec/conf/aistats/KimSMJ23
   abstract: ''
@@ -53924,7 +53924,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/LowyGR23
-  doi: ''
+  doi: 10.1145/3721146.3721938
   ee: https://proceedings.mlr.press/v206/lowy23a.html
   url: https://dblp.org/rec/conf/aistats/LowyGR23
   abstract: ''
@@ -53939,7 +53939,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/MarfoqNKV23
-  doi: ''
+  doi: 10.1109/jiot.2025.3592954
   ee: https://proceedings.mlr.press/v206/marfoq23a.html
   url: https://dblp.org/rec/conf/aistats/MarfoqNKV23
   abstract: ''
@@ -53971,7 +53971,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/ZhuWPWJSJ23
-  doi: ''
+  doi: 10.1109/icccn65249.2025.11134006
   ee: https://proceedings.mlr.press/v206/zhu23b.html
   url: https://dblp.org/rec/conf/aistats/ZhuWPWJSJ23
   abstract: ''
@@ -53986,7 +53986,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/ChoWJ22
-  doi: ''
+  doi: 10.3390/app14031286
   ee: https://proceedings.mlr.press/v151/jee-cho22a.html
   url: https://dblp.org/rec/conf/aistats/ChoWJ22
   abstract: ''
@@ -54048,7 +54048,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/NguyenMZYR0H22
-  doi: ''
+  doi: 10.1109/allerton49937.2022.9929409
   ee: https://proceedings.mlr.press/v151/nguyen22b.html
   url: https://dblp.org/rec/conf/aistats/NguyenMZYR0H22
   abstract: ''
@@ -54063,7 +54063,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/NobleBD22
-  doi: ''
+  doi: 10.1109/mass58611.2023.00042
   ee: https://proceedings.mlr.press/v151/noble22a.html
   url: https://dblp.org/rec/conf/aistats/NobleBD22
   abstract: ''
@@ -54080,7 +54080,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/PandaMBCM22
-  doi: ''
+  doi: 10.1007/978-981-16-7167-8_50
   ee: https://proceedings.mlr.press/v151/panda22a.html
   url: https://dblp.org/rec/conf/aistats/PandaMBCM22
   abstract: ''
@@ -54142,7 +54142,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/GirgisDDKS21
-  doi: ''
+  doi: 10.3390/s25051441
   ee: http://proceedings.mlr.press/v130/girgis21a.html
   url: https://dblp.org/rec/conf/aistats/GirgisDDKS21
   abstract: ''
@@ -54265,7 +54265,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/LiSH24
-  doi: ''
+  doi: 10.1609/aaai.v38i12.29267
   ee: https://proceedings.mlr.press/v238/li24a.html
   url: https://dblp.org/rec/conf/aistats/LiSH24
   abstract: ''
@@ -54281,7 +54281,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/aistats/LabbiTMMM25
-  doi: ''
+  doi: 10.1145/3716870
   ee: https://proceedings.mlr.press/v258/labbi25a.html
   url: https://dblp.org/rec/conf/aistats/LabbiTMMM25
   abstract: ''
@@ -54329,7 +54329,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/uai/DianaNXN25
-  doi: ''
+  doi: 10.48550/arXiv.2505.10264
   ee: https://proceedings.mlr.press/v286/diana25a.html
   url: https://dblp.org/rec/conf/uai/DianaNXN25
   abstract: ''
@@ -54360,7 +54360,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/uai/RahmanK25
-  doi: ''
+  doi: 10.1007/978-3-031-72390-2_28
   ee: https://proceedings.mlr.press/v286/rahman25a.html
   url: https://dblp.org/rec/conf/uai/RahmanK25
   abstract: ''
@@ -54439,7 +54439,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/uai/MaHC23
-  doi: ''
+  doi: 10.1007/978-3-031-58923-2_10
   ee: https://proceedings.mlr.press/v216/ma23b.html
   url: https://dblp.org/rec/conf/uai/MaHC23
   abstract: ''
@@ -54455,7 +54455,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/uai/SongSGYZPLZ23
-  doi: ''
+  doi: 10.48550/arXiv.2208.05135
   ee: https://proceedings.mlr.press/v216/song23b.html
   url: https://dblp.org/rec/conf/uai/SongSGYZPLZ23
   abstract: ''
@@ -54487,7 +54487,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/uai/JhunjhunwalaSNJ22
-  doi: ''
+  doi: 10.1109/jiot.2026.3698499
   ee: https://proceedings.mlr.press/v180/jhunjhunwala22a.html
   url: https://dblp.org/rec/conf/uai/JhunjhunwalaSNJ22
   abstract: ''
@@ -54503,7 +54503,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/uai/LiuCYFLL22
-  doi: ''
+  doi: 10.1109/trustcom66490.2025.00338
   ee: https://proceedings.mlr.press/v180/liu22c.html
   url: https://dblp.org/rec/conf/uai/LiuCYFLL22
   abstract: ''
@@ -54518,7 +54518,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/uai/KerkoucheCG21
-  doi: ''
+  doi: 10.70675/82339c66za139z4723z8c45zd658a821a36b
   ee: https://proceedings.mlr.press/v161/kerkouche21a.html
   url: https://dblp.org/rec/conf/uai/KerkoucheCG21
   abstract: ''
@@ -59472,7 +59472,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/AgarwalPJ26
-  doi: ''
+  doi: 10.48550/arXiv.2510.04203
   ee: https://openreview.net/forum?id=ebDfXAklXg
   url: https://dblp.org/rec/journals/tmlr/AgarwalPJ26
   abstract: ''
@@ -59504,7 +59504,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/BossyVRTJ26
-  doi: ''
+  doi: 10.48550/arXiv.2502.05087
   ee: https://openreview.net/forum?id=WKPyZnLIW4
   url: https://dblp.org/rec/journals/tmlr/BossyVRTJ26
   abstract: ''
@@ -59520,7 +59520,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/ChaCV26
-  doi: ''
+  doi: 10.48550/arXiv.2509.21606
   ee: https://openreview.net/forum?id=GW4aw0fUKC
   url: https://dblp.org/rec/journals/tmlr/ChaCV26
   abstract: Federated continual learning (FCL) enables collaborative model training
@@ -59599,7 +59599,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/JamoussiSSK26
-  doi: ''
+  doi: 10.48550/arXiv.2509.10132
   ee: https://openreview.net/forum?id=9y0jCrxjDR
   url: https://dblp.org/rec/journals/tmlr/JamoussiSSK26
   abstract: Bayesian Federated Learning (BFL) combines uncertainty modeling with decentralized
@@ -59632,7 +59632,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/KimCRO26
-  doi: ''
+  doi: 10.48550/arXiv.2509.02391
   ee: https://openreview.net/forum?id=Ck3q5YdWIv
   url: https://dblp.org/rec/journals/tmlr/KimCRO26
   abstract: The success of federated learning (FL) ultimately depends on how strategic
@@ -59940,7 +59940,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/00070L25
-  doi: ''
+  doi: 10.1145/3501774.3501793
   ee: https://openreview.net/forum?id=bHdEtW5E7O
   url: https://dblp.org/rec/journals/tmlr/00070L25
   abstract: ''
@@ -59988,7 +59988,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/BoroujeniKF25
-  doi: ''
+  doi: 10.48550/arXiv.2401.08351
   ee: https://openreview.net/forum?id=ZMliWjMCor
   url: https://dblp.org/rec/journals/tmlr/BoroujeniKF25
   abstract: ''
@@ -60081,7 +60081,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/HamidiY25
-  doi: ''
+  doi: 10.1109/tpds.2022.3146253
   ee: https://openreview.net/forum?id=KbteA50cni
   url: https://dblp.org/rec/journals/tmlr/HamidiY25
   abstract: ''
@@ -60178,7 +60178,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/KorneevR25
-  doi: ''
+  doi: 10.1016/j.future.2025.107780
   ee: https://openreview.net/forum?id=uMir8UIHST
   url: https://dblp.org/rec/journals/tmlr/KorneevR25
   abstract: ''
@@ -60193,7 +60193,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/MalekmohammadiTF25
-  doi: ''
+  doi: 10.1109/mass58611.2023.00042
   ee: https://openreview.net/forum?id=JSsko0a4yr
   url: https://dblp.org/rec/journals/tmlr/MalekmohammadiTF25
   abstract: ''
@@ -60208,7 +60208,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/MishchenkoIGH25
-  doi: ''
+  doi: 10.1109/iccsmt58129.2022.00039
   ee: https://openreview.net/forum?id=8tMMCf4YYn
   url: https://dblp.org/rec/journals/tmlr/MishchenkoIGH25
   abstract: ''
@@ -60240,7 +60240,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/SahooTSM25
-  doi: ''
+  doi: 10.48550/arXiv.2412.04416
   ee: https://openreview.net/forum?id=8M3XfmNhTZ
   url: https://dblp.org/rec/journals/tmlr/SahooTSM25
   abstract: ''
@@ -60291,7 +60291,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/TobabenSTNKJJKB25
-  doi: ''
+  doi: 10.1109/access65134.2025.11135556
   ee: https://openreview.net/forum?id=3HKNwejEEq
   url: https://dblp.org/rec/journals/tmlr/TobabenSTNKJJKB25
   abstract: ''
@@ -60306,7 +60306,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/WangYS25
-  doi: ''
+  doi: 10.6109/jkiice.2025.29.11.1617
   ee: https://openreview.net/forum?id=EkLAG3gt3g
   url: https://dblp.org/rec/journals/tmlr/WangYS25
   abstract: ''
@@ -60352,7 +60352,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/YiCR25
-  doi: ''
+  doi: 10.48550/arXiv.2305.13170
   ee: https://openreview.net/forum?id=qVUEuhlaEa
   url: https://dblp.org/rec/journals/tmlr/YiCR25
   abstract: ''
@@ -60368,7 +60368,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/ZacconeKMC25
-  doi: ''
+  doi: 10.1109/tsipn.2022.3212315
   ee: https://openreview.net/forum?id=LNoFjcLywb
   url: https://dblp.org/rec/journals/tmlr/ZacconeKMC25
   abstract: ''
@@ -60400,7 +60400,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/00020MQYXZ24
-  doi: ''
+  doi: 10.1109/icsadl67539.2026.11451872
   ee: https://openreview.net/forum?id=bzTfO4mURl
   url: https://dblp.org/rec/journals/tmlr/00020MQYXZ24
   abstract: ''
@@ -60542,7 +60542,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/HePS24
-  doi: ''
+  doi: 10.1109/isit54713.2023.10206590
   ee: https://openreview.net/forum?id=qItxVbWyfe
   url: https://dblp.org/rec/journals/tmlr/HePS24
   abstract: ''
@@ -60573,7 +60573,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/KangPR24
-  doi: ''
+  doi: 10.48550/arXiv.2301.13336
   ee: https://openreview.net/forum?id=ynG5Ak7n7Q
   url: https://dblp.org/rec/journals/tmlr/KangPR24
   abstract: ''
@@ -60650,7 +60650,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/Ma0R24
-  doi: ''
+  doi: 10.1109/access.2021.3074221
   ee: https://openreview.net/forum?id=h2jpFufyG4
   url: https://dblp.org/rec/journals/tmlr/Ma0R24
   abstract: ''
@@ -60681,7 +60681,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/MukherjeeLS24
-  doi: ''
+  doi: 10.1609/aaai.v37i9.26235
   ee: https://openreview.net/forum?id=auLdS1iuKW
   url: https://dblp.org/rec/journals/tmlr/MukherjeeLS24
   abstract: ''
@@ -60697,7 +60697,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/Mulay024
-  doi: ''
+  doi: 10.1007/978-3-030-70604-3_3
   ee: https://openreview.net/forum?id=Dsavre6gjN
   url: https://dblp.org/rec/journals/tmlr/Mulay024
   abstract: ''
@@ -60712,7 +60712,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/RakotomamonjyVR24
-  doi: ''
+  doi: 10.1109/flics70075.2026.11621887
   ee: https://openreview.net/forum?id=uCZJaqJchs
   url: https://dblp.org/rec/journals/tmlr/RakotomamonjyVR24
   abstract: ''
@@ -60743,7 +60743,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/WangC24
-  doi: ''
+  doi: 10.1109/bigdata55660.2022.10020721
   ee: https://openreview.net/forum?id=hv7iXsiBZE
   url: https://dblp.org/rec/journals/tmlr/WangC24
   abstract: ''
@@ -60758,7 +60758,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/WangPLK24
-  doi: ''
+  doi: 10.1145/3630106.3658954
   ee: https://openreview.net/forum?id=ANXoddnzct
   url: https://dblp.org/rec/journals/tmlr/WangPLK24
   abstract: ''
@@ -60914,7 +60914,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/BergouBDR23
-  doi: ''
+  doi: 10.1609/aaai.v40i25.39185
   ee: https://openreview.net/forum?id=dZugyhbNFY
   url: https://dblp.org/rec/journals/tmlr/BergouBDR23
   abstract: ''
@@ -61042,7 +61042,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/Ramezani-Kebrya23
-  doi: ''
+  doi: 10.48550/arXiv.2306.05325
   ee: https://openreview.net/forum?id=N7lCDaeNiS
   url: https://dblp.org/rec/journals/tmlr/Ramezani-Kebrya23
   abstract: ''
@@ -61089,7 +61089,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/TziotisSPHM23
-  doi: ''
+  doi: 10.23919/eusipco55093.2022.9909849
   ee: https://openreview.net/forum?id=gxEpUFxIgz
   url: https://dblp.org/rec/journals/tmlr/TziotisSPHM23
   abstract: ''
@@ -61137,7 +61137,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/NairSSB26
-  doi: ''
+  doi: 10.1109/ijcnn60899.2024.10650665
   ee: https://openreview.net/forum?id=aDzj9DrwAR
   url: https://dblp.org/rec/journals/tmlr/NairSSB26
   abstract: 'Differentially private federated learning (DP-FL) often suffers from
@@ -61368,7 +61368,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/LiSSHHT26
-  doi: ''
+  doi: 10.1007/978-981-92-1142-5_6
   ee: https://openreview.net/forum?id=KE2ZNl2lFP
   url: https://dblp.org/rec/journals/tmlr/LiSSHHT26
   abstract: ''
@@ -73080,7 +73080,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/ChenL00Z24
-  doi: ''
+  doi: 10.24963/ijcai.2024/638
   ee: https://www.ijcai.org/proceedings/2024/638
   url: https://dblp.org/rec/conf/ijcai/ChenL00Z24
   abstract: ''
@@ -73177,7 +73177,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/LiWNHXZW24
-  doi: ''
+  doi: 10.1109/icicml60161.2023.10424802
   ee: https://www.ijcai.org/proceedings/2024/491
   url: https://dblp.org/rec/conf/ijcai/LiWNHXZW24
   abstract: ''
@@ -73194,7 +73194,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/LinHZX0L0WT24
-  doi: ''
+  doi: 10.24963/ijcai.2024/238
   ee: https://www.ijcai.org/proceedings/2024/238
   url: https://dblp.org/rec/conf/ijcai/LinHZX0L0WT24
   abstract: ''
@@ -73209,7 +73209,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/LiuLLCW24
-  doi: ''
+  doi: 10.1145/3656344
   ee: https://www.ijcai.org/proceedings/2024/902
   url: https://dblp.org/rec/conf/ijcai/LiuLLCW24
   abstract: ''
@@ -73321,7 +73321,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/Tang0LL24
-  doi: ''
+  doi: 10.1109/icme55011.2023.00064
   ee: https://www.ijcai.org/proceedings/2024/552
   url: https://dblp.org/rec/conf/ijcai/Tang0LL24
   abstract: ''
@@ -73352,7 +73352,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/Tang24
-  doi: ''
+  doi: 10.32657/10356/199948
   ee: https://www.ijcai.org/proceedings/2024/972
   url: https://dblp.org/rec/conf/ijcai/Tang24
   abstract: ''
@@ -73399,7 +73399,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/WuKY024
-  doi: ''
+  doi: 10.48550/arXiv.2404.17805
   ee: https://www.ijcai.org/proceedings/2024/575
   url: https://dblp.org/rec/conf/ijcai/WuKY024
   abstract: ''
@@ -73448,7 +73448,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/Yi0S00CL24
-  doi: ''
+  doi: 10.48550/arXiv.2312.09006
   ee: https://www.ijcai.org/proceedings/2024/594
   url: https://dblp.org/rec/conf/ijcai/Yi0S00CL24
   abstract: ''
@@ -73480,7 +73480,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/ZhangZ00YL24
-  doi: ''
+  doi: 10.1109/cvpr52688.2022.01298
   ee: https://www.ijcai.org/proceedings/2024/61
   url: https://dblp.org/rec/conf/ijcai/ZhangZ00YL24
   abstract: ''
@@ -73497,7 +73497,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ijcai/Zhu0W0T0S24
-  doi: ''
+  doi: 10.48550/arXiv.2405.19789
   ee: https://www.ijcai.org/proceedings/2024/290
   url: https://dblp.org/rec/conf/ijcai/Zhu0W0T0S24
   abstract: ''
@@ -74164,7 +74164,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiSZ22
-  doi: ''
+  doi: 10.52202/068431-2537
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/e2ef0cae667dbe9bfdbcaed1bd91807b-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiSZ22
   abstract: ''
@@ -74180,7 +74180,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/TangYL25
-  doi: ''
+  doi: 10.52202/085713-2769
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/76ee49ee4ad128d57282d99d6f2d4947-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/TangYL25
   abstract: ''
@@ -74196,7 +74196,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhangZX25
-  doi: ''
+  doi: 10.52202/085713-4288
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/bb203e938836544655996d1bb94a0fd7-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhangZX25
   abstract: ''
@@ -74213,7 +74213,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/FenoglioDBTGL24
-  doi: ''
+  doi: 10.52202/079017-3583
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/cceb6b5d1781b6eb848f7e87bff5f74b-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/FenoglioDBTGL24
   abstract: ''
@@ -74229,7 +74229,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WuHDH24
-  doi: ''
+  doi: 10.52202/079017-1456
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/5141f6bc105d30edbae48f1d2e0b1e66-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuHDH24
   abstract: ''
@@ -74245,7 +74245,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiH23
-  doi: ''
+  doi: 10.52202/075280-0153
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/0aa800df4298539770b57824afc77a89-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiH23
   abstract: ''
@@ -74262,7 +74262,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/QiWWLXLYHX22
-  doi: ''
+  doi: 10.52202/068431-0570
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/333a7697dbb67f09249337f81c27d749-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/QiWWLXLYHX22
   abstract: ''
@@ -74278,7 +74278,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/TanLML0022
-  doi: ''
+  doi: 10.52202/068431-1405
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/7aa320d2b4b8f6400b18f6f77b6c1535-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/TanLML0022
   abstract: ''
@@ -74324,7 +74324,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/AliakbariOPA25
-  doi: ''
+  doi: 10.52202/085713-3933
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/aaf93e15b3475281dcbcb61ae3172992-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/AliakbariOPA25
   abstract: ''
@@ -74339,7 +74339,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/AyromlouE25
-  doi: ''
+  doi: 10.52202/085713-2722
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/74fc5575632191d96881d8015f79dde3-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/AyromlouE25
   abstract: ''
@@ -74354,7 +74354,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/BoSWZL25
-  doi: ''
+  doi: 10.52202/085713-1726
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/4a4d5fca4bbb93ead4548854f1f28c0f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/BoSWZL25
   abstract: ''
@@ -74369,7 +74369,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/BonnerjeeKW25
-  doi: ''
+  doi: 10.52202/085713-5253
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/e6a11b618402617342f38f5b49430937-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/BonnerjeeKW25
   abstract: ''
@@ -74386,7 +74386,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/DuXCLWHL25
-  doi: ''
+  doi: 10.52202/085713-2753
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/7644353d580a9e027e0069d6480d971b-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/DuXCLWHL25
   abstract: ''
@@ -74401,7 +74401,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/FangY25
-  doi: ''
+  doi: 10.52202/085713-4740
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/cfcb1905d4acb46df42bfb5bf204bd6a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/FangY25
   abstract: ''
@@ -74418,7 +74418,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/FenoglioLBLLG25
-  doi: ''
+  doi: 10.52202/085713-2395
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/67496dfa96afddab795530cc7c69b57a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/FenoglioLBLLG25
   abstract: ''
@@ -74434,7 +74434,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/FuLHDZPC25
-  doi: ''
+  doi: 10.52202/085713-3257
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/8c4c80d3eee8a56da1302bc6dcd2d953-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/FuLHDZPC25
   abstract: ''
@@ -74451,7 +74451,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/GoswamiMWTBW25
-  doi: ''
+  doi: 10.52202/085713-2179
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/5df817c5dd95293ebf6d1583303a8c73-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GoswamiMWTBW25
   abstract: ''
@@ -74466,7 +74466,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/HuynhENG25
-  doi: ''
+  doi: 10.52202/085713-4267
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/ba0dd55207ef557f6774bc85332f94a8-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/HuynhENG25
   abstract: ''
@@ -74481,7 +74481,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JiaFG25
-  doi: ''
+  doi: 10.52202/085713-2884
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/7c818dd40651b420873af70b8a790e3f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiaFG25
   abstract: ''
@@ -74496,7 +74496,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JiaFLZG25
-  doi: ''
+  doi: 10.52202/085713-3882
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/a924b7178e5975dfed1de235f0b72973-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiaFLZG25
   abstract: ''
@@ -74512,7 +74512,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/KimKL25
-  doi: ''
+  doi: 10.52202/085713-2888
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/7ccae68f81c1bd9104c304a9d8967048-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/KimKL25
   abstract: ''
@@ -74528,7 +74528,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LeePLWSBLH25
-  doi: ''
+  doi: 10.52202/085713-3998
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/ad922aa85d4027ff3502e8e5f406e828-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LeePLWSBLH25
   abstract: ''
@@ -74543,7 +74543,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiCB25
-  doi: ''
+  doi: 10.52202/085713-4394
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/bef4c645dd0754c36c55b75af8c57216-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiCB25
   abstract: ''
@@ -74559,7 +74559,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiDZZ25
-  doi: ''
+  doi: 10.52202/085713-2069
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/592ca58abdc87bd0ac92e9e83192d303-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiDZZ25
   abstract: ''
@@ -74575,7 +74575,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiGDMW25
-  doi: ''
+  doi: 10.52202/085713-2897
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/7d3f1540bb7af35813578db81d03b0dd-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiGDMW25
   abstract: ''
@@ -74591,7 +74591,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiWDWQZL25
-  doi: ''
+  doi: 10.52202/085713-2657
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/721dbcfed36ef373f19a03e3e3130729-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiWDWQZL25
   abstract: ''
@@ -74607,7 +74607,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiWSLS25
-  doi: ''
+  doi: 10.52202/085713-5618
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/f6913c4fd14f608077a4145f2744ec89-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiWSLS25
   abstract: ''
@@ -74624,7 +74624,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiWXWQDL25
-  doi: ''
+  doi: 10.52202/085713-3496
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/96dd63ab8fd79163a5399e0b385f208d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiWXWQDL25
   abstract: ''
@@ -74641,7 +74641,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiangCLYFZ25
-  doi: ''
+  doi: 10.52202/085713-4767
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/d18d944ad8c7e8f9c80dc1a8754f00d6-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiangCLYFZ25
   abstract: ''
@@ -74657,7 +74657,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiaoGX25
-  doi: ''
+  doi: 10.52202/085713-5151
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/e2994aef66cb506e4a3b9be33ab41def-Abstract-Datasets_and_Benchmarks_Track.html
   url: https://dblp.org/rec/conf/nips/LiaoGX25
   abstract: ''
@@ -74672,7 +74672,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiaoJEH25
-  doi: ''
+  doi: 10.52202/085713-3378
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/923fd1695eaee59610c2bc033a9e2354-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiaoJEH25
   abstract: ''
@@ -74689,7 +74689,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ManBWFFGC25
-  doi: ''
+  doi: 10.52202/085713-4934
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/d8ace30c68b085556ccce04ed4ae4ebb-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ManBWFFGC25
   abstract: ''
@@ -74705,7 +74705,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/MotamediKK25
-  doi: ''
+  doi: 10.52202/085713-5543
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/f2e615059e95926e6a5b8bfb20971e83-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/MotamediKK25
   abstract: ''
@@ -74722,7 +74722,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/PelikanAFSTBL25
-  doi: ''
+  doi: 10.52202/085713-3706
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/a0f30168b3acb17101cbb1ea46e76aac-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/PelikanAFSTBL25
   abstract: ''
@@ -74738,7 +74738,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/QiTMYLM25
-  doi: ''
+  doi: 10.52202/085713-4863
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/d611d06e3207330555fbc10810e70163-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/QiTMYLM25
   abstract: ''
@@ -74754,7 +74754,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ShenLCHY25
-  doi: ''
+  doi: 10.52202/085713-4272
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/ba4b5a1a98545548ff45143ade817e8e-Abstract-Datasets_and_Benchmarks_Track.html
   url: https://dblp.org/rec/conf/nips/ShenLCHY25
   abstract: ''
@@ -74771,7 +74771,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WanCLHSJZDY25
-  doi: ''
+  doi: 10.52202/085713-2374
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/66808849a9f5d8e2d00dbdc844de6333-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WanCLHSJZDY25
   abstract: ''
@@ -74787,7 +74787,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WanNHHHZZZZZ25
-  doi: ''
+  doi: 10.52202/085713-5185
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/e3d801d6b59ef6810183766194f8681b-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WanNHHHZZZZZ25
   abstract: ''
@@ -74804,7 +74804,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WanQHXGLZDY25
-  doi: ''
+  doi: 10.52202/085713-2673
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/7300dd4d625cb42a438c1b822c77569f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WanQHXGLZDY25
   abstract: ''
@@ -74821,7 +74821,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WanRZHRZWDY25
-  doi: ''
+  doi: 10.52202/085713-2363
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/659afd140447b7d50fadf8bde6a2240d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WanRZHRZWDY25
   abstract: ''
@@ -74838,7 +74838,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WanSWZBZLLMHD25
-  doi: ''
+  doi: 10.52202/085713-2202
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/5ee643ae2693644795e9668bd2773c06-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WanSWZBZLLMHD25
   abstract: ''
@@ -74854,7 +74854,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WangTWWCL25
-  doi: ''
+  doi: 10.52202/085713-3931
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/aaec5deedd87dacd9f59c5842ab62964-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WangTWWCL25
   abstract: ''
@@ -74869,7 +74869,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WeiMLZZS25
-  doi: ''
+  doi: 10.52202/085713-2532
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/6d0c18c6edc02be434c883bdd9fbe3b5-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WeiMLZZS25
   abstract: ''
@@ -74886,7 +74886,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WuJXXZQD25
-  doi: ''
+  doi: 10.52202/085713-5019
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/dcc0ac74ac8b95dc1939804acce0317d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuJXXZQD25
   abstract: ''
@@ -74903,7 +74903,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WuLNZSTY25
-  doi: ''
+  doi: 10.52202/085713-2469
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/6a9b9b04ecf1e0b230fd39b8ed9c65ca-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuLNZSTY25
   abstract: ''
@@ -74918,7 +74918,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WuYLL25
-  doi: ''
+  doi: 10.52202/085713-3425
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/9421261e06f1a63a352b068f1ac90609-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuYLL25
   abstract: ''
@@ -74934,7 +74934,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/XiaoLQLWWWL25
-  doi: ''
+  doi: 10.52202/085713-4758
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/d104ffc39c501d0ecc19c00d2a3900b9-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/XiaoLQLWWWL25
   abstract: ''
@@ -74950,7 +74950,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/XuFLQZ25
-  doi: ''
+  doi: 10.52202/085713-1470
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/3e8f5d2924f1bff724588eb0f8f5e62d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/XuFLQZ25
   abstract: ''
@@ -74966,7 +74966,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/XueKSGNZJL25
-  doi: ''
+  doi: 10.52202/085713-4001
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/adb02256990eb4369268d554fbfc287f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/XueKSGNZJL25
   abstract: ''
@@ -74981,7 +74981,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YanYD25
-  doi: ''
+  doi: 10.52202/085713-2043
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/57fbe68cb318cad62c4ae4c91c83cba3-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YanYD25
   abstract: ''
@@ -74998,7 +74998,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YangCCYLWLRG25
-  doi: ''
+  doi: 10.52202/085713-3737
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/a2582a9f63edd4dd9489bd59ed0b6fce-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangCCYLWLRG25
   abstract: ''
@@ -75015,7 +75015,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YangZLCHY25
-  doi: ''
+  doi: 10.52202/085713-3167
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/87ee1bbac4635e7c948f3eea83c1f262-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangZLCHY25
   abstract: ''
@@ -75032,7 +75032,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YeLSZDCYDY25
-  doi: ''
+  doi: 10.52202/085713-4702
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/cdd30bf15e29005a7803f3e4beffb65a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YeLSZDCYDY25
   abstract: ''
@@ -75048,7 +75048,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YingLY25
-  doi: ''
+  doi: 10.52202/085713-1340
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/395409679270591fd2a70abc694cf5a1-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YingLY25
   abstract: ''
@@ -75063,7 +75063,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YoonCL25
-  doi: ''
+  doi: 10.52202/085713-3023
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/8258e815fa93aa59441ad526cc828c53-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YoonCL25
   abstract: ''
@@ -75079,7 +75079,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/0003SDH24
-  doi: ''
+  doi: 10.52202/079017-2747
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/9d6d351ba8028a50382f42a065d31bf0-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/0003SDH24
   abstract: ''
@@ -75095,7 +75095,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/AllouahDGGKP0024
-  doi: ''
+  doi: 10.52202/079017-2188
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/7ea46207ec9bda974b140fe11d8dd727-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/AllouahDGGKP0024
   abstract: ''
@@ -75112,7 +75112,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/AllouahMGGP24
-  doi: ''
+  doi: 10.52202/079017-3197
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/b6d0df730c5976ad918bbf4fb30afe7d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/AllouahMGGP24
   abstract: ''
@@ -75129,7 +75129,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ChenJZQWL24
-  doi: ''
+  doi: 10.52202/079017-0657
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/24f7b98aef14fcd68acf3c941af1b59e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ChenJZQWL24
   abstract: ''
@@ -75145,7 +75145,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ChenV24
-  doi: ''
+  doi: 10.52202/079017-2093
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/7886b9bafe76c52fd568db10ff9772df-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ChenV24
   abstract: ''
@@ -75162,7 +75162,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ChenWT0OLL024
-  doi: ''
+  doi: 10.52202/079017-1744
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/62ffefbe8dfc8548d22564f3c1d21488-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ChenWT0OLL024
   abstract: ''
@@ -75178,7 +75178,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ChenX0LH24
-  doi: ''
+  doi: 10.52202/079017-2586
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/942e820be4aa112509b3a281ff398851-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ChenX0LH24
   abstract: ''
@@ -75194,7 +75194,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ChenXL24
-  doi: ''
+  doi: 10.52202/079017-4368
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/f896c593ae0cce758205646e1325406b-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ChenXL24
   abstract: ''
@@ -75210,7 +75210,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/CrawshawL24
-  doi: ''
+  doi: 10.52202/079017-0265
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/0f98645119923217a245735c2c4d23f4-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/CrawshawL24
   abstract: ''
@@ -75225,7 +75225,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/DimitrovBMV24
-  doi: ''
+  doi: 10.52202/079017-3390
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/c13cd7feab4beb1a27981e19e2455916-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/DimitrovBMV24
   abstract: ''
@@ -75241,7 +75241,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/FangHC0B24
-  doi: ''
+  doi: 10.52202/079017-2504
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/8fb96e8d0fbf591b1fa1ad85653d8417-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/FangHC0B24
   abstract: ''
@@ -75257,7 +75257,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/GanMY24
-  doi: ''
+  doi: 10.52202/079017-4216
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/ef63b00ad8475605b2eaf520747f61d4-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GanMY24
   abstract: ''
@@ -75273,7 +75273,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/GaoW00W24
-  doi: ''
+  doi: 10.52202/079017-1516
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/558d48c1f08675daa636e09bfe94a89e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GaoW00W24
   abstract: ''
@@ -75289,7 +75289,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/GhariS24
-  doi: ''
+  doi: 10.52202/079017-2926
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/a7a6465b9344c5ecc691c02af40661a7-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GhariS24
   abstract: ''
@@ -75307,7 +75307,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/GranqvistSCDPCF24
-  doi: ''
+  doi: 10.52202/079017-1375
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/4c8c6de56ecdd05e61abcd9e057c6142-Abstract-Datasets_and_Benchmarks_Track.html
   url: https://dblp.org/rec/conf/nips/GranqvistSCDPCF24
   abstract: ''
@@ -75322,7 +75322,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/GrinwaldWN24
-  doi: ''
+  doi: 10.52202/079017-2705
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/9abc1d4bcdb4e61e7c0e01a11ab7c375-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GrinwaldWN24
   abstract: ''
@@ -75337,7 +75337,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/HanHTTL24
-  doi: ''
+  doi: 10.52202/079017-3287
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/bb63841e1ad12370a34504f15c60db4f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/HanHTTL24
   abstract: ''
@@ -75352,7 +75352,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/HongYJK24
-  doi: ''
+  doi: 10.52202/079017-0575
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/20563b8508ba42e1b688d922e926ee26-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/HongYJK24
   abstract: ''
@@ -75368,7 +75368,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/HuangYSWL024
-  doi: ''
+  doi: 10.52202/079017-3843
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/db0ee27cb50dd9087b133f6e7d28a90e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/HuangYSWL024
   abstract: ''
@@ -75385,7 +75385,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JiaZHCQ0BD24
-  doi: ''
+  doi: 10.52202/079017-0417
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/17a1a1439421f1837e10cd612bf92861-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiaZHCQ0BD24
   abstract: ''
@@ -75401,7 +75401,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/KhanC024
-  doi: ''
+  doi: 10.52202/079017-1599
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/5a5ddf0ab751861025c00700093c5677-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/KhanC024
   abstract: ''
@@ -75416,7 +75416,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LeeL0L24
-  doi: ''
+  doi: 10.52202/079017-1385
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/4d2aa4c034745f558bfea34643c8d6a6-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LeeL0L24
   abstract: ''
@@ -75432,7 +75432,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/Li0WLWWZ0Y24
-  doi: ''
+  doi: 10.52202/079017-0321
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/13707aad517ddd6c09ea02e0f55e1e7a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Li0WLWWZ0Y24
   abstract: ''
@@ -75447,7 +75447,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiAR24
-  doi: ''
+  doi: 10.52202/079017-3947
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/e0b6f389739496e363a89155c9448a8a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiAR24
   abstract: ''
@@ -75462,7 +75462,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiLLJZ24
-  doi: ''
+  doi: 10.52202/079017-2862
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/a421e88bb7db67cd0401475a0ed4a17d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiLLJZ24
   abstract: ''
@@ -75479,7 +75479,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiaoFCWZ024
-  doi: ''
+  doi: 10.52202/079017-4439
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/fce1243cf0efe675d670745d902d7b4c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiaoFCWZ024
   abstract: ''
@@ -75495,7 +75495,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiuL0SLJL24
-  doi: ''
+  doi: 10.52202/079017-2591
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/9482f45fdd89aba9130bb04c44f788a9-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiuL0SLJL24
   abstract: ''
@@ -75511,7 +75511,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/MaiYP24
-  doi: ''
+  doi: 10.52202/079017-3314
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/bcbdc25dc4f0be5ae8ac07232df6e33a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/MaiYP24
   abstract: ''
@@ -75527,7 +75527,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/MakhijaGH24
-  doi: ''
+  doi: 10.52202/079017-3252
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/b9a159b81a0535e3944ffdbd07ae3ba1-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/MakhijaGH24
   abstract: ''
@@ -75544,7 +75544,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/MangoldSLLANM24
-  doi: ''
+  doi: 10.52202/079017-0447
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/19a42d5885e25e51852aca8144e5af0d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/MangoldSLLANM24
   abstract: ''
@@ -75559,7 +75559,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/MclaughlinS24
-  doi: ''
+  doi: 10.52202/079017-2451
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/8ce6c5450ccddbe6adee4b3749893587-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/MclaughlinS24
   abstract: ''
@@ -75576,7 +75576,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/MorafahKC0024
-  doi: ''
+  doi: 10.52202/079017-4059
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/e6d1d6195f6f3e32a930643e0ef46332-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/MorafahKC0024
   abstract: ''
@@ -75592,7 +75592,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/PanH024
-  doi: ''
+  doi: 10.52202/079017-0962
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/36721d1209a059dcb7a090dd543f34c4-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/PanH024
   abstract: ''
@@ -75607,7 +75607,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/RengarajanRKS24
-  doi: ''
+  doi: 10.52202/079017-0199
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/0b99315234cc95e6ef281f9155b68832-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/RengarajanRKS24
   abstract: ''
@@ -75622,7 +75622,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/SalgiaC24
-  doi: ''
+  doi: 10.52202/079017-1254
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/45fc4a0da7e7f6fbabaabe2d20a441d1-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/SalgiaC24
   abstract: ''
@@ -75637,7 +75637,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/SunST24
-  doi: ''
+  doi: 10.52202/079017-2723
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/9bb4d1b3fbeed86a0e854d736ea1d293-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/SunST24
   abstract: ''
@@ -75653,7 +75653,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/TanWHY24
-  doi: ''
+  doi: 10.52202/079017-1090
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/3d226fb8fbd6ee6ec70d0427f1319707-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/TanWHY24
   abstract: ''
@@ -75670,7 +75670,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/Tang0DCZ0024
-  doi: ''
+  doi: 10.52202/079017-0891
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/31e6e0c09325a3be16d93f84e40e0c7e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Tang0DCZ0024
   abstract: ''
@@ -75686,7 +75686,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/Wang00G024
-  doi: ''
+  doi: 10.52202/079017-3165
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/b4baac5d3f7508a4eb2b65376470a5a2-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Wang00G024
   abstract: ''
@@ -75702,7 +75702,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WangBZ0024
-  doi: ''
+  doi: 10.52202/079017-2803
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/a11e42a37c6bc926d6dc57e0cca0e825-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WangBZ0024
   abstract: ''
@@ -75718,7 +75718,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WangLLM24
-  doi: ''
+  doi: 10.52202/079017-1733
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/6246e04dcf42baf7c71e3a65d3d93b55-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WangLLM24
   abstract: ''
@@ -75735,7 +75735,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WuWW00024
-  doi: ''
+  doi: 10.52202/079017-3672
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/d17477a5ff8b7ddb49e53f9c04305da5-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuWW00024
   abstract: ''
@@ -75750,7 +75750,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ChenGJDZK25
-  doi: ''
+  doi: 10.52202/085713-4009
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/adf17e7346b6be4c2f2bb40de572e5bc-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ChenGJDZK25
   abstract: ''
@@ -75765,7 +75765,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LeeSZL25
-  doi: ''
+  doi: 10.52202/085713-5717
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/fab71c08b15508fd6c435e59b0e82b68-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LeeSZL25
   abstract: ''
@@ -75780,7 +75780,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/GuoY24
-  doi: ''
+  doi: 10.52202/079017-0726
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/29021b06afa4c648ee438584f7ef3e7e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GuoY24
   abstract: ''
@@ -75795,7 +75795,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JiangRS24
-  doi: ''
+  doi: 10.52202/079017-3164
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/b4b75092bb44a14815be33d052aa47f5-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiangRS24
   abstract: ''
@@ -75810,7 +75810,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/Chen00D23
-  doi: ''
+  doi: 10.52202/075280-2374
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/aaa973f65b98c96e5f850d706464a3c4-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Chen00D23
   abstract: ''
@@ -75826,7 +75826,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiHH23
-  doi: ''
+  doi: 10.52202/075280-0065
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/04bd683d5428d91c5fbb5a7d2c27064d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiHH23
   abstract: ''
@@ -75842,7 +75842,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiLTHX023
-  doi: ''
+  doi: 10.52202/075280-3267
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/ec52572b9e16b91edff5dc70e2642240-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiLTHX023
   abstract: ''
@@ -75858,7 +75858,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/QiuSY23
-  doi: ''
+  doi: 10.52202/075280-0151
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/0a70c9cd8179fe6f8f6135fafa2a8798-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/QiuSY23
   abstract: ''
@@ -75874,7 +75874,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WuSHLZH23
-  doi: ''
+  doi: 10.52202/075280-0251
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/1229eaae5bf1db93e1e4c539258eb472-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuSHLZH23
   abstract: ''
@@ -75889,7 +75889,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WuSHZH23
-  doi: ''
+  doi: 10.52202/075280-0497
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/254009e8d528f98764a060e877a1b01c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuSHZH23
   abstract: ''
@@ -75905,7 +75905,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/DingNWTLfC22
-  doi: ''
+  doi: 10.52202/068431-0001
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/002262941c9edfd472a79298b2ac5e17-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/DingNWTLfC22
   abstract: ''
@@ -75951,7 +75951,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/MinZPZ25
-  doi: ''
+  doi: 10.52202/085713-3400
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/930a720c815416c263b0a090448ee901-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/MinZPZ25
   abstract: ''
@@ -75966,7 +75966,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/SetlurFT24
-  doi: ''
+  doi: 10.52202/079017-1473
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/526dad6de50a4a4d829d6b4e37e5a8f5-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/SetlurFT24
   abstract: ''
@@ -75981,7 +75981,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ChenYQC23
-  doi: ''
+  doi: 10.52202/075280-0382
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/1b86cf4b15cd83b6520d851eb7298228-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ChenYQC23
   abstract: ''
@@ -75997,7 +75997,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/PanchalCPZG23
-  doi: ''
+  doi: 10.52202/075280-0821
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/3baf4eeffad860ca9c54aeab632716b4-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/PanchalCPZG23
   abstract: ''
@@ -76013,7 +76013,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ParsonsDDSL23
-  doi: ''
+  doi: 10.52202/075280-1598
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/74088c68894b99383c12399c9c637be9-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ParsonsDDSL23
   abstract: ''
@@ -76030,7 +76030,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ShiZWZHY023
-  doi: ''
+  doi: 10.52202/075280-1234
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/5a3674849d6d6d23ac088b9a2552f323-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ShiZWZHY023
   abstract: ''
@@ -76046,7 +76046,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WangYCCLXM23
-  doi: ''
+  doi: 10.52202/075280-1283
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/5e2217482fa75556f1970be809acd3f8-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WangYCCLXM23
   abstract: ''
@@ -76061,7 +76061,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YangHY23
-  doi: ''
+  doi: 10.52202/075280-3160
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/e4724af0e2a0d52ce5a0a4e084b87f59-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangHY23
   abstract: ''
@@ -76077,7 +76077,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ChenDTWSAZ22
-  doi: ''
+  doi: 10.52202/068431-1503
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/8265d7bb2db42e86637001db2c46619f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ChenDTWSAZ22
   abstract: ''
@@ -76092,7 +76092,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ChenGKLD22
-  doi: ''
+  doi: 10.52202/068431-0679
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/3cc03e19fed71a2b9347d83921ca2e7d-Abstract-Datasets_and_Benchmarks.html
   url: https://dblp.org/rec/conf/nips/ChenGKLD22
   abstract: ''
@@ -76107,7 +76107,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/EvenMS22
-  doi: ''
+  doi: 10.52202/068431-0016
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/01cea7793f3c68af2e4989fc66bf8fb0-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/EvenMS22
   abstract: ''
@@ -76122,7 +76122,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/GhariS22
-  doi: ''
+  doi: 10.52202/068431-2414
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/d78cc4e15f8fbdb0dd77e551601f572c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GhariS22
   abstract: ''
@@ -76138,7 +76138,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JeongH22
-  doi: ''
+  doi: 10.52202/068431-2586
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/e7feb9dbd9a94b6c552fc403fcebf2ef-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JeongH22
   abstract: ''
@@ -76154,7 +76154,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LinHLZ22
-  doi: ''
+  doi: 10.52202/068431-2209
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/c47e6286162ec5442e06fe2b7cb7145f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LinHLZ22
   abstract: ''
@@ -76169,7 +76169,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/AchituveSNCF21
-  doi: ''
+  doi: 10.1109/mrs60187.2023.10416790
   ee: https://proceedings.neurips.cc/paper/2021/hash/46d0671dd4117ea366031f87f3aa0093-Abstract.html
   url: https://dblp.org/rec/conf/nips/AchituveSNCF21
   abstract: ''
@@ -76231,7 +76231,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiuHWS22
-  doi: ''
+  doi: 10.52202/068431-0429
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/2788b4cdf421e03650868cc4184bfed8-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiuHWS22
   abstract: ''
@@ -76252,7 +76252,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/TerrailACGHLMMM22
-  doi: ''
+  doi: 10.52202/068431-0384
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/232eee8ef411a0a316efa298d7be3c2b-Abstract-Datasets_and_Benchmarks.html
   url: https://dblp.org/rec/conf/nips/TerrailACGHLMMM22
   abstract: ''
@@ -76269,7 +76269,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/Wang0ZLWL23
-  doi: ''
+  doi: 10.52202/075280-0593
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/2b5af479527167d4af78847a9b9b645f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Wang0ZLWL23
   abstract: ''
@@ -76285,7 +76285,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/HuangLSZ22
-  doi: ''
+  doi: 10.52202/068431-2144
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/be7b70477c8fca697f14b1dbb1c086d1-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/HuangLSZ22
   abstract: ''
@@ -76302,7 +76302,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JiangBFDDH0022
-  doi: ''
+  doi: 10.52202/068431-0152
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/0e1a2388cd2f78069f4d048d935cb218-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/JiangBFDDH0022
   abstract: ''
@@ -76318,7 +76318,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WuLH22
-  doi: ''
+  doi: 10.52202/068431-1533
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/84b744165a0597360caad96b06e69313-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuLH22
   abstract: ''
@@ -76333,7 +76333,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/JinCHYC21
-  doi: ''
+  doi: 10.1016/j.cose.2024.103744
   ee: https://proceedings.neurips.cc/paper/2021/hash/08040837089cdf46631a10aca5258e16-Abstract.html
   url: https://dblp.org/rec/conf/nips/JinCHYC21
   abstract: ''
@@ -76349,7 +76349,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhangSH24
-  doi: ''
+  doi: 10.52202/079017-3757
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/d6520fa7f71dc8e09ed5939a60a64218-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhangSH24
   abstract: ''
@@ -76365,7 +76365,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LuoWFLLG23
-  doi: ''
+  doi: 10.52202/075280-0784
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/39ca8893ea38905a9d2ffe786e85af0f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LuoWFLLG23
   abstract: ''
@@ -76381,7 +76381,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YangZZ0PL023
-  doi: ''
+  doi: 10.52202/075280-2639
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/bdcdf38389d7fcefc73c4c3720217155-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangZZ0PL023
   abstract: ''
@@ -76397,7 +76397,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LeeJSBY22
-  doi: ''
+  doi: 10.52202/068431-2787
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/fadec8f2e65f181d777507d1df69b92f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LeeJSBY22
   abstract: ''
@@ -76429,7 +76429,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhangXWCQYG25
-  doi: ''
+  doi: 10.52202/085713-5207
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/e47f66608282428a17304176e5445023-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhangXWCQYG25
   abstract: ''
@@ -76446,7 +76446,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/RahimiBPKKM23
-  doi: ''
+  doi: 10.52202/075280-2726
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/c48fe446e651cd49fb58a6833e015103-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/RahimiBPKKM23
   abstract: ''
@@ -76462,7 +76462,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YangXJ23
-  doi: ''
+  doi: 10.52202/075280-1433
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/686a3f32067838c8dbb68da6e9e3cf69-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangXJ23
   abstract: ''
@@ -76477,7 +76477,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiW22
-  doi: ''
+  doi: 10.52202/068431-2783
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/faa8be9311811ba7c36fa1ceec13b862-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiW22
   abstract: ''
@@ -76493,7 +76493,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/SunW22
-  doi: ''
+  doi: 10.52202/068431-0439
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/28553688c204ddbb06a51e00684f8bb7-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/SunW22
   abstract: ''
@@ -76509,7 +76509,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/KimLH25
-  doi: ''
+  doi: 10.52202/085713-1308
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/379b14f0a57615d4df4bb808a5a73fdd-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/KimLH25
   abstract: ''
@@ -76525,7 +76525,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/BaiCQYL24
-  doi: ''
+  doi: 10.52202/079017-0461
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/1a134b50202088aa8c595cc99b310e5a-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/BaiCQYL24
   abstract: ''
@@ -76541,7 +76541,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/Chen0XLP024
-  doi: ''
+  doi: 10.52202/079017-1168
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/412fb8623bf8b6d56fb6285ea295447e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Chen0XLP024
   abstract: ''
@@ -76558,7 +76558,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WangSHS0LL24
-  doi: ''
+  doi: 10.52202/079017-0708
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/28312c9491d60ed0c77f7fff4ad86dd1-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WangSHS0LL24
   abstract: ''
@@ -76574,7 +76574,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/XiangIYJS24
-  doi: ''
+  doi: 10.52202/079017-3313
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/bcaebb606df0c8c714756660e4a3bd7c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/XiangIYJS24
   abstract: ''
@@ -76590,7 +76590,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/Yi00W0L24
-  doi: ''
+  doi: 10.52202/079017-2125
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/7a9ee756fb71d401bcb5230db02c11db-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Yi00W0L24
   abstract: ''
@@ -76606,7 +76606,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhangHS024
-  doi: ''
+  doi: 10.52202/079017-3484
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/c6776239514e90cbaa56b575a9f9e05c-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhangHS024
   abstract: ''
@@ -76621,7 +76621,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiL23a
-  doi: ''
+  doi: 10.52202/075280-2477
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/b18e5d6a10ba57d5273871f38189f062-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiL23a
   abstract: ''
@@ -76637,7 +76637,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhouLVD23
-  doi: ''
+  doi: 10.52202/075280-1131
   ee: http://papers.nips.cc/paper_files/paper/2023/hash/526356453b7301c9b29aa0533f62bdef-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhouLVD23
   abstract: ''
@@ -76653,7 +76653,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/AlamLYZ22
-  doi: ''
+  doi: 10.52202/068431-2152
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/bf5311df07f3efce97471921e6d2f159-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/AlamLYZ22
   abstract: ''
@@ -76669,7 +76669,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/Vo0LL22
-  doi: ''
+  doi: 10.52202/068431-1776
   ee: http://papers.nips.cc/paper_files/paper/2022/hash/9a9afa70eead1805f00e3a0df2a41157-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/Vo0LL22
   abstract: ''
@@ -76701,7 +76701,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/GuOCF24
-  doi: ''
+  doi: 10.52202/079017-0761
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/2b09bb02b90584e2be94ff3ae09289bc-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GuOCF24
   abstract: ''
@@ -76716,7 +76716,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YangLHW24
-  doi: ''
+  doi: 10.52202/079017-1552
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/57fabaa549352c52d5d312171b16970e-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangLHW24
   abstract: ''
@@ -76732,7 +76732,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YangPW00PW0F24
-  doi: ''
+  doi: 10.52202/079017-2070
   ee: http://papers.nips.cc/paper_files/paper/2024/hash/774164b966cc277c82a960934445140d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YangPW00PW0F24
   abstract: ''
@@ -76748,7 +76748,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhongJBWWWDR25
-  doi: ''
+  doi: 10.52202/085713-1678
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/481c70828a4ff20d31a646cc6cc95f3d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhongJBWWWDR25
   abstract: ''
@@ -76765,7 +76765,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/NguyenHHNN25
-  doi: ''
+  doi: 10.52202/085713-0968
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/29978617eb250d16969e3681121ad6d7-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/NguyenHHNN25
   abstract: ''
@@ -76781,7 +76781,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/GuanHGYYY25
-  doi: ''
+  doi: 10.52202/085713-0630
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/1b1205172b8a57ad504002a081b37859-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/GuanHGYYY25
   abstract: ''
@@ -76797,7 +76797,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/HuangFYLDZC25
-  doi: ''
+  doi: 10.52202/085713-0336
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/0e614c5955e324b074028f42063aae0f-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/HuangFYLDZC25
   abstract: ''
@@ -76814,7 +76814,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiHJLXDWW25
-  doi: ''
+  doi: 10.52202/085713-0157
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/06d2e62af8bff76aa4aef37e750dc908-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiHJLXDWW25
   abstract: ''
@@ -76831,7 +76831,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/LiangZCLLY25
-  doi: ''
+  doi: 10.52202/085713-1062
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/2d945a8085c100de722385171803cc51-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/LiangZCLLY25
   abstract: 'Split Federated Learning (SFL) enables scalable training on edge devices
@@ -76865,7 +76865,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/QiYMZYLM25
-  doi: ''
+  doi: 10.52202/085713-0405
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/11e7d0a3341de7f451141248dfbff4d3-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/QiYMZYLM25
   abstract: Federated Prompt Learning (FPL) enables communication-efficient adaptation
@@ -76903,7 +76903,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/WuHYXCSC25
-  doi: ''
+  doi: 10.52202/085713-0524
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/16e71d1a24b98a02c17b1be1f634f979-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/WuHYXCSC25
   abstract: ''
@@ -76918,7 +76918,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YiLYZ25
-  doi: ''
+  doi: 10.52202/085713-0768
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/20de741d21f1a038093c6e3ee7c09481-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YiLYZ25
   abstract: ''
@@ -76934,7 +76934,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YuanHWGLY25
-  doi: ''
+  doi: 10.52202/085713-1166
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/3181db351fd3ced43cd589b0b572675d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YuanHWGLY25
   abstract: ''
@@ -76949,7 +76949,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhangCBWX25
-  doi: ''
+  doi: 10.52202/085713-1199
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/3327377ee37b8c87c43a7d6a4ea3d279-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhangCBWX25
   abstract: ''
@@ -76966,7 +76966,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhangHFZLC25
-  doi: ''
+  doi: 10.52202/085713-0546
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/17ca2b635fdb94dbd3292da790e3fd46-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhangHFZLC25
   abstract: ''
@@ -76981,7 +76981,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhuYWYW25
-  doi: ''
+  doi: 10.52202/085713-0046
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/02080e8e63c0db49c6f8854e2f19a272-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhuYWYW25
   abstract: ''
@@ -76996,7 +76996,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZhuoZY25
-  doi: ''
+  doi: 10.52202/085713-0836
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/2360da01c2ed6592bb691326424de184-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZhuoZY25
   abstract: ''
@@ -77013,7 +77013,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/ZuoYFSZXH25
-  doi: ''
+  doi: 10.52202/085713-0973
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/29c71a71cf3b354036d9b413cd049cbf-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/ZuoYFSZXH25
   abstract: Federated Learning (FL) enables multiple clients to collaboratively train
@@ -77050,7 +77050,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/nips/YinWZZH25
-  doi: ''
+  doi: 10.52202/085713-0527
   ee: http://papers.nips.cc/paper_files/paper/2025/hash/172946488c60421563ecad4ee2d4235d-Abstract-Conference.html
   url: https://dblp.org/rec/conf/nips/YinWZZH25
   abstract: ''
@@ -77100,7 +77100,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/MildnerHGD25
-  doi: ''
+  doi: 10.48550/arXiv.2502.00846
   ee: https://proceedings.mlr.press/v267/mildner25a.html
   url: https://dblp.org/rec/conf/icml/MildnerHGD25
   abstract: ''
@@ -77215,7 +77215,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/0001000YW25
-  doi: ''
+  doi: 10.1109/cvpr52688.2022.00788
   ee: https://proceedings.mlr.press/v267/zhang25ba.html
   url: https://dblp.org/rec/conf/icml/0001000YW25
   abstract: ''
@@ -77230,7 +77230,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/00010LL25
-  doi: ''
+  doi: 10.1109/ijcnn60899.2024.10650637
   ee: https://proceedings.mlr.press/v267/tang25m.html
   url: https://dblp.org/rec/conf/icml/00010LL25
   abstract: ''
@@ -77503,7 +77503,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/Liao0W00Y25
-  doi: ''
+  doi: 10.1109/cyberscitech68397.2025.00129
   ee: https://proceedings.mlr.press/v267/liao25c.html
   url: https://dblp.org/rec/conf/icml/Liao0W00Y25
   abstract: ''
@@ -77601,7 +77601,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/NairLJTB025
-  doi: ''
+  doi: 10.48550/arXiv.2505.23182
   ee: https://proceedings.mlr.press/v267/nair25b.html
   url: https://dblp.org/rec/conf/icml/NairLJTB025
   abstract: ''
@@ -77683,7 +77683,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/ShitCKC25
-  doi: ''
+  doi: 10.52202/068431-2144
   ee: https://proceedings.mlr.press/v267/shit25a.html
   url: https://dblp.org/rec/conf/icml/ShitCKC25
   abstract: ''
@@ -77825,7 +77825,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/WangWL0H0G0025
-  doi: ''
+  doi: 10.1016/j.jare.2024.02.012
   ee: https://proceedings.mlr.press/v267/wang25dc.html
   url: https://dblp.org/rec/conf/icml/WangWL0H0G0025
   abstract: ''
@@ -77856,7 +77856,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/YangS0025
-  doi: ''
+  doi: 10.1109/cvpr52734.2025.02834
   ee: https://proceedings.mlr.press/v267/yang25ad.html
   url: https://dblp.org/rec/conf/icml/YangS0025
   abstract: ''
@@ -77905,7 +77905,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/Zhang0L25
-  doi: ''
+  doi: 10.48550/arXiv.2402.18888
   ee: https://proceedings.mlr.press/v267/zhang25f.html
   url: https://dblp.org/rec/conf/icml/Zhang0L25
   abstract: ''
@@ -77920,7 +77920,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/ZhangZX25
-  doi: ''
+  doi: 10.52202/068431-1081
   ee: https://proceedings.mlr.press/v267/zhang25dl.html
   url: https://dblp.org/rec/conf/icml/ZhangZX25
   abstract: ''
@@ -77984,7 +77984,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/0016HZM024
-  doi: ''
+  doi: 10.56902/etdcrp.2025.156
   ee: https://proceedings.mlr.press/v235/wang24v.html
   url: https://dblp.org/rec/conf/icml/0016HZM024
   abstract: ''
@@ -78001,7 +78001,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/AllouahFGGPRV24
-  doi: ''
+  doi: 10.1609/aaai.v36i8.20903
   ee: https://proceedings.mlr.press/v235/allouah24a.html
   url: https://dblp.org/rec/conf/icml/AllouahFGGPRV24
   abstract: ''
@@ -78049,7 +78049,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/ChenQX24
-  doi: ''
+  doi: 10.36227/techrxiv.174650601.13181048/v1
   ee: https://proceedings.mlr.press/v235/chen24ag.html
   url: https://dblp.org/rec/conf/icml/ChenQX24
   abstract: ''
@@ -78094,7 +78094,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/CuiLW024
-  doi: ''
+  doi: 10.1145/3589334.3645513
   ee: https://proceedings.mlr.press/v235/cui24c.html
   url: https://dblp.org/rec/conf/icml/CuiLW024
   abstract: ''
@@ -78109,7 +78109,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/FaniCCC24
-  doi: ''
+  doi: 10.1109/access.2025.3556587
   ee: https://proceedings.mlr.press/v235/fani-24a.html
   url: https://dblp.org/rec/conf/icml/FaniCCC24
   abstract: ''
@@ -78125,7 +78125,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/GaoLZ024
-  doi: ''
+  doi: 10.48550/arXiv.2407.09690
   ee: https://proceedings.mlr.press/v235/gao24i.html
   url: https://dblp.org/rec/conf/icml/GaoLZ024
   abstract: ''
@@ -78173,7 +78173,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/HuangSYL024
-  doi: ''
+  doi: 10.1109/itw62417.2025.11240449
   ee: https://proceedings.mlr.press/v235/huang24u.html
   url: https://dblp.org/rec/conf/icml/HuangSYL024
   abstract: ''
@@ -78284,7 +78284,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/LiXW0QXL0H024
-  doi: ''
+  doi: 10.12732/ijam.v38i12s.1642
   ee: https://proceedings.mlr.press/v235/li24ca.html
   url: https://dblp.org/rec/conf/icml/LiXW0QXL0H024
   abstract: ''
@@ -78409,7 +78409,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/SinghV24
-  doi: ''
+  doi: 10.1109/sam60225.2024.10636694
   ee: https://proceedings.mlr.press/v235/singh24f.html
   url: https://dblp.org/rec/conf/icml/SinghV24
   abstract: ''
@@ -78489,7 +78489,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/XieLLLFSW24
-  doi: ''
+  doi: 10.1007/978-3-031-72117-5_50
   ee: https://proceedings.mlr.press/v235/xie24h.html
   url: https://dblp.org/rec/conf/icml/XieLLLFSW24
   abstract: ''
@@ -78504,7 +78504,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/XingL024
-  doi: ''
+  doi: 10.32657/10356/202336
   ee: https://proceedings.mlr.press/v235/xing24a.html
   url: https://dblp.org/rec/conf/icml/XingL024
   abstract: ''
@@ -78519,7 +78519,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/XuSWW24
-  doi: ''
+  doi: 10.52202/075280-3403
   ee: https://proceedings.mlr.press/v235/xu24u.html
   url: https://dblp.org/rec/conf/icml/XuSWW24
   abstract: ''
@@ -78550,7 +78550,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/ZhuangX0LL24
-  doi: ''
+  doi: 10.48550/arXiv.2407.16560
   ee: https://proceedings.mlr.press/v235/zhuang24c.html
   url: https://dblp.org/rec/conf/icml/ZhuangX0LL24
   abstract: ''
@@ -78581,7 +78581,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/BaekJJYH23
-  doi: ''
+  doi: 10.1145/3746252.3761128
   ee: https://proceedings.mlr.press/v202/baek23a.html
   url: https://dblp.org/rec/conf/icml/BaekJJYH23
   abstract: ''
@@ -78596,7 +78596,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/BaoWWH23
-  doi: ''
+  doi: 10.48550/arXiv.2306.06508
   ee: https://proceedings.mlr.press/v202/bao23b.html
   url: https://dblp.org/rec/conf/icml/BaoWWH23
   abstract: ''
@@ -78629,7 +78629,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/ChenHLCX0Z23
-  doi: ''
+  doi: 10.1109/bigdata47090.2019.9005992
   ee: https://proceedings.mlr.press/v202/chen23j.html
   url: https://dblp.org/rec/conf/icml/ChenHLCX0Z23
   abstract: ''
@@ -78644,7 +78644,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/ChenYGDL23
-  doi: ''
+  doi: 10.48550/arXiv.2305.02776
   ee: https://proceedings.mlr.press/v202/chen23aj.html
   url: https://dblp.org/rec/conf/icml/ChenYGDL23
   abstract: ''
@@ -78783,7 +78783,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/PatelWSS23
-  doi: ''
+  doi: 10.1109/chicc.2016.7554642
   ee: https://proceedings.mlr.press/v202/patel23a.html
   url: https://dblp.org/rec/conf/icml/PatelWSS23
   abstract: ''
@@ -78829,7 +78829,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/JinR0LLD22
-  doi: ''
+  doi: 10.48550/arXiv.2207.07223
   ee: https://proceedings.mlr.press/v162/jin22e.html
   url: https://dblp.org/rec/conf/icml/JinR0LLD22
   abstract: ''
@@ -78890,7 +78890,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/YuanZR21
-  doi: ''
+  doi: 10.1016/j.automatica.2025.112679
   ee: http://proceedings.mlr.press/v139/yuan21d.html
   url: https://dblp.org/rec/conf/icml/YuanZR21
   abstract: ''
@@ -78906,7 +78906,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/WuZYLG0CC23
-  doi: ''
+  doi: 10.1109/iccv51701.2025.00388
   ee: https://proceedings.mlr.press/v202/wu23z.html
   url: https://dblp.org/rec/conf/icml/WuZYLG0CC23
   abstract: ''
@@ -78968,7 +78968,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/MarfoqNVK22
-  doi: ''
+  doi: 10.1109/icassp49660.2025.10887972
   ee: https://proceedings.mlr.press/v162/marfoq22a.html
   url: https://dblp.org/rec/conf/icml/MarfoqNVK22
   abstract: ''
@@ -78983,7 +78983,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/ZhangLLGS22
-  doi: ''
+  doi: 10.14711/thesis-991013340351903412
   ee: https://proceedings.mlr.press/v162/zhang22o.html
   url: https://dblp.org/rec/conf/icml/ZhangLLGS22
   abstract: ''
@@ -79014,7 +79014,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/CollinsHMS21
-  doi: ''
+  doi: 10.1109/icme59968.2025.11209449
   ee: http://proceedings.mlr.press/v139/collins21a.html
   url: https://dblp.org/rec/conf/icml/CollinsHMS21
   abstract: ''
@@ -79029,7 +79029,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/ShamsianNFC21
-  doi: ''
+  doi: 10.1007/978-3-031-44213-1_43
   ee: http://proceedings.mlr.press/v139/shamsian21a.html
   url: https://dblp.org/rec/conf/icml/ShamsianNFC21
   abstract: ''
@@ -79075,7 +79075,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/MaiP23
-  doi: ''
+  doi: 10.14264/90adad5
   ee: https://proceedings.mlr.press/v202/mai23b.html
   url: https://dblp.org/rec/conf/icml/MaiP23
   abstract: ''
@@ -79135,7 +79135,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/ZhuHZ21
-  doi: ''
+  doi: 10.1016/j.knosys.2025.113502
   ee: http://proceedings.mlr.press/v139/zhu21b.html
   url: https://dblp.org/rec/conf/icml/ZhuHZ21
   abstract: ''
@@ -79282,7 +79282,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/WangLC22
-  doi: ''
+  doi: 10.1145/3510587
   ee: https://proceedings.mlr.press/v162/wang22o.html
   url: https://dblp.org/rec/conf/icml/WangLC22
   abstract: ''
@@ -79314,7 +79314,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/icml/ZhuHDZ22
-  doi: ''
+  doi: 10.1145/3716870
   ee: https://proceedings.mlr.press/v162/zhu22e.html
   url: https://dblp.org/rec/conf/icml/ZhuHDZ22
   abstract: ''
@@ -79474,7 +79474,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ScottZL24
-  doi: ''
+  doi: 10.1007/978-3-030-85559-8_3
   ee: https://openreview.net/forum?id=MrYiwlDRQO
   url: https://dblp.org/rec/conf/iclr/ScottZL24
   abstract: ''
@@ -79522,7 +79522,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/00020OLY0K0025
-  doi: ''
+  doi: 10.48550/arXiv.2503.03995
   ee: https://openreview.net/forum?id=cH65nS5sOz
   url: https://dblp.org/rec/conf/iclr/00020OLY0K0025
   abstract: ''
@@ -79600,7 +79600,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ChenJDCH0L25
-  doi: ''
+  doi: 10.48550/arXiv.2502.19980
   ee: https://openreview.net/forum?id=Cy5IKvYbR3
   url: https://dblp.org/rec/conf/iclr/ChenJDCH0L25
   abstract: ''
@@ -79713,7 +79713,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/LiYLDY25
-  doi: ''
+  doi: 10.1109/ieeeconf67917.2025.11443933
   ee: https://openreview.net/forum?id=omrLHFzC37
   url: https://dblp.org/rec/conf/iclr/LiYLDY25
   abstract: ''
@@ -79746,7 +79746,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/Luo0W25
-  doi: ''
+  doi: 10.1007/978-981-92-2856-0_7
   ee: https://openreview.net/forum?id=xiDJaTim3P
   url: https://dblp.org/rec/conf/iclr/Luo0W25
   abstract: ''
@@ -79762,7 +79762,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/MasumP0HK25
-  doi: ''
+  doi: 10.1109/tcsvt.2025.3551612
   ee: https://openreview.net/forum?id=ZiPoAlKf9Y
   url: https://dblp.org/rec/conf/iclr/MasumP0HK25
   abstract: ''
@@ -79809,7 +79809,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/QiCMH25
-  doi: ''
+  doi: 10.1109/istm58889.2023.10454982
   ee: https://openreview.net/forum?id=44hcrfzydU
   url: https://dblp.org/rec/conf/iclr/QiCMH25
   abstract: ''
@@ -79873,7 +79873,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ShiL0G025
-  doi: ''
+  doi: 10.48550/arXiv.2503.15111
   ee: https://openreview.net/forum?id=6RjQ54M1rM
   url: https://dblp.org/rec/conf/iclr/ShiL0G025
   abstract: ''
@@ -79905,7 +79905,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/TranSPM25
-  doi: ''
+  doi: 10.2139/ssrn.5218407
   ee: https://openreview.net/forum?id=Equ277PBN0
   url: https://dblp.org/rec/conf/iclr/TranSPM25
   abstract: ''
@@ -79951,7 +79951,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/Wang00025
-  doi: ''
+  doi: 10.1007/s11227-024-06232-4
   ee: https://openreview.net/forum?id=FCBbh0HCrF
   url: https://dblp.org/rec/conf/iclr/Wang00025
   abstract: ''
@@ -79967,7 +79967,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/XiongWJL25
-  doi: ''
+  doi: 10.1609/aaai.v38i14.29543
   ee: https://openreview.net/forum?id=BfUDZGqCAu
   url: https://dblp.org/rec/conf/iclr/XiongWJL25
   abstract: ''
@@ -80015,7 +80015,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ZhengZX25a
-  doi: ''
+  doi: 10.48550/arXiv.2405.18795
   ee: https://openreview.net/forum?id=FoUpv84hMw
   url: https://dblp.org/rec/conf/iclr/ZhengZX25a
   abstract: ''
@@ -80063,7 +80063,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/AndrewKOOMS24
-  doi: ''
+  doi: 10.48550/arXiv.2302.03098
   ee: https://openreview.net/forum?id=0BqyZSWfzo
   url: https://dblp.org/rec/conf/iclr/AndrewKOOMS24
   abstract: ''
@@ -80080,7 +80080,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ChanZZJN24
-  doi: ''
+  doi: 10.48550/arXiv.2308.11464
   ee: https://openreview.net/forum?id=Cc0qk6r4Nd
   url: https://dblp.org/rec/conf/iclr/ChanZZJN24
   abstract: ''
@@ -80110,7 +80110,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ChengHWY24
-  doi: ''
+  doi: 10.1109/mis.2022.3167955
   ee: https://openreview.net/forum?id=TdhkAcXkRi
   url: https://dblp.org/rec/conf/iclr/ChengHWY24
   abstract: ''
@@ -80142,7 +80142,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/FanFWZPFZ24
-  doi: ''
+  doi: 10.1007/978-3-030-63076-8_10
   ee: https://openreview.net/forum?id=sLQb8q0sUi
   url: https://dblp.org/rec/conf/iclr/FanFWZPFZ24
   abstract: ''
@@ -80158,7 +80158,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/GarovD0V24
-  doi: ''
+  doi: 10.1080/17406315.2015.1046295
   ee: https://openreview.net/forum?id=krx55l2A6G
   url: https://dblp.org/rec/conf/iclr/GarovD0V24
   abstract: ''
@@ -80190,7 +80190,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/HuangLL24
-  doi: ''
+  doi: 10.1109/icnc59488.2023.10462833
   ee: https://openreview.net/forum?id=jj5ZjZsWJe
   url: https://dblp.org/rec/conf/iclr/HuangLL24
   abstract: ''
@@ -80221,7 +80221,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/KimTUK24
-  doi: ''
+  doi: 10.48550/arXiv.2306.11201
   ee: https://openreview.net/forum?id=g0mlwqs8pi
   url: https://dblp.org/rec/conf/iclr/KimTUK24
   abstract: ''
@@ -80254,7 +80254,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/LiXXL00HS24
-  doi: ''
+  doi: 10.1016/j.jfranklin.2023.06.039
   ee: https://openreview.net/forum?id=py4ZV2qYQI
   url: https://dblp.org/rec/conf/iclr/LiXXL00HS24
   abstract: ''
@@ -80269,7 +80269,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/LouizosRK24
-  doi: ''
+  doi: 10.1109/tpds.2020.3040981
   ee: https://openreview.net/forum?id=JrmPG9ufKg
   url: https://dblp.org/rec/conf/iclr/LouizosRK24
   abstract: ''
@@ -80284,7 +80284,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/SunLLD24
-  doi: ''
+  doi: 10.1109/mita69365.2026.11582083
   ee: https://openreview.net/forum?id=NLPzL6HWNl
   url: https://dblp.org/rec/conf/iclr/SunLLD24
   abstract: ''
@@ -80316,7 +80316,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/TangZS0L0024
-  doi: ''
+  doi: 10.48550/arXiv.2402.07011
   ee: https://openreview.net/forum?id=giU9fYGTND
   url: https://dblp.org/rec/conf/iclr/TangZS0L0024
   abstract: ''
@@ -80332,7 +80332,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/WangCWCC24
-  doi: ''
+  doi: 10.1109/jiot.2026.3718408
   ee: https://openreview.net/forum?id=4aywmeb97I
   url: https://dblp.org/rec/conf/iclr/WangCWCC24
   abstract: ''
@@ -80348,7 +80348,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/WangXLX0024
-  doi: ''
+  doi: 10.1016/j.knosys.2025.115084
   ee: https://openreview.net/forum?id=nbPGqeH3lt
   url: https://dblp.org/rec/conf/iclr/WangXLX0024
   abstract: ''
@@ -80473,7 +80473,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/Zhang0M024
-  doi: ''
+  doi: 10.24963/ijcai.2025/808
   ee: https://openreview.net/forum?id=D2eOVqPX9g
   url: https://dblp.org/rec/conf/iclr/Zhang0M024
   abstract: ''
@@ -80519,7 +80519,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ZhuangY0H0024
-  doi: ''
+  doi: 10.3390/electronics14010129
   ee: https://openreview.net/forum?id=AJBGSVSTT2
   url: https://dblp.org/rec/conf/iclr/ZhuangY0H0024
   abstract: ''
@@ -80535,7 +80535,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ZouGHT0Z24
-  doi: ''
+  doi: 10.48550/arXiv.2310.09827
   ee: https://openreview.net/forum?id=sqRgz88TM3
   url: https://dblp.org/rec/conf/iclr/ZouGHT0Z24
   abstract: ''
@@ -80553,7 +80553,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/0002TX0AL0SCM023
-  doi: ''
+  doi: 10.1109/tdsc.2025.3590175
   ee: https://openreview.net/forum?id=Xo2E217_M4n
   url: https://dblp.org/rec/conf/iclr/0002TX0AL0SCM023
   abstract: ''
@@ -80584,7 +80584,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/BornsteinRWBH23
-  doi: ''
+  doi: 10.48550/arXiv.2210.14026
   ee: https://openreview.net/forum?id=jh1nCir1R3d
   url: https://dblp.org/rec/conf/iclr/BornsteinRWBH23
   abstract: ''
@@ -80599,7 +80599,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ChangS23
-  doi: ''
+  doi: 10.1007/978-3-030-96896-0_12
   ee: https://openreview.net/forum?id=V7CYzdruWdm
   url: https://dblp.org/rec/conf/iclr/ChangS23
   abstract: ''
@@ -80630,7 +80630,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ChenWV23
-  doi: ''
+  doi: 10.48550/arXiv.2301.08968
   ee: https://openreview.net/forum?id=29V3AWjVAFi
   url: https://dblp.org/rec/conf/iclr/ChenWV23
   abstract: ''
@@ -80772,7 +80772,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/JiangL23
-  doi: ''
+  doi: 10.52202/075280-3403
   ee: https://openreview.net/forum?id=3aBuJEza5sq
   url: https://dblp.org/rec/conf/iclr/JiangL23
   abstract: ''
@@ -80802,7 +80802,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/KimYKM23
-  doi: ''
+  doi: 10.1145/3716870
   ee: https://openreview.net/forum?id=pf8RIZTMU58
   url: https://dblp.org/rec/conf/iclr/KimYKM23
   abstract: ''
@@ -80881,7 +80881,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/MaddockSS23
-  doi: ''
+  doi: 10.1007/s11227-023-05846-4
   ee: https://openreview.net/forum?id=Kf7Yyf4O0u
   url: https://dblp.org/rec/conf/iclr/MaddockSS23
   abstract: ''
@@ -80928,7 +80928,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/QiZ023
-  doi: ''
+  doi: 10.48550/arXiv.2302.13001
   ee: https://openreview.net/forum?id=cRxYWKiTan
   url: https://dblp.org/rec/conf/iclr/QiZ023
   abstract: ''
@@ -80975,7 +80975,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ShiLZTB23
-  doi: ''
+  doi: 10.1109/tpami.2023.3338063
   ee: https://openreview.net/forum?id=EXnIyMVTL8s
   url: https://dblp.org/rec/conf/iclr/ShiLZTB23
   abstract: ''
@@ -81039,7 +81039,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/LiLW24
-  doi: ''
+  doi: 10.48550/arXiv.2311.01695
   ee: https://openreview.net/forum?id=nFI3wFM9yN
   url: https://dblp.org/rec/conf/iclr/LiLW24
   abstract: ''
@@ -81054,7 +81054,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/0001023
-  doi: ''
+  doi: 10.52202/079017-0878
   ee: https://openreview.net/forum?id=ElC6LYO4MfD
   url: https://dblp.org/rec/conf/iclr/0001023
   abstract: ''
@@ -81070,7 +81070,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ReddiCZGRKKM21
-  doi: ''
+  doi: 10.52202/085713-5717
   ee: https://openreview.net/forum?id=LkFG3lB13U5
   url: https://dblp.org/rec/conf/iclr/ReddiCZGRKKM21
   abstract: ''
@@ -81132,7 +81132,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/ChenC22
-  doi: ''
+  doi: 10.1016/j.knosys.2025.114021
   ee: https://openreview.net/forum?id=I1hQbx10Kxn
   url: https://dblp.org/rec/conf/iclr/ChenC22
   abstract: ''
@@ -81147,7 +81147,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/AfoninK22
-  doi: ''
+  doi: 10.36227/techrxiv.22058978
   ee: https://openreview.net/forum?id=lQI_mZjvBxj
   url: https://dblp.org/rec/conf/iclr/AfoninK22
   abstract: ''
@@ -81179,7 +81179,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/Diao0T21
-  doi: ''
+  doi: 10.1145/3716870
   ee: https://openreview.net/forum?id=TNkPBBYFkXg
   url: https://dblp.org/rec/conf/iclr/Diao0T21
   abstract: ''
@@ -81195,7 +81195,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/iclr/LiNLH0L0024
-  doi: ''
+  doi: 10.1016/j.ins.2025.123021
   ee: https://openreview.net/forum?id=m7tJxajC3G
   url: https://dblp.org/rec/conf/iclr/LiNLH0L0024
   abstract: ''
@@ -82675,7 +82675,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/mlsys/ZhuLCL24
-  doi: ''
+  doi: 10.48550/arXiv.2404.13515
   ee: https://proceedings.mlsys.org/paper_files/paper/2024/hash/bbd7d8bd780fcf7143add2317ba04638-Abstract-Conference.html
   url: https://dblp.org/rec/conf/mlsys/ZhuLCL24
   abstract: ''
@@ -82691,7 +82691,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/mlsys/HeYWWLB23
-  doi: ''
+  doi: 10.48550/arXiv.2212.01523
   ee: https://proceedings.mlsys.org/paper_files/paper/2023/hash/da5efc7c4014940f21bcb7fdfd4efab1-Abstract-mlsys2023.html
   url: https://dblp.org/rec/conf/mlsys/HeYWWLB23
   abstract: ''
