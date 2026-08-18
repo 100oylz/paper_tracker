@@ -39,11 +39,11 @@ jobs:
       - name: Setup var
         id: vars
         run: |
-          content="$MSG"
-          content="${content//'%'/'%25'}"
-          content="${content//$'\n'/'%0A'}"
-          content="${content//$'\r'/'%0D'}"
-          echo "content=$content" >> "$GITHUB_OUTPUT"
+          {
+            echo "content<<EOF"
+            echo "$MSG"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Ensure label exists
         env:
