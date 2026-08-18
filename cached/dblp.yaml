@@ -4331,11 +4331,34 @@
   doi: 10.1007/S10994-026-07035-9
   ee: https://doi.org/10.1007/s10994-026-07035-9
   url: https://dblp.org/rec/journals/ml/LiuYL26
-  abstract: ''
+  abstract: In recent years, deep learning has spread rapidly, and deeper, larger
+    models have been proposed. However, the calculation cost becomes enormous as the
+    size of the models becomes larger. Various techniques for compressing the size
+    of the models have been proposed to improve performance while reducing computational
+    costs. One of the methods to compress the size of the models is knowledge distillation
+    (KD). Knowledge distillation is a technique for transferring knowledge of deep
+    or ensemble models with many parameters (teacher model) to smaller shallow models
+    (student model). Since the purpose of knowledge distillation is to increase the
+    similarity between the teacher model and the student model, we propose to introduce
+    the concept of metric learning into knowledge distillation to make the student
+    model closer to the teacher model using pairs or triplets of the training samples.
+    In metric learning, the researchers are developing the methods to build a model
+    that can increase the similarity of outputs for similar samples. Metric learning
+    aims at reducing the distance between similar and increasing the distance between
+    dissimilar. The functionality of the metric learning to reduce the differences
+    between similar outputs can be used for the knowledge distillation to reduce the
+    differences between the outputs of the teacher model and the student model. Since
+    the outputs of the teacher model for different objects are usually different,
+    the student model needs to distinguish them. We think that metric learning can
+    clarify the difference between the different outputs, and the performance of the
+    student model could be improved. We have performed experiments to compare the
+    proposed method with state-of-the-art knowledge distillation methods.
   date_added: '2026-08-05'
   triage_score: 2
   triage_summary: 提出多尺度知识蒸馏方法，属于通用模型压缩技术，与隐私和文档解析弱相关。
   subtopic: other
+  related_code: ''
+  abstract_cn: 近年来，深度学习迅速发展，更深、更大的模型被相继提出。然而，随着模型规模的增大，计算成本变得极其高昂。为了在降低计算成本的同时提升性能，研究者们提出了多种压缩模型规模的技术。其中一种模型压缩方法是知识蒸馏（KD）。知识蒸馏是一种将具有大量参数的深层或集成模型（教师模型）的知识迁移到较小的浅层模型（学生模型）的技术。由于知识蒸馏的目标是提高教师模型与学生模型之间的相似性，我们提出将度量学习的概念引入知识蒸馏中，利用训练样本的配对或三元组使学生模型更接近教师模型。在度量学习中，研究者们正在开发能够提高相似样本输出相似性的模型构建方法。度量学习旨在缩小相似样本之间的距离，并增大不相似样本之间的距离。度量学习缩小相似输出之间差异的功能，可用于知识蒸馏中缩小教师模型与学生模型输出之间的差异。由于教师模型对不同对象的输出通常不同，学生模型需要能够区分它们。我们认为，度量学习能够明确不同输出之间的差异，从而可能提升学生模型的性能。我们进行了实验，将所提出的方法与最先进的知识蒸馏方法进行了比较。
 - author: Shaoying Xue, Xiaochen Yang, Xiaoxu Li, Jie Cao 0014, Zhanyu Ma
   title: Attention-Enhanced Cross-Modality Alignment for Adapting Vision-Language
     Models.
@@ -14176,11 +14199,34 @@
   doi: 10.1007/S11263-025-02705-Y
   ee: https://doi.org/10.1007/s11263-025-02705-y
   url: https://dblp.org/rec/journals/ijcv/QuYYTLCH26
-  abstract: ''
+  abstract: In recent years, deep learning has spread rapidly, and deeper, larger
+    models have been proposed. However, the calculation cost becomes enormous as the
+    size of the models becomes larger. Various techniques for compressing the size
+    of the models have been proposed to improve performance while reducing computational
+    costs. One of the methods to compress the size of the models is knowledge distillation
+    (KD). Knowledge distillation is a technique for transferring knowledge of deep
+    or ensemble models with many parameters (teacher model) to smaller shallow models
+    (student model). Since the purpose of knowledge distillation is to increase the
+    similarity between the teacher model and the student model, we propose to introduce
+    the concept of metric learning into knowledge distillation to make the student
+    model closer to the teacher model using pairs or triplets of the training samples.
+    In metric learning, the researchers are developing the methods to build a model
+    that can increase the similarity of outputs for similar samples. Metric learning
+    aims at reducing the distance between similar and increasing the distance between
+    dissimilar. The functionality of the metric learning to reduce the differences
+    between similar outputs can be used for the knowledge distillation to reduce the
+    differences between the outputs of the teacher model and the student model. Since
+    the outputs of the teacher model for different objects are usually different,
+    the student model needs to distinguish them. We think that metric learning can
+    clarify the difference between the different outputs, and the performance of the
+    student model could be improved. We have performed experiments to compare the
+    proposed method with state-of-the-art knowledge distillation methods.
   date_added: '2026-08-05'
   triage_score: 2
   triage_summary: 提出宽松知识蒸馏方法，属通用模型压缩技术，与VLM轻量化弱相关。
   subtopic: other
+  related_code: ''
+  abstract_cn: 近年来，深度学习迅速发展，更深、更大的模型被相继提出。然而，随着模型规模的增大，计算成本变得十分巨大。为了在降低计算成本的同时提升性能，研究者们提出了多种压缩模型规模的技术。其中一种模型压缩方法是知识蒸馏（KD）。知识蒸馏是一种将具有大量参数的深度模型或集成模型（教师模型）的知识迁移到较小的浅层模型（学生模型）的技术。由于知识蒸馏的目标是提高教师模型与学生模型之间的相似性，我们提出将度量学习的概念引入知识蒸馏中，利用训练样本的配对或三元组使学生模型更接近教师模型。在度量学习中，研究者们致力于开发能够提高相似样本输出相似性的模型构建方法。度量学习旨在缩小相似样本之间的距离，并增大不相似样本之间的距离。度量学习缩小相似输出之间差异的功能，可应用于知识蒸馏中，以缩小教师模型与学生模型输出之间的差异。由于教师模型对不同对象的输出通常不同，学生模型需要能够区分它们。我们认为，度量学习能够明确不同输出之间的差异，从而提升学生模型的性能。我们进行了实验，将所提出的方法与最先进的知识蒸馏方法进行了比较。
 - author: Jianhua Zhang 0002, Yi Gao, Yu He 0001, Shuo Chen, Xu Cheng 0003, Xiufeng
     Liu 0001, Shengyong Chen, Houxiang Zhang, Ruyu Liu
   title: 'BTKD++: Beyond Teachers by Critically Distilling Knowledge from Teacher&apos;s
@@ -21082,11 +21128,33 @@
   doi: 10.18653/V1/2026.FINDINGS-ACL.215
   ee: https://doi.org/10.18653/v1/2026.findings-acl.215
   url: https://dblp.org/rec/conf/acl/DiaoLZWKSDVG26
-  abstract: ''
+  abstract: 'Large Vision-Language Models (LVLMs) have exhibited strong reasoning
+    capabilities through chain-of-thought mechanisms that generate step-by-step rationales.
+    However, such slow-thinking approaches often lead to overthinking, where models
+    produce excessively verbose responses even for simple queries, resulting in test-time
+    inefficiency and even degraded accuracy. Prior work has attempted to mitigate
+    this issue via adaptive reasoning strategies, but these methods largely overlook
+    a fundamental bottleneck: visual perception failures. We argue that stable reasoning
+    critically depends on low-level visual grounding, and that reasoning errors often
+    originate from imperfect perception rather than insufficient deliberation. To
+    address this limitation, we propose Gated Perception-Reasoning Optimization (GPRO),
+    a meta-reasoning controller that dynamically routes computation among three decision
+    paths at each generation step: a lightweight fast path, a slow perception path
+    for re-examining visual inputs, and a slow reasoning path for internal self-reflection.
+    To learn this distinction, we derive large-scale failure attribution supervision
+    from approximately 790k samples, using teacher models to distinguish perceptual
+    hallucinations from reasoning errors. We then train the controller with multi-objective
+    reinforcement learning to optimize the trade-off between task accuracy and computational
+    cost under uncertainty. Experiments on five benchmarks demonstrate that GPRO substantially
+    improves both accuracy and efficiency, outperforming recent slow-thinking methods
+    while generating significantly shorter responses.'
   date_added: '2026-08-05'
   triage_score: 2
   triage_summary: 提出门控感知-推理优化方法缓解大视觉语言模型过度思考，与VLM轻量化/高效推理弱相关。
   subtopic: other
+  related_code: ''
+  abstract_cn: 大型视觉-语言模型（LVLMs）通过生成逐步推理过程的思维链机制展现了强大的推理能力。然而，这种“慢思考”方法往往导致过度思考，即模型即使面对简单查询也会产生过于冗长的回答，造成测试时效率低下，甚至降低准确性。先前的工作曾尝试通过自适应推理策略来缓解这一问题，但这些方法在很大程度上忽略了一个根本瓶颈：视觉感知失败。我们认为，稳定的推理关键依赖于低层视觉
+    grounding，而推理错误往往源于不完善的感知，而非思考不足。为解决这一局限，我们提出了门控感知-推理优化（GPRO），一种元推理控制器，它在每个生成步骤中动态地在三条决策路径之间分配计算：轻量快速路径、用于重新检查视觉输入的慢速感知路径，以及用于内部自我反思的慢速推理路径。为了学习这种区分，我们从约79万个样本中推导出大规模失败归因监督，使用教师模型来区分感知幻觉与推理错误。然后，我们使用多目标强化学习训练该控制器，以在不确定性下优化任务准确性与计算成本之间的权衡。在五个基准上的实验表明，GPRO显著提高了准确性和效率，在生成更简洁回答的同时优于近期慢思考方法。
 - author: Akash Ghosh, Subhadip Baidya, Sriparna Saha 0001, Xiuying Chen
   title: 'When Background Matters: Breaking Medical Vision Language Models by Transferable
     Attack.'
@@ -59475,11 +59543,34 @@
   doi: 10.48550/arXiv.2510.04203
   ee: https://openreview.net/forum?id=ebDfXAklXg
   url: https://dblp.org/rec/journals/tmlr/AgarwalPJ26
-  abstract: ''
+  abstract: Hyperparameter selection is critical for stable and efficient convergence
+    of heterogeneous federated learning, where clients differ in computational capabilities,
+    and data distributions are non-IID. Tuning hyperparameters is a manual and computationally
+    expensive process as the hyperparameter space grows combinatorially with the number
+    of clients. To address this, we introduce an end-to-end adaptive federated learning
+    method in which both clients and central agents adaptively select their local
+    learning rates and momentum parameters. Our approach models federated learning
+    as a dynamical system, allowing us to draw on principles from numerical simulation
+    and physical design. Through this perspective, selecting momentum parameters equates
+    to critically damping the system for fast, stable convergence, while learning
+    rates for clients and central servers are adaptively selected to satisfy accuracy
+    properties from numerical simulation. The result is an adaptive, momentum-based
+    federated learning algorithm in which the learning rates for clients and servers
+    are dynamically adjusted and controlled by a single, global hyperparameter. By
+    designing a fully integrated solution for both adaptive client updates and central
+    agent aggregation, our method is capable of handling key challenges of heterogeneous
+    federated learning, including objective inconsistency and client drift. Importantly,
+    our approach achieves fast convergence while being insensitive to the choice of
+    the global hyperparameter, making it well-suited for rapid prototyping and scalable
+    deployment. Compared to state-of-the-art adaptive methods, our framework is shown
+    to deliver superior convergence for heterogeneous federated learning while eliminating
+    the need for hyperparameter tuning both client and server updates.
   date_added: '2026-08-05'
   triage_score: 4
   triage_summary: 利用动态系统模型建模自适应联邦学习，优化训练动态与收敛，属联邦学习核心技术方法创新。
   subtopic: other
+  related_code: ''
+  abstract_cn: 超参数选择对于异构联邦学习的稳定高效收敛至关重要，因为客户端在计算能力上存在差异，且数据分布呈非独立同分布（non-IID）。随着客户端数量的增加，超参数空间呈组合式增长，手动调参既费时又计算成本高昂。为解决这一问题，我们提出了一种端到端的自适应联邦学习方法，其中客户端和中心代理均能自适应地选择其本地学习率和动量参数。我们的方法将联邦学习建模为动态系统，从而能够借鉴数值模拟和物理设计中的原理。通过这一视角，选择动量参数等价于对系统进行临界阻尼处理，以实现快速稳定的收敛；而客户端和中心服务器的学习率则根据数值模拟的精度特性进行自适应选择。最终得到一种基于动量的自适应联邦学习算法，其中客户端和服务器的学习率由单个全局超参数动态调整和控制。通过设计一个完全集成的解决方案，同时兼顾自适应客户端更新和中心代理聚合，我们的方法能够应对异构联邦学习的关键挑战，包括目标不一致和客户端漂移。重要的是，我们的方法在实现快速收敛的同时，对全局超参数的选择不敏感，因此非常适合快速原型开发和可扩展部署。与最先进的自适应方法相比，我们的框架在异构联邦学习中展现出更优的收敛性能，同时消除了对客户端和服务器超参数调优的需求。
 - author: Anish Ambreth, K. Naveen Kumar, Mohsen Guizani
   title: Client-Level Defense Placement for Adversarially Robust Federated Reinforcement
     Learning.
@@ -59507,11 +59598,28 @@
   doi: 10.48550/arXiv.2502.05087
   ee: https://openreview.net/forum?id=WKPyZnLIW4
   url: https://dblp.org/rec/journals/tmlr/BossyVRTJ26
-  abstract: ''
+  abstract: 'Federated learning (FL) is a popular paradigm for collaborative training
+    which avoids direct data exposure between clients. However, data privacy issues
+    still remain: FL-trained large language models are capable of memorizing and completing
+    phrases and sentences contained in training data when given their prefixes. Thus,
+    it is possible for adversarial and honest- but-curious clients to recover training
+    data of other participants simply through targeted prompting. In this work, we
+    demonstrate that a popular and simple fine-tuning strategy, low-rank adaptation
+    (LoRA), reduces memorization during FL by a factor of up to 10 without significant
+    performance cost. We study this effect by performing fine-tuning tasks in high-risk
+    domains such as medicine, law, and finance. We observe a reduction in memorization
+    for a wide variety of model families, from 1B to 70B parameters. We find that
+    LoRA can reduce memorization in centralized learning as well, and we compare how
+    the memorization patterns differ. Furthermore, we study the effect of hyperparameters
+    and show that LoRA can be combined with other privacy-preserving techniques such
+    as gradient clipping and Gaussian noise, secure aggregation, and Goldfish loss
+    to further improve record-level privacy while maintaining performance.'
   date_added: '2026-08-05'
   triage_score: 5
   triage_summary: 在联邦LLM训练中利用LoRA缓解无意记忆，降低隐私泄露风险，直接关联联邦学习与隐私保护。
   subtopic: other
+  related_code: ''
+  abstract_cn: 联邦学习（FL）是一种流行的协作训练范式，可避免客户端之间直接暴露数据。然而，数据隐私问题依然存在：经过FL训练的大型语言模型在给定前缀时，能够记忆并补全训练数据中包含的短语和句子。因此，对抗性客户端以及诚实但好奇的客户端有可能仅通过有针对性的提示来恢复其他参与者的训练数据。在本工作中，我们证明了一种流行且简单的微调策略——低秩适配（LoRA）——在FL中能将记忆化程度降低多达10倍，且不会带来显著的性能损失。我们通过在医学、法律和金融等高危领域执行微调任务来研究这一效果。我们观察到，从1B到70B参数的各种模型家族均表现出记忆化程度的降低。我们发现LoRA在集中式学习中也能减少记忆化，并比较了记忆化模式的不同之处。此外，我们研究了超参数的影响，并表明LoRA可以与其他隐私保护技术（如梯度裁剪和高斯噪声、安全聚合以及Goldfish损失）相结合，在保护记录级隐私的同时进一步提升隐私性。
 - author: Seohyeon Cha, Huancheng Chen, Haris Vikalo
   title: 'FedProTIP: Task-Agnostic Federated Continual Learning via Replay-Free Gradient
     Projection.'
