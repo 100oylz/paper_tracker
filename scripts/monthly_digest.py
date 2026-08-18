@@ -116,11 +116,15 @@ def emit_msg(msg, env_file=None):
     msg = msg.replace("'", "")
     if len(msg) > MAX_MSG_LEN:
         msg = msg[:MAX_MSG_LEN - 3] + "..."
-    print(msg)
     env_file = env_file if env_file is not None else os.getenv("GITHUB_ENV")
     if env_file:
         with open(env_file, "a", encoding="utf-8") as f:
             f.write(f"MSG<<_FL_TRACKER_MSG_EOF_\n{msg}\n_FL_TRACKER_MSG_EOF_\n")
+    # 写入独立 md 文件，供 create-an-issue 直接读取（避免 %0A 编码问题）
+    body_file = Path(".github/digest-body.md")
+    body_file.parent.mkdir(parents=True, exist_ok=True)
+    body_file.write_text(msg, encoding="utf-8")
+    print(msg)
     return msg
 
 

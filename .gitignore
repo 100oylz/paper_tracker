@@ -28,4 +28,5 @@ cached/pdf_links.json
 
 # Logs
 *.log
-# Local recommendation bridge (machine-generated, not versioned)
+# CI-generated issue bodies (machine-written, not versioned)
+.github/*-body.md

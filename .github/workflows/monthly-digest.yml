@@ -33,15 +33,6 @@ jobs:
       - name: Run monthly digest
         run: python scripts/monthly_digest.py
 
-      - name: Setup var
-        id: vars
-        run: |
-          {
-            echo "content<<EOF"
-            echo "$MSG"
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
-
       - name: Ensure label exists
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -50,12 +41,15 @@ jobs:
 
       - name: Create an issue for monthly digest
         if: ${{ env.MSG != '' }}
-        uses: JasonEtco/create-an-issue@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MSG: ${{ steps.vars.outputs.content }}
-        with:
-          filename: .github/digest-template.md
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TODAY=$(TZ=Asia/Shanghai date +%Y-%m-%d)
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "Monthly Digest @ ${TODAY}" \
+            --label "digest" \
+            --body-file .github/digest-body.md
 
       - name: Send email notification
         if: ${{ env.MAIL_TO != '' && env.MSG != '' }}

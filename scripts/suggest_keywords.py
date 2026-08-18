@@ -96,11 +96,16 @@ def _build_msg(candidates, probed):
 
 def emit_msg(msg):
     msg = msg.replace("'", "")
+    # 写入 GITHUB_ENV 供后续 env.MSG 使用
     env_file = os.getenv("GITHUB_ENV")
-    print(msg)
     if env_file:
         with open(env_file, "a", encoding="utf-8") as f:
             f.write(f"MSG<<_FL_TRACKER_MSG_EOF_\n{msg}\n_FL_TRACKER_MSG_EOF_\n")
+    # 写入独立 md 文件，供 create-an-issue 直接读取（避免 %0A 编码问题）
+    body_file = Path(".github/keyword-suggestion-body.md")
+    body_file.parent.mkdir(parents=True, exist_ok=True)
+    body_file.write_text(msg, encoding="utf-8")
+    print(msg)
 
 
 def run(min_count=3, limit=20, no_llm=False, no_probe=False, cache_path="", config_path=""):

@@ -36,15 +36,6 @@ jobs:
       - name: Run keyword suggestion
         run: python scripts/suggest_keywords.py
 
-      - name: Setup var
-        id: vars
-        run: |
-          {
-            echo "content<<EOF"
-            echo "$MSG"
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
-
       - name: Ensure label exists
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -53,12 +44,15 @@ jobs:
 
       - name: Create an issue for keyword suggestion
         if: ${{ env.MSG != '' }}
-        uses: JasonEtco/create-an-issue@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MSG: ${{ steps.vars.outputs.content }}
-        with:
-          filename: .github/keyword-suggestion-template.md
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TODAY=$(TZ=Asia/Shanghai date +%Y-%m-%d)
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "关键词建议 @ ${TODAY}" \
+            --label "keyword-suggestion" \
+            --body-file .github/keyword-suggestion-body.md
 
       - name: Send email notification
         if: ${{ env.MAIL_TO != '' && env.MSG != '' }}
