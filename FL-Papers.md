@@ -1079,6 +1079,7 @@
 
 - Efficient Federated Learning With Mean Block Difference-Based Global Aggregation and Patience-Based Local Training. [[PUB](https://doi.org/10.1109/TKDE.2026.3684304)]
 - pFedMoE: Data-Level Personalization With Mixture of Experts in Model-Heterogeneous Personalized Federated Learning. [[PUB](https://doi.org/10.1109/TKDE.2026.3656194)]
+- State of the Union: Toward Reproducible Performance Evaluations in Federated Learning. [[PUB](https://doi.org/10.1109/TKDE.2026.3697810)]
 - Toward Federated Learning of Deep Graph Neural Networks. [[PUB](https://doi.org/10.1109/TKDE.2026.3652029)]
 - Deep Fuzzy C-Means Clustering in a Federated Model Heterogeneous Scenario. [[PUB](https://doi.org/10.1109/TKDE.2026.3676129)]
 
@@ -1400,6 +1401,7 @@
 #### TIFS
 
 - A Wolf in Sheep&apos;s Clothing: Unveiling a Stealthy Backdoor Attack in Subgraph Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3659045)]
+- AMBER: Robust Federated Learning Based on Client Verification. [[PUB](https://doi.org/10.1109/TIFS.2026.3707790)]
 - Backdoor Detection in Federated Learning With Feature Map: A Multi-Task Learning Perspective. [[PUB](https://doi.org/10.1109/TIFS.2026.3655920)]
 - Building Trust Beyond Update Divergence: Dual-Refined Aggregation for Byzantine-Robust Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2025.3650413)]
 - Byzantine-Robust Asynchronous Federated Learning via Feature Fingerprinting. [[PUB](https://doi.org/10.1109/TIFS.2026.3683268)]
@@ -1407,6 +1409,7 @@
 - Catch Me If You Can: Retain High Stealthiness and Durability of Backdoor Attack in Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2025.3639885)]
 - chamaeleon: Backdoor Attacks Against Vertical Federated Learning for Tabular Data. [[PUB](https://doi.org/10.1109/TIFS.2025.3641050)]
 - Comments on &quot;APFed: Anti-Poisoning Attacks in Privacy-Preserving Heterogeneous Federated Learning&quot;. [[PUB](https://doi.org/10.1109/TIFS.2026.3673066)]
+- CVFL-Pro: A Collusion-Resistant Verification Federated Learning Framework With Adaptive Communication Optimization. [[PUB](https://doi.org/10.1109/TIFS.2026.3714152)]
 - DeSA: Decentralized Secure Aggregation for Federated Learning in Zero-Trust D2D Networks. [[PUB](https://doi.org/10.1109/TIFS.2026.3658996)]
 - Detection and Mitigation Data Poisoning Attacks in Multimodal Online Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3707417)]
 - Divergence-Based Adaptive Aggregation for Byzantine Robust Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3707437)]
@@ -1428,10 +1431,12 @@
 - PDFL: A Privacy-Enhancing and Robust Poisoning Defense Federated Learning Scheme. [[PUB](https://doi.org/10.1109/TIFS.2025.3648147)]
 - Perfect Privacy for Discriminator-Based Byzantine-Resilient Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3694660)]
 - Practical Framework for Privacy-Preserving and Byzantine-Robust Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2025.3642546)]
+- Robust Quantum Federated Learning Against Colluding and Non-Colluding Byzantine Attacks. [[PUB](https://doi.org/10.1109/TIFS.2026.3714274)]
 - Safeguarding Federated Learning From Data Reconstruction Attacks via Gradient Dropout. [[PUB](https://doi.org/10.1109/TIFS.2026.3659401)]
 - Sanitizer: Blazing-Fast, Private, and Robust Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3688131)]
 - Secure Rational Delegation Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2025.3650379)]
 - SharBipole: Secure and Scalable Sharding Blockchain-Based Federated Learning Against Poisoning Attacks. [[PUB](https://doi.org/10.1109/TIFS.2026.3691662)]
+- Spa: Stealthy and Persistent Backdoor Attacks in Federated Learning via Feature-Space Alignment. [[PUB](https://doi.org/10.1109/TIFS.2026.3714266)]
 - SSAA: Secure Semi-Asynchronous Aggregation for Decentralized Federated Learning on Heterogeneous Devices. [[PUB](https://doi.org/10.1109/TIFS.2025.3648540)]
 - STELLAR: Similarity-Based Satellite Federated Learning for Malicious Traffic Recognition. [[PUB](https://doi.org/10.1109/TIFS.2026.3659044)]
 - Toward More Practical Label Inference Attacks Against Graph-Based Vertical Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3694646)]

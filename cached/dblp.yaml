@@ -54933,11 +54933,31 @@
   doi: 10.1145/3774904.3793003
   ee: https://doi.org/10.1145/3774904.3793003
   url: https://dblp.org/rec/conf/www/TangLLDCCDK26
-  abstract: ''
+  abstract: 'Cross-domain sequential recommendation is increasingly important in modern
+    Web ecosystems, where user behaviors span multiple independently operated services
+    that maintain strict data isolation for privacy and regulatory compliance. Federated
+    learning offers a practical paradigm for such cross-domain collaboration, but
+    user preferences evolve asynchronously across services, creating a substantial
+    distribution shift. This drift leads to unstable and unequal domain contributions:
+    behaviorally rich domains dominate global updates, while low-resource or volatile
+    domains exert limited influence. Such an imbalance degrades recommendation accuracy
+    and raises fundamental fairness concerns. To address these challenges, we propose
+    FairFRL, a fairness-aware federated representation learning framework designed
+    to mitigate contribution imbalance under dynamic cross-domain drift. FairFRL mitigates
+    contribution imbalance under dynamic cross-domain drift by jointly regulating
+    domain influence during federated aggregation and disentangling domain-shared
+    and domain-exclusive semantics, while preserving data locality. Experiments on
+    real-world Amazon multi-domain datasets show that FairFRL consistently outperforms
+    strong federated and centralized baselines across multiple metrics and achieves
+    more equitable cross-domain contributions. These results position FairFRL as a
+    principled step toward responsible, fair, and socially aligned Web recommendation
+    systems.'
   date_added: '2026-08-05'
   triage_score: 4
   triage_summary: 公平感知的联邦表示学习方法，用于跨域序列推荐，平衡公平性与隐私保护。
   subtopic: other
+  related_code: ''
+  abstract_cn: 跨域序列推荐在现代Web生态系统中日益重要，用户行为跨越多个独立运营的服务，这些服务为隐私保护和法规合规而保持严格的数据隔离。联邦学习为这种跨域协作提供了一种实用范式，但用户偏好在不同服务间异步演化，产生了显著的分布偏移。这种漂移导致不稳定且不平等的域贡献：行为丰富的域主导全局更新，而低资源或波动性大的域影响力有限。这种不平衡降低了推荐准确性，并引发了基本的公平性问题。为解决这些挑战，我们提出了FairFRL，一种面向公平性的联邦表示学习框架，旨在缓解动态跨域漂移下的贡献不平衡。FairFRL通过在联邦聚合过程中联合调节域影响力，并解耦域共享与域专属语义，同时保持数据本地性，从而缓解动态跨域漂移下的贡献不平衡。在真实世界Amazon多域数据集上的实验表明，FairFRL在多个指标上持续优于强联邦基线和集中式基线，并实现了更公平的跨域贡献。这些结果使FairFRL成为迈向负责任、公平且与社会对齐的Web推荐系统的原则性一步。
 - author: Tao Tang 0007, Botao Liu, Ciyuan Peng, Ivan Lee 0001, Xiangjie Kong 0001
   title: Verifiable Federated Representation Learning for Cross-domain Sequential
     Recommendation.
@@ -64622,6 +64642,152 @@
   triage_summary: 提出FedGKD框架，结合数据增强与无数据知识蒸馏解决非独立同分布问题，兼顾隐私保护。
   subtopic: federated-distillation
   date_added: '2026-08-12'
+- author: Ying Gao 0006, Xiaofeng Chen, Huanghao Deng, Yuxin Xie 0002, Jie Chen 0021
+  title: 'CVFL-Pro: A Collusion-Resistant Verification Federated Learning Framework
+    With Adaptive Communication Optimization.'
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/GaoCDXC26
+  doi: 10.1109/TIFS.2026.3714152
+  ee: https://doi.org/10.1109/TIFS.2026.3714152
+  url: https://dblp.org/rec/journals/tifs/GaoCDXC26
+  abstract: Federated learning has gained significant attention for its ability to
+    train models without directly accessing raw data. However, the malicious server
+    may falsify the aggregation results to save computational resources. While existing
+    verifiable federated learning methods can validate the results, they exacerbate
+    communication bottlenecks and fail to achieve collusion-resistant verification
+    in the absence of a trusted authority. In this paper, we propose CVFL-Pro, a collusion-resistant
+    verification federated learning framework with adaptive communication optimization.
+    Specifically, we utilize a mask and Shamir’s secret sharing for privacy protection,
+    and it is robust against client dropout. We combine a lightweight MAC scheme and
+    auxiliary nodes to achieve efficient verifiability. Furthermore, we design an
+    adaptive communication optimization algorithm (AOTop- $k$ ), which dynamically
+    adjusts the compression rate $p$ based on the gradient magnitude and the gradient
+    variation between rounds, ensuring optimal performance with minimal cost. Finally,
+    we instantiate CVFL-Pro and prove its correctness and security against collusion
+    by up to $|N|-2$ clients (where $|N|$ is the total number of clients) and the
+    server. Extensive evaluations on MNIST, CIFAR-10, and CIFAR-100 datasets demonstrate
+    that CVFL-Pro reduces communication overhead by 58.07% compared to the optimal
+    Top- $k$ and 95.81% compared to SecAgg. Experiments show that CVFL-Pro reduces
+    communication overhead by up to 95.81% while maintaining accuracy. It dynamically
+    adjusts compression and achieves efficient storage, requiring only 830.16KB compared
+    to 1952.62KB in SecAgg.
+  related_code: ''
+  abstract_cn: 联邦学习因其无需直接访问原始数据即可训练模型的能力而受到广泛关注。然而，恶意服务器可能伪造聚合结果以节省计算资源。现有的可验证联邦学习方法虽然能够验证结果，但加剧了通信瓶颈，并且在缺乏可信权威的情况下无法实现抗共谋验证。在本文中，我们提出了CVFL-Pro，一种具有自适应通信优化的抗共谋验证联邦学习框架。具体而言，我们利用掩码和Shamir秘密共享进行隐私保护，并且该方法对客户端掉线具有鲁棒性。我们结合轻量级MAC方案和辅助节点以实现高效的可验证性。此外，我们设计了一种自适应通信优化算法（AOTop-$k$），该算法根据梯度幅度和轮间梯度变化动态调整压缩率$p$，以最小成本确保最优性能。最后，我们实例化了CVFL-Pro，并证明了其在多达$|N|-2$个客户端（其中$|N|$为客户端总数）与服务器共谋情况下的正确性和安全性。在MNIST、CIFAR-10和CIFAR-100数据集上的大量评估表明，与最优Top-$k$相比，CVFL-Pro将通信开销降低了58.07%，与SecAgg相比降低了95.81%。实验表明，CVFL-Pro在保持准确率的同时，通信开销最多可降低95.81%。它动态调整压缩并实现高效存储，仅需830.16KB，而SecAgg需要1952.62KB。
+  triage_score: 5
+  triage_summary: 提出可验证联邦学习框架CVFL-Pro，利用掩码和秘密共享保护隐私，并自适应压缩通信，属于联邦学习与隐私保护主线。
+  subtopic: secure-aggregation
+  date_added: '2026-08-19'
+- author: Xiaohu Shan, Haiyang Yu 0001, Gang Wang, Yuwen Chen 0002, Zhen Yang 0004
+  title: 'AMBER: Robust Federated Learning Based on Client Verification.'
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/ShanYWCY26
+  doi: 10.1109/TIFS.2026.3707790
+  ee: https://doi.org/10.1109/TIFS.2026.3707790
+  url: https://dblp.org/rec/journals/tifs/ShanYWCY26
+  abstract: 'Federated Learning (FL) preserves data privacy by avoiding direct access
+    to local data, but this limits server verification of client model updates. Unreliable
+    participants can inject malformed updates to poison the global model without detection.
+    In this paper, we analyze client-side vulnerabilities in three chained stages
+    of local training: local dataset pollution, model selective inputs, and training
+    process tampering. We refer to this class of threats as Local Chained Attacks
+    (LCAs), which severely degrade global model robustness. To address these challenges,
+    we propose AMBER, a robust FL framework with a novel three-layer verification
+    mechanism for client trust assessment. The first layer ensures dataset integrity
+    via vector commitments for content and distribution of client-held data. The second
+    layer detects selective input attacks through a local consistency-based verification
+    mechanism. The third layer enforces computational integrity by verifying the correlation
+    between model inputs and outputs using secure primitives in a Trusted Execution
+    Environment (TEE). AMBER establishes verifiable integrity links across data, input,
+    and computation stages under an explicit trust boundary. Experimental evaluations
+    covering multiple datasets, models, and attack scenarios show AMBER outperforms
+    existing approaches in defense effectiveness with low overhead, adapting well
+    to Non-IID environments.'
+  related_code: ''
+  abstract_cn: 联邦学习（FL）通过避免直接访问本地数据来保护数据隐私，但这限制了服务器对客户端模型更新的验证。不可靠的参与者可以注入畸形的更新，在未被检测的情况下投毒全局模型。在本文中，我们分析了本地训练三个链式阶段中的客户端侧漏洞：本地数据集污染、模型选择性输入和训练过程篡改。我们将这类威胁称为本地链式攻击（LCAs），它们严重降低了全局模型的鲁棒性。为应对这些挑战，我们提出了AMBER，一个鲁棒的联邦学习框架，采用新颖的三层验证机制进行客户端信任评估。第一层通过向量承诺确保客户端持有数据的内容和分布的完整性。第二层通过基于本地一致性的验证机制检测选择性输入攻击。第三层通过使用可信执行环境（TEE）中的安全原语验证模型输入与输出之间的相关性来强制计算完整性。AMBER在明确的信任边界下，跨数据、输入和计算阶段建立了可验证的完整性链接。涵盖多个数据集、模型和攻击场景的实验评估表明，AMBER在防御有效性方面优于现有方法，且开销较低，能够很好地适应各种场景。
+  triage_score: 5
+  triage_summary: 提出AMBER联邦学习框架，通过三层客户端验证机制防御本地链式攻击，保障全局模型鲁棒性，属于联邦学习与隐私保护主线。
+  subtopic: federated-learning
+  date_added: '2026-08-19'
+- author: Jinjing Shi, Xuanli Lyu, Tian Chen, Shichao Shang 0001, Xuelong Li 0001
+  title: Robust Quantum Federated Learning Against Colluding and Non-Colluding Byzantine
+    Attacks.
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/ShiLCSL26
+  doi: 10.1109/TIFS.2026.3714274
+  ee: https://doi.org/10.1109/TIFS.2026.3714274
+  url: https://dblp.org/rec/journals/tifs/ShiLCSL26
+  abstract: Quantum federated learning may suffer performance degradation when Byzantine
+    nodes are involved. Previous defense measures often focus on either non-colluding
+    or colluding Byzantine attacks. As a result, the performance of models trained
+    using quantum federated learning may be affected in scenarios where both colluding
+    and non-colluding Byzantine attacks coexist. This paper introduces a robust quantum
+    federated learning method to tackle the Byzantine problem that encompasses both
+    colluding and non-colluding attacks. First, an adaptive clustering-based defense
+    algorithm is proposed by extending DBSCAN and designing an adaptive weight allocation
+    algorithm, which instantiates a server-side robust aggregation mechanism for quantum
+    federated learning under the considered mixed attack settings. Second, a robust
+    quantum federated learning architecture is constructed based on the proposed adaptive
+    clustering-based defense algorithm to defend against Byzantine attacks, and we
+    design a corresponding image classification scheme. Finally, experimental results
+    demonstrate the robustness of the proposed method across different datasets and
+    Byzantine attack scenarios, including label-flipping attacks on MNIST and Fashion-MNIST.
+    It achieves high performance, with MNIST accuracy reaching 98%, representing a
+    38-percentage-point improvement over the undefended baseline. It also reduces
+    attack-induced performance degradation in the MNIST backdoor attack setting. The
+    method provides a robust aggregation mechanism for improving the reliability of
+    quantum federated learning under mixed Byzantine attack scenarios.
+  related_code: ''
+  abstract_cn: 量子联邦学习在存在拜占庭节点时可能遭受性能下降。以往的防御措施通常只关注非合谋或合谋的拜占庭攻击。因此，在合谋与非合谋拜占庭攻击共存的情况下，使用量子联邦学习训练的模型性能可能会受到影响。本文提出了一种鲁棒的量子联邦学习方法，以应对同时包含合谋与非合谋攻击的拜占庭问题。首先，通过扩展DBSCAN并设计自适应权重分配算法，提出了一种基于自适应聚类的防御算法，该算法在所考虑的混合攻击设置下，为量子联邦学习实例化了一种服务器端鲁棒聚合机制。其次，基于所提出的自适应聚类防御算法，构建了一种鲁棒的量子联邦学习架构以防御拜占庭攻击，并设计了相应的图像分类方案。最后，实验结果表明，所提方法在不同数据集和拜占庭攻击场景下均具有鲁棒性，包括对MNIST和Fashion-MNIST的标签翻转攻击。该方法实现了高性能，MNIST准确率达到98%，比无防御基线提高了38个百分点。同时，在MNIST后门攻击设置中，该方法也减少了攻击引起的性能下降。该方法为在混合拜占庭攻击场景下提高量子联邦学习的可靠性提供了一种鲁棒聚合机制。
+  triage_score: 5
+  triage_summary: 提出鲁棒量子联邦学习方法，基于自适应聚类防御共谋与非共谋拜占庭攻击，提升聚合安全性，属于联邦学习与隐私保护主线。
+  subtopic: federated-learning
+  date_added: '2026-08-19'
+- author: Chengcheng Zhu, Ye Li 0041, Bosen Rao, Yunlong Mao, Jiale Zhang 0001, Tingting
+    Wu, Xin Ge, Sheng Zhong 0002
+  title: 'Spa: Stealthy and Persistent Backdoor Attacks in Federated Learning via
+    Feature-Space Alignment.'
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/ZhuLRMZWGZ26
+  doi: 10.1109/TIFS.2026.3714266
+  ee: https://doi.org/10.1109/TIFS.2026.3714266
+  url: https://dblp.org/rec/journals/tifs/ZhuLRMZWGZ26
+  abstract: 'Federated Learning (FL) has emerged as a leading paradigm for privacy-preserving
+    machine learning, yet the distributed nature of FL introduces unique security
+    challenges, notably the threat of backdoor attacks. However, existing attack strategies
+    face a critical limitation: reliance on end-to-end supervision creates a task-divergence
+    that produces detectable model updates, while the use of fixed triggers is poorly
+    aligned with FL’s evolving global model, leading to limited persistence. To address
+    this limitation, we propose Spa, a novel framework for stealthy and persistent
+    backdoors. Instead of creating a conflicting secondary task, Spa leverages feature-space
+    alignment to seamlessly integrate backdoor features into the primary collaborative
+    objective, thus ensuring stealth. Furthermore, to overcome the fixed-trigger challenge,
+    Spa introduces an adversarial dynamic trigger optimization that mines the current
+    global model for intrinsic vulnerabilities. This creates an adaptive trigger that
+    co-evolves with the learning process, ensuring both efficacy and persistence.
+    Extensive experiments demonstrate that Spa achieves high attack success rates
+    (nearly 100%) with minimal impact on model utility, maintains robustness under
+    data heterogeneity, and exhibits persistence (remains effective around 900 FL
+    rounds after stop attacking), outperforming conventional techniques. Our results
+    highlight the importance of further investigation into this new class of emerging
+    threats and emphasize the need for advanced, feature-level defense techniques.'
+  related_code: ''
+  abstract_cn: 联邦学习（FL）已成为隐私保护机器学习的领先范式，然而FL的分布式特性引入了独特的安全挑战，尤其是后门攻击的威胁。然而，现有攻击策略面临一个关键局限：对端到端监督的依赖会产生任务分歧，从而导致可检测的模型更新；同时，使用固定触发器与FL不断演化的全局模型契合度较差，导致持久性有限。为解决这一局限，我们提出Spa，一种用于隐蔽且持久后门攻击的新型框架。Spa不创建冲突的辅助任务，而是利用特征空间对齐将后门特征无缝集成到主要协作目标中，从而确保隐蔽性。此外，为克服固定触发器的挑战，Spa引入了一种对抗性动态触发器优化方法，从当前全局模型中挖掘内在漏洞。这产生了一种自适应触发器，与学习过程共同演化，确保有效性和持久性。大量实验表明，Spa实现了高攻击成功率（接近100%），对模型效用影响极小，在数据异构性下保持鲁棒性，并展现出持久性（停止攻击后约900轮FL仍保持有效），优于传统技术。我们的研究结果凸显了进一步调查这类新兴威胁的重要性，并强调了对先进的特征级防御技术的需求。
+  triage_score: 5
+  triage_summary: 提出联邦学习中的隐蔽持久后门攻击Spa，利用特征空间对齐和动态触发器实现高成功率，属于联邦学习安全与隐私保护主线。
+  subtopic: federated-learning
+  date_added: '2026-08-19'
 'FL:streamid:journals/tkde:':
 - author: Fangcheng Fu, Xuanyu Wang, Jiawei Jiang 0001, Huanran Xue, Bin Cui 0001
   title: 'ProjPert: Projection-Based Perturbation for Label Protection in Split Learning
@@ -65354,6 +65520,44 @@
   subtopic: other
   related_code: ''
   abstract_cn: 联邦模糊C均值（FCM）聚类方法在标准联邦学习（FL）环境中已展现出成功，但模型异构性带来了重大挑战。这种异构性阻碍了通信内容的选择，并使联邦平均（FedAvg）等传统聚合方法无法适应多样化的客户端模型。此外，处理非独立同分布（non-IID）数据分布和学习鲁棒的特征表示在一些现有方法中仍未得到解决。为解决这些问题，我们提出了FFCMD，这是一种联邦FCM聚类框架，旨在应对模型异构性，同时增强特征学习并适应non-IID数据。FFCMD将自动编码器（AE）与模糊C均值网络（FCMN）相结合，并通过互知识蒸馏（mKD）进行增强，以改善异构条件下的数据特征学习、通信和聚合。AE引入聚类导向的惩罚项来学习判别性特征，提升在复杂数据集上的性能。mKD不采用直接参数聚合，而是利用本地设备的软分配更新全局模型，从而自然处理客户端模型之间的结构差异。此外，FFCMD采用差异感知加权机制，在软分配嵌入过程中动态对齐本地与全局类别分布，有效应对non-IID数据带来的挑战。在多个公开数据集上的大量实验表明，FFCMD优于最先进的方法，尤其在non-IID场景下表现突出，并且即使在模型异构的情况下也能表现出色。
+- author: Ningxin Su, Baochun Li, Bo Li 0001
+  title: 'State of the Union: Toward Reproducible Performance Evaluations in Federated
+    Learning.'
+  venue: IEEE Trans. Knowl. Data Eng.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tkde/SuLL26
+  doi: 10.1109/TKDE.2026.3697810
+  ee: https://doi.org/10.1109/TKDE.2026.3697810
+  url: https://dblp.org/rec/journals/tkde/SuLL26
+  abstract: Federated learning (FL) is a privacy-motivated paradigm for distributed
+    training of deep learning models, as it allows a large number of clients to collaboratively
+    train a shared global model without centralizing their private data. Since its
+    debut with Federated Averaging as the first server aggregation algorithm, many
+    FL algorithms have been proposed to improve performance. Yet, these algorithms
+    are rarely benchmarked and compared under the same open-source framework and controlled
+    configurations, and their performance claims can be difficult to substantiate
+    in fair and reproducible studies. In this paper, we evaluate a curated and representative
+    collection of FL algorithms in the same open-source benchmarking framework so
+    that they can be compared fairly at scale in a reproducible fashion. To achieve
+    this objective, we present Plato, an open-source FL research framework that we
+    have designed and implemented from scratch. With Plato, we evaluate and compare
+    algorithms spanning (1) server aggregation; (2) client training customization;
+    (3) client selection, in both synchronous and asynchronous settings; (4) personalized
+    federated learning; and (5) communication efficiency and payload processing. Across
+    diverse experimental scenarios (tasks, client populations, and data distributions),
+    we report findings and practical insights, including pitfalls and confounding
+    factors that can lead to misleading conclusions if not reported carefully. Under
+    our unified experimental settings and time model, Federated Averaging with random
+    client selection remains a strong baseline and is often competitive with more
+    complex alternatives.
+  related_code: ''
+  abstract_cn: 联邦学习（FL）是一种以隐私为动机的深度学习模型分布式训练范式，它允许大量客户端在不集中其私有数据的情况下协作训练一个共享的全局模型。自从联邦平均算法作为首个服务器聚合算法问世以来，许多FL算法被提出以提升性能。然而，这些算法很少在相同的开源框架和受控配置下进行基准测试和比较，其性能声明在公平且可复现的研究中可能难以证实。在本文中，我们在相同的开源基准测试框架下评估了一个经过精选且具有代表性的FL算法集合，以便它们能够以可复现的方式在规模上公平比较。为实现这一目标，我们提出了Plato，一个我们从头设计和实现的开源FL研究框架。借助Plato，我们评估并比较了涵盖以下方面的算法：（1）服务器聚合；（2）客户端训练定制；（3）客户端选择（在同步和异步设置下）；（4）个性化联邦学习；以及（5）通信效率和负载处理。在多样化的实验场景（任务、客户端群体和数据分布）中，我们报告了发现和实用见解，包括如果不仔细报告可能导致误导性结论的陷阱和混杂因素。在我们统一的实验设置和时间模型下，采用随机客户端选择的联邦平均算法仍然是一个强大的基线，并且通常能与更复杂的替代方案相竞争。
+  triage_score: 5
+  triage_summary: 提出开源框架Plato，对多种联邦学习算法进行公平可复现的性能评估，涉及隐私保护与通信效率。
+  subtopic: federated-learning
+  date_added: '2026-08-19'
 'FL:streamid:journals/tdsc:':
 - author: Zhongchi Wang, Hailong Sun 0001, Zhengyang Zhao, Li Duan, Wei Ni 0001, Xiang
     Gao 0012
