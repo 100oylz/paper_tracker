@@ -3,7 +3,7 @@ name: Run DBLP Watch
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 16 * * *'   # UTC 16:00 = 北京时间次日 00:00，避开 DBLP 检索高峰降低 HTTP error
   push:
     branches: [main]
 
