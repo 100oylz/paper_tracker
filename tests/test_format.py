@@ -67,12 +67,13 @@ def test_mixed_triaged_and_plain():
     assert "- ★3 Triaged. **[NeurIPS · CCF-A]** [[PUB](https://t)]\n" in msg
 
 
-def test_single_quotes_stripped():
+def test_single_quotes_preserved():
+    # GITHUB_ENV 用 heredoc(_FL_TRACKER_MSG_EOF_) 写入，无需转义单引号；
+    # 标题中的撇号应原样保留，不得被全局删除。
     items = [{"title": "It's a paper", "venue": "ICML", "ee": "https://x",
               "triage_score": 3, "triage_summary": "导读", "subtopic": "other"}]
     msg = get_msg(items, TOPIC)
-    assert "'" not in msg
-    assert "Its a paper." in msg
+    assert "It's a paper." in msg
 
 
 def test_aggregated_header_only():

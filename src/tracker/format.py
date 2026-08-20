@@ -71,7 +71,7 @@ def get_msg(items, topic, aggregated=False):
             msg += _format_item_line(item, triaged=False) + "\n"
         msg += "\n"
 
-    return msg.replace("'", "")
+    return msg
 
 
 def format_title_topics(topics, max_len=80):
