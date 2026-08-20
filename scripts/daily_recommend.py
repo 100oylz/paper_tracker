@@ -176,8 +176,14 @@ def recommend(cache, read_titles, top_n=15, current_year=None):
             "ee": str(item.get("ee") or ""),
             "doi": str(item.get("doi") or ""),
             "pdf": pdf_link(item),
+            "date_added": str(item.get("date_added") or ""),
         })
-    candidates.sort(key=lambda x: -x["score"])
+    # 已读为 0 时（未同步已读清单）退化为全量排序：在 score 之后按 date_added 降序，
+    # 让新入库论文优先打破平局，避免推荐长期停留在同一批高分老论文。
+    if read:
+        candidates.sort(key=lambda x: -x["score"])
+    else:
+        candidates.sort(key=lambda x: (x["score"], x["date_added"]), reverse=True)
     return candidates[:top_n], subs
 
 
@@ -190,7 +196,10 @@ def render_markdown(candidates, read_count, read_subtopics=None):
     out = []
     out.append("# 🎯 FL 每日论文推荐")
     out.append("")
-    out.append(f"> 已读基线 {read_count} 篇；按 triage+代码+venue+时效加权排序的未读推荐。")
+    if read_count == 0:
+        out.append("> ⚠️ **已读基线 0 篇：未同步已读清单（READ_TITLES_URL 未配或拉取失败），本次为全量排序，可能重复推荐已读论文。**")
+    else:
+        out.append(f"> 已读基线 {read_count} 篇；按 triage+代码+venue+时效加权排序的未读推荐。")
     out.append("> 看完点 PUB 链接去 Chrome Zotero 插件加库；回填后用 wiki 的 sync_tracker_status.py 同步。")
     out.append("")
     if not candidates:
@@ -217,6 +226,8 @@ def main(argv=None) -> int:
     args = parse_args(sys.argv[1:] if argv is None else argv)
     cache = load_cache(args.cache)
     read_titles = load_read_titles(args.read_titles)
+    if not read_titles:
+        print("[WARN] 已读清单为空（READ_TITLES_URL 未配置或拉取失败），本次按全量排序并优先新入库论文。")
     candidates, subs = recommend(cache, read_titles, top_n=args.top)
     md = render_markdown(candidates, len(read_titles), subs)
     out = Path(args.out) if args.out else project_root() / "FL-recommend.md"

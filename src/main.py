@@ -69,6 +69,10 @@ class Scaffold:
                 if len(lines) == 1:
                     tag = lines[0]["tag"]
                 else:
+                    logger.warning(
+                        f"cache key {key!r} has no valid line prefix; skipped in dedup init "
+                        "(legacy unmigrated entry, may cause re-fetch dupes)"
+                    )
                     continue
             for item in items:
                 ee = (item.get("ee") or "").strip()

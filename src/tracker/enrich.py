@@ -115,7 +115,9 @@ def enrich_papers(papers, cfg=None, on_batch_done=None):
             logger.warning("LLM not configured (LLM_API_KEY missing), skipping enrich.")
             return papers
 
+        # 最旧优先：date_added 越早越先分诊，避免新论文插队导致老论文长期 deferred。
         pending = [p for p in papers if needs_enrich(p)]
+        pending.sort(key=lambda p: str(p.get("date_added") or "9999-99-99"))
         targets = pending[:max_papers]
         skipped = len(pending) - len(targets)
         if not targets:

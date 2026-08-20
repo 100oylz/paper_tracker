@@ -95,6 +95,42 @@ class RecommendTests(unittest.TestCase):
         self.assertEqual(cands[0]["title"], "High")
         self.assertGreaterEqual(cands[0]["score"], cands[1]["score"])
 
+    def test_empty_read_breaks_tie_by_newer_date_added(self) -> None:
+        # 已读为 0（全量排序）时，同分论文按 date_added 降序，新入库者优先。
+        cache = {"FL:venue:AAAI:": [
+            {"title": "Old", "triage_score": 5, "venue": "AAAI", "year": 2026,
+             "date_added": "2026-01-01"},
+            {"title": "New", "triage_score": 5, "venue": "AAAI", "year": 2026,
+             "date_added": "2026-08-01"},
+        ]}
+        cands, _ = dr.recommend(cache, set(), top_n=5)
+        self.assertEqual(cands[0]["title"], "New")
+        self.assertEqual(cands[1]["title"], "Old")
+
+    def test_nonempty_read_ignores_date_added_tiebreak(self) -> None:
+        # 已读非空时保持纯 score 排序，date_added 不参与。
+        cache = {"FL:venue:AAAI:": [
+            {"title": "Old", "triage_score": 5, "venue": "AAAI", "year": 2026,
+             "date_added": "2026-08-01"},
+            {"title": "New", "triage_score": 5, "venue": "AAAI", "year": 2026,
+             "date_added": "2026-01-01"},
+        ]}
+        cands, _ = dr.recommend(cache, {"unrelated"}, top_n=5)
+        # 同分时 sort 稳定，保持原相对顺序（Old 在前）
+        self.assertEqual(cands[0]["title"], "Old")
+
+
+class RenderReadBaselineTests(unittest.TestCase):
+    def test_zero_read_marks_warning(self) -> None:
+        md = dr.render_markdown([], 0, set())
+        self.assertIn("已读基线 0 篇", md)
+        self.assertIn("⚠️", md)
+
+    def test_nonzero_read_normal_header(self) -> None:
+        md = dr.render_markdown([], 12, set())
+        self.assertIn("已读基线 12 篇", md)
+        self.assertNotIn("⚠️", md)
+
 
 class FlPapersTests(unittest.TestCase):
     def test_only_fl_keys(self) -> None:
