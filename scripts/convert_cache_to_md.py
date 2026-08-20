@@ -155,6 +155,41 @@ def _is_low_priority(title):
     return has_brackets or has_keywords
 
 
+def _triage_score(paper):
+    try:
+        return int(paper.get("triage_score"))
+    except (TypeError, ValueError):
+        return None
+
+
+def _render_paper_line(paper):
+    """渲染单篇归档条目：★分 + 标题 + PDF/CODE/PUB 链接。
+
+    venue 已在分组标题中，故不重复 venue 徽章；与 format._format_item_line 区分。
+    """
+    from tracker.venue_meta import pdf_link  # 延迟导入，避免顶层依赖
+
+    title = (paper.get("title") or "").strip()
+    ee = (paper.get("ee") or "").strip()
+    code = (paper.get("related_code") or "").strip()
+    score = _triage_score(paper)
+    prefix = f"- ★{score} " if score is not None else "- "
+    suffix = "" if title.endswith(".") else "."
+    parts = [f"{prefix}{title}{suffix}"]
+    pdf = pdf_link(paper)
+    if pdf:
+        parts.append(f"[[PDF]({pdf})]")
+    if code:
+        parts.append(f"[[CODE]({code})]")
+    if ee:
+        parts.append(f"[[PUB]({ee})]")
+    line = " ".join(parts)
+    summary = (paper.get("triage_summary") or "").strip()
+    if summary:
+        line += f"\n  {summary}"
+    return line
+
+
 def _aggregate(papers_iter):
     """按 category/year/venue 聚合一份论文列表。"""
     aggregated = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
@@ -200,16 +235,7 @@ def _render(title, aggregated, priority_keyword):
                     ),
                 )
                 for paper in papers:
-                    title = (paper.get("title") or "").strip()
-                    ee = (paper.get("ee") or "").strip()
-                    code = (paper.get("related_code") or "").strip()
-                    suffix = "" if title.endswith(".") else "."
-                    parts = [f"- {title}{suffix}"]
-                    if ee:
-                        parts.append(f"[[PUB]({ee})]")
-                    if code:
-                        parts.append(f"[[CODE]({code})]")
-                    lines.append(" ".join(parts))
+                    lines.append(_render_paper_line(paper))
                 lines.append("")
     return lines
 
