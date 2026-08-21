@@ -2645,7 +2645,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ndss/HofmannLEHF26
-  doi: ''
+  doi: 10.14722/ndss.2026.240526
   ee: https://www.ndss-symposium.org/ndss-paper/piranhas-privacy-preserving-remote-attestation-in-non-hierarchical-asynchronous-swarms/
   url: https://dblp.org/rec/conf/ndss/HofmannLEHF26
   abstract: ''
@@ -2661,7 +2661,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ndss/SunYYZ26
-  doi: ''
+  doi: 10.14722/ndss.2026.241586
   ee: https://www.ndss-symposium.org/ndss-paper/pacs-privacy-preserving-attribute-driven-community-search-over-attributed-graphs/
   url: https://dblp.org/rec/conf/ndss/SunYYZ26
   abstract: ''
@@ -2678,7 +2678,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ndss/YuanZCSXL26
-  doi: ''
+  doi: 10.14722/ndss.2026.230035
   ee: https://www.ndss-symposium.org/ndss-paper/stip-three-party-privacy-preserving-and-lossless-inference-for-large-transformers-in-production/
   url: https://dblp.org/rec/conf/ndss/YuanZCSXL26
   abstract: ''
@@ -2820,7 +2820,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ndss/ChenZSWW26
-  doi: ''
+  doi: 10.14722/ndss.2026.230113
   ee: https://www.ndss-symposium.org/ndss-paper/rounding-guided-backdoor-injection-in-deep-learning-model-quantization/
   url: https://dblp.org/rec/conf/ndss/ChenZSWW26
   abstract: ''
@@ -2835,7 +2835,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ndss/ZhaoLLS26
-  doi: ''
+  doi: 10.14722/ndss.2026.230407
   ee: https://www.ndss-symposium.org/ndss-paper/q-mllm-vector-quantization-for-robust-multimodal-large-language-model-security/
   url: https://dblp.org/rec/conf/ndss/ZhaoLLS26
   abstract: ''
@@ -2867,7 +2867,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/ndss/AlbarqawiNKKP26
-  doi: ''
+  doi: 10.14722/ndss.2026.230303
   ee: https://www.ndss-symposium.org/ndss-paper/vigtext-deepfake-image-detection-with-vision-language-model-explanations-and-graph-neural-networks/
   url: https://dblp.org/rec/conf/ndss/AlbarqawiNKKP26
   abstract: The rapid rise of deepfake technology, which produces realistic but fraudulent
@@ -17322,7 +17322,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/acl/NiuLGWOZCHWZJLZ26
-  doi: ''
+  doi: 10.18653/v1/2026.acl-industry.3
   ee: https://aclanthology.org/2026.acl-industry.3/
   url: https://dblp.org/rec/conf/acl/NiuLGWOZCHWZJLZ26
   abstract: ''
@@ -20785,7 +20785,7 @@
   type: Conference and Workshop Papers
   access: open
   key: conf/acl/CaoPDAS26
-  doi: ''
+  doi: 10.18653/v1/2026.acl-industry.143
   ee: https://aclanthology.org/2026.acl-industry.143/
   url: https://dblp.org/rec/conf/acl/CaoPDAS26
   abstract: ''
