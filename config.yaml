@@ -132,7 +132,7 @@ runtime:
     min_offset: 5        # current_year - 5，不设绝对下限
     max_offset: 1        # current_year + 1
   request:
-    retry: 10
+    retry: 6
     sleep_time: 6.0
     timeout: 15
   abstracts:

@@ -3,7 +3,7 @@ name: Run DBLP Watch
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 16 * * *'   # UTC 16:00 = 北京时间次日 00:00，避开 DBLP 检索高峰降低 HTTP error
+    - cron: '0 23 * * *'   # UTC 23:00 = 北京时间次日 07:00，改到 DBLP 低峰段降低 5xx/timeout
   push:
     branches: [main]
 
@@ -45,6 +45,16 @@ jobs:
       - name: Fetch missing abstracts
         if: ${{ github.event_name != 'workflow_dispatch' }}
         run: python scripts/fetch_abstracts.py
+        continue-on-error: true
+
+      - name: Backfill missing DOIs
+        if: ${{ github.event_name != 'workflow_dispatch' }}
+        run: python scripts/fetch_dois.py
+        continue-on-error: true
+
+      - name: Backfill enrich (subtopic/score/summary)
+        if: ${{ github.event_name != 'workflow_dispatch' }}
+        run: python scripts/enrich_backfill.py
         continue-on-error: true
 
       - name: Update DP-Papers.md / FL-Papers.md

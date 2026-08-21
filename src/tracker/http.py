@@ -12,6 +12,9 @@ DBLP_MIRROR_HOSTS = ("dblp.uni-trier.de", "dblp.dagstuhl.de")
 DBLP_HOST_SWITCH_AFTER_FAILURES = 2
 DBLP_RETRY_BASE_SECONDS = 4.0
 DBLP_RETRY_CAP_SECONDS = 120.0
+# 切换镜像后进入慢速长退避，给 DBLP 过载喘息时间
+DBLP_SLOW_RETRY_BASE_SECONDS = 60.0
+DBLP_SLOW_RETRY_CAP_SECONDS = 180.0
 DBLP_JITTER_RANGE = (0.5, 2.5)
 USER_AGENT = "FL-paper-update-tracker/1.0 (DBLP paper watcher)"
 
@@ -34,7 +37,7 @@ def _sleep_backoff(source, attempt, response=None, base=2.5, cap=90.0):
     return wait
 
 
-def request_data(url, retry=10, sleep_time=6.0, timeout=15):
+def request_data(url, retry=6, sleep_time=6.0, timeout=15):
     """请求 DBLP 搜索 API：限速、退避重试、官方镜像轮换。"""
     max_attempts = retry + 1
     parsed = urllib.parse.urlsplit(url)
@@ -44,6 +47,10 @@ def request_data(url, retry=10, sleep_time=6.0, timeout=15):
     current_url = url
 
     for attempt in range(1, max_attempts + 1):
+        # 换过镜像后改用长退避，应对 DBLP 持续几十秒到几分钟的过载
+        slow_mode = host_index > 0
+        backoff_base = DBLP_SLOW_RETRY_BASE_SECONDS if slow_mode else DBLP_RETRY_BASE_SECONDS
+        backoff_cap = DBLP_SLOW_RETRY_CAP_SECONDS if slow_mode else DBLP_RETRY_CAP_SECONDS
         try:
             host = hosts[host_index]
             current_url = url if host_index == 0 else urllib.parse.urlunsplit(parsed._replace(netloc=host))
@@ -53,13 +60,13 @@ def request_data(url, retry=10, sleep_time=6.0, timeout=15):
                 fail_streak += 1
                 _sleep_backoff(
                     "DBLP rate limited", attempt, response=resp,
-                    base=DBLP_RETRY_BASE_SECONDS, cap=DBLP_RETRY_CAP_SECONDS,
+                    base=backoff_base, cap=backoff_cap,
                 )
             elif resp.status_code >= 500:
                 fail_streak += 1
                 _sleep_backoff(
                     f"DBLP HTTP {resp.status_code}", attempt, response=resp,
-                    base=DBLP_RETRY_BASE_SECONDS, cap=DBLP_RETRY_CAP_SECONDS,
+                    base=backoff_base, cap=backoff_cap,
                 )
             else:
                 resp.raise_for_status()
@@ -78,7 +85,7 @@ def request_data(url, retry=10, sleep_time=6.0, timeout=15):
             elif attempt < max_attempts:
                 _sleep_backoff(
                     "DBLP request", attempt,
-                    base=DBLP_RETRY_BASE_SECONDS, cap=DBLP_RETRY_CAP_SECONDS,
+                    base=backoff_base, cap=backoff_cap,
                 )
     logger.error(f"Failed to fetch {url}")
     return None

@@ -7,7 +7,7 @@ name: Daily FL Recommendation
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 16 * * *'   # UTC 16:30 = 北京时间次日 00:30，在 watch.yml(UTC 16:00) 之后 30 分钟，等缓存先更新
+    - cron: '30 23 * * *'   # UTC 23:30 = 北京时间次日 07:30，在 watch.yml(UTC 23:00) 之后 30 分钟，等缓存先更新
 
 permissions:
   issues: write
