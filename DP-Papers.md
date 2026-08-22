@@ -2568,9 +2568,9 @@
   提出属性图上的隐私保护社区搜索方法，与项目研究无关。
 - ★0 PIRANHAS: PrIvacy-Preserving Remote Attestation in Non-Hierarchical Asynchronous Swarms. [[PUB](https://www.ndss-symposium.org/ndss-paper/piranhas-privacy-preserving-remote-attestation-in-non-hierarchical-asynchronous-swarms/)]
   研究非层次异步群中的隐私保护远程证明，与文档解析和联邦学习无关。
-- ★4 Q-MLLM: Vector Quantization for Robust Multimodal Large Language Model Security. [[PUB](https://www.ndss-symposium.org/ndss-paper/q-mllm-vector-quantization-for-robust-multimodal-large-language-model-security/)]
+- ★4 Q-MLLM: Vector Quantization for Robust Multimodal Large Language Model Security. [[CODE](https://github.com/QMLLM/Q-MLLM)] [[PUB](https://www.ndss-symposium.org/ndss-paper/q-mllm-vector-quantization-for-robust-multimodal-large-language-model-security/)]
   提出向量量化方法增强多模态大语言模型的安全性，涉及VLM量化与鲁棒性研究。
-- ★3 Rounding-Guided Backdoor Injection in Deep Learning Model Quantization. [[PUB](https://www.ndss-symposium.org/ndss-paper/rounding-guided-backdoor-injection-in-deep-learning-model-quantization/)]
+- ★3 Rounding-Guided Backdoor Injection in Deep Learning Model Quantization. [[CODE](https://github.com/cxx122/QuRA)] [[PUB](https://www.ndss-symposium.org/ndss-paper/rounding-guided-backdoor-injection-in-deep-learning-model-quantization/)]
   研究深度学习模型量化中的后门注入攻击，利用舍入引导实现恶意植入，涉及模型压缩安全性。
 - ★3 STIP: Three-Party Privacy-Preserving and Lossless Inference for Large Transformers in Production. [[PUB](https://www.ndss-symposium.org/ndss-paper/stip-three-party-privacy-preserving-and-lossless-inference-for-large-transformers-in-production/)]
   提出三方隐私保护无损推理方案，支持大型Transformer生产环境部署，涉及隐私推理技术。

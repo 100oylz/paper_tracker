@@ -2648,11 +2648,32 @@
   doi: 10.14722/ndss.2026.240526
   ee: https://www.ndss-symposium.org/ndss-paper/piranhas-privacy-preserving-remote-attestation-in-non-hierarchical-asynchronous-swarms/
   url: https://dblp.org/rec/conf/ndss/HofmannLEHF26
-  abstract: ''
+  abstract: '—Remote attestation is a fundamental security mechanism for assessing
+    the integrity of remote devices. In practice, widespread adoption of attestation
+    schemes is hindered by a lack of public verifiability and the requirement for
+    interaction in existing protocols. A recent work by Ebrahimi et al. (NDSS’24)
+    constructs publicly verifiable, non-interactive remote attestation, disregarding
+    another important requirement for attesting sensitive systems: privacy protection.
+    Similar needs arise in IoT swarms, where many devices, potentially processing
+    sensitive data, should produce a single attestation. In this paper, we take on
+    both challenges. We present PIRAN-HAS, a publicly verifiable, asynchronous, and
+    anonymous attes-tation scheme for individual devices and swarms. We leverage zk-SNARKs
+    to transform any classical, symmetric remote attestation scheme into a non-interactive,
+    publicly verifiable, and anonymous one. Verifiers only ascertain the validity
+    of the attestation, without learning any identifying information about the involved
+    devices. For IoT swarms, PIRANHAS aggregates attestation proofs for the entire
+    swarm using recursive zk-SNARKs. Our system supports arbitrary network topologies
+    and allows nodes to dynamically join and leave the network. We provide formal
+    security proofs for the single-device and swarm setting, showing that our construction
+    meets the desired security guarantees. Further, we provide an open-source implementation
+    of our scheme using the Noir and Plonky2 framework, achieving an aggregation runtime
+    of just 356ms.'
   date_added: '2026-08-05'
   triage_score: 0
   triage_summary: 研究非层次异步群中的隐私保护远程证明，与文档解析和联邦学习无关。
   subtopic: other
+  related_code: ''
+  abstract_cn: 远程证明是评估远程设备完整性的基本安全机制。在实践中，现有协议缺乏公开可验证性以及需要交互性，阻碍了证明方案的广泛采用。Ebrahimi等人（NDSS’24）近期的工作构建了公开可验证、非交互式的远程证明，但忽略了证明敏感系统的另一个重要要求：隐私保护。物联网群体中也存在类似需求，其中许多可能处理敏感数据的设备应产生单一证明。在本文中，我们同时应对这两个挑战。我们提出了PIRAN-HAS，一种针对单个设备和群体的公开可验证、异步且匿名的证明方案。我们利用zk-SNARK将任何经典的对称远程证明方案转化为非交互式、公开可验证且匿名的方案。验证者仅确认证明的有效性，而不会获知所涉及设备的任何标识信息。对于物联网群体，PIRANHAS使用递归zk-SNARK聚合整个群体的证明。我们的系统支持任意网络拓扑，并允许节点动态加入和离开网络。我们为单设备和群体场景提供了正式的安全证明，表明我们的构造满足所需的安全保证。此外，我们使用Noir和Plonky2框架提供了我们方案的开源实现，聚合运行时间仅为356毫秒。
 - author: Fangyuan Sun, Yaxi Yang, Jia Yu 0003, Jianying Zhou 0001
   title: 'PACS: Privacy-Preserving Attribute-Driven Community Search over Attributed
     Graphs.'
@@ -2664,11 +2685,34 @@
   doi: 10.14722/ndss.2026.241586
   ee: https://www.ndss-symposium.org/ndss-paper/pacs-privacy-preserving-attribute-driven-community-search-over-attributed-graphs/
   url: https://dblp.org/rec/conf/ndss/SunYYZ26
-  abstract: ''
+  abstract: —In data-driven applications, attribute-driven community search has attracted
+    increasing attention, which aims to help users find high-quality subgraphs that
+    meet specific requirements over attributed graphs. Nevertheless, few works consider
+    data privacy when performing community search. One critical reason is that real-world
+    graphs continue to grow in size, and attribute-driven community search involves
+    computing complex metrics on encrypted graph data, including structural cohesiveness
+    and attribute correlation, which are too time-consuming to be practical. This
+    paper is the first to propose a practical scheme for Privacy-preserving Attribute-driven
+    Community Searches on the cloud, named as PACS. PACS enables servers to efficiently
+    respond to attribute-driven community searches in near-millisecond time, without
+    accessing sensitive information about the attributed graph and search results.
+    To achieve this, we design two structures, a secure community index and a secure
+    edge table, for protecting the privacy of the original attributed graph. The secure
+    community index enables cloud servers to efficiently identify the target community
+    that meets structural cohesiveness and has the highest attribute score. In particular,
+    we employ inner product encryption to evaluate the attribute-driven scores of
+    communities based on encrypted attribute vectors. The secure edge table, constructed
+    by BGN homomorphic encryption, allows cloud servers to securely retrieve the edge
+    information of the target community without knowing its details. We perform a
+    thorough security analysis that demonstrates PACS achieves CQA2-security. Experimental
+    evaluations on real-world social network datasets show that PACS achieves near-millisecond
+    efficiency in processing attribute-driven community searches.
   date_added: '2026-08-05'
   triage_score: 0
   triage_summary: 提出属性图上的隐私保护社区搜索方法，与项目研究无关。
   subtopic: other
+  related_code: ''
+  abstract_cn: 在数据驱动的应用中，属性驱动的社区搜索日益受到关注，其旨在帮助用户在属性图上找到满足特定需求的高质量子图。然而，很少有工作在进行社区搜索时考虑数据隐私。一个关键原因是，现实世界的图规模持续增长，而属性驱动的社区搜索涉及在加密图数据上计算复杂指标，包括结构紧密性和属性相关性，这些计算过于耗时，难以实用。本文首次提出了一种实用的云上隐私保护属性驱动社区搜索方案，命名为PACS。PACS使服务器能够在接近毫秒的时间内高效响应属性驱动的社区搜索，同时不访问属性图和搜索结果的敏感信息。为实现这一目标，我们设计了两种结构——安全社区索引和安全边表——以保护原始属性图的隐私。安全社区索引使云服务器能够高效识别满足结构紧密性且属性得分最高的目标社区。特别地，我们采用内积加密来基于加密的属性向量评估社区的属性驱动得分。安全边表由BGN同态加密构建，允许云服务器安全地检索目标社区的边信息，而无需了解其细节。我们进行了全面的安全性分析，证明PACS实现了CQA2安全性。在真实社交网络数据集上的实验评估表明，PACS在处理属性驱动社区搜索时实现了接近毫秒级的效率。
 - author: Mu Yuan, Lan Zhang 0002, Yihang Cheng 0002, Miao-Hui Song, Guoliang Xing,
     Xiang-Yang Li 0001
   title: 'STIP: Three-Party Privacy-Preserving and Lossless Inference for Large Transformers
@@ -2681,11 +2725,33 @@
   doi: 10.14722/ndss.2026.230035
   ee: https://www.ndss-symposium.org/ndss-paper/stip-three-party-privacy-preserving-and-lossless-inference-for-large-transformers-in-production/
   url: https://dblp.org/rec/conf/ndss/YuanZCSXL26
-  abstract: ''
+  abstract: —The privacy of model parameters and user data is crucial for Transformer-based
+    cloud services, such as online chatbots. While recent advances in secure multi-party
+    computation and homomorphic encryption provide strong cryptographic guarantees,
+    their computational overhead makes them infeasible for real-time inference with
+    large-scale Transformer models. In this work, we propose a practical alternative
+    that balances privacy and efficiency in real-world deployments. We introduce a
+    three-party threat model involving a model developer, a cloud model server, and
+    a data owner, capturing the trust assumptions and deployment conditions of practical
+    AI services. Within this framework, we design a semi-symmetric permutation-based
+    protection mechanism and present STIP, the first three-party privacy-preserving
+    inference system for large Transformers de-ployable on commodity hardware. STIP
+    formally bounds privacy leakage while preserving lossless inference accuracy.
+    To further safeguard model parameters, STIP integrates trusted execution environments
+    to resist model extraction and fine-tuning attacks. We evaluate STIP on six representative
+    Transformer model families, including models with up to 70 billion parameters,
+    under three deployment settings. STIP’s efficiency is comparable to unprotected
+    full-cloud inference, for example, STIP achieves 31.7 ms latency on LLaMA2-7B
+    model. STIP also shows effective resistance to various attacks against user data
+    and model parameters. STIP has been deployed in a production environment on our
+    proprietary 70B model. In a three-month online test, STIP brings only 12% additional
+    latency and no
   date_added: '2026-08-05'
   triage_score: 3
   triage_summary: 提出三方隐私保护无损推理方案，支持大型Transformer生产环境部署，涉及隐私推理技术。
   subtopic: other
+  related_code: ''
+  abstract_cn: —模型参数和用户数据的隐私对于基于Transformer的云服务（如在线聊天机器人）至关重要。尽管安全多方计算和同态加密的最新进展提供了强大的密码学保证，但其计算开销使得它们无法用于大规模Transformer模型的实时推理。在这项工作中，我们提出了一种实用的替代方案，在现实部署中平衡隐私与效率。我们引入了一个涉及模型开发者、云模型服务器和数据所有者的三方威胁模型，捕捉实际AI服务的信任假设和部署条件。在此框架内，我们设计了一种基于半对称置换的保护机制，并提出了STIP——首个可在商用硬件上部署的、面向大型Transformer的三方隐私保护推理系统。STIP在形式上限制了隐私泄露，同时保持了无损推理精度。为进一步保护模型参数，STIP集成了可信执行环境，以抵御模型提取和微调攻击。我们在六种具有代表性的Transformer模型家族上评估了STIP，包括参数量高达700亿的模型，并采用了三种部署设置。STIP的效率与无保护的全云推理相当，例如，STIP在LLaMA2-7B模型上实现了31.7毫秒的延迟。STIP还展示了对针对用户数据和模型参数的各种攻击的有效抵抗能力。STIP已在我们专有的700亿参数模型的生产环境中部署。在三个月的在线测试中，STIP仅带来了12%的额外延迟，且没有……
 - author: Aydin Abadi, Vishnu Asutosh Dasu, Sumanta Sarkar
   title: Privacy-Preserving Data Deduplication for Enhancing Federated Learning of
     Language Models.
@@ -2823,11 +2889,28 @@
   doi: 10.14722/ndss.2026.230113
   ee: https://www.ndss-symposium.org/ndss-paper/rounding-guided-backdoor-injection-in-deep-learning-model-quantization/
   url: https://dblp.org/rec/conf/ndss/ChenZSWW26
-  abstract: ''
+  abstract: Model quantization is a popular technique for deploying deep learning
+    models on resource-constrained environments.However, it may also introduce previously
+    overlooked security risks.In this work, we present QURA, a novel backdoor attack
+    that exploits model quantization to embed malicious behaviors.Unlike conventional
+    backdoor attacks relying on training data poisoning or model training manipulation,
+    QURA solely works using the quantization operations.In particular, QURA first
+    employs a novel weight selection strategy to identify critical weights that influence
+    the backdoor target (with the goal of perserving the model's overall performance
+    in mind).Then, by optimizing the rounding direction of these weights, we amplify
+    the backdoor effect across model layers without degrading accuracy.Extensive experiments
+    demonstrate that QURA achieves nearly 100% attack success rates in most cases,
+    with negligible performance degradation.Furthermore, we show that QURA can adapt
+    to bypass existing backdoor defenses, underscoring its threat potential.Our findings
+    highlight critical vulnerability in widely used model quantization process, emphasizing
+    the need for more robust security measures.Our implementation is available at
+    https://github.com/cxx122/QuRA.
   date_added: '2026-08-05'
   triage_score: 3
   triage_summary: 研究深度学习模型量化中的后门注入攻击，利用舍入引导实现恶意植入，涉及模型压缩安全性。
   subtopic: other
+  related_code: https://github.com/cxx122/QuRA
+  abstract_cn: 模型量化是一种在资源受限环境中部署深度学习模型的流行技术。然而，它也可能引入此前被忽视的安全风险。在这项工作中，我们提出了QURA，一种利用模型量化来嵌入恶意行为的新型后门攻击。与依赖训练数据投毒或模型训练操纵的传统后门攻击不同，QURA仅通过量化操作即可实现攻击。具体而言，QURA首先采用一种新颖的权重选择策略来识别影响后门目标的关键权重（同时以保持模型整体性能为目标）。然后，通过优化这些权重的舍入方向，我们在不降低准确率的情况下放大跨模型层的后门效果。大量实验表明，QURA在大多数情况下实现了接近100%的攻击成功率，且性能下降可忽略不计。此外，我们证明QURA能够适应并绕过现有的后门防御，凸显了其威胁潜力。我们的发现揭示了广泛使用的模型量化过程中的关键漏洞，强调了采取更稳健安全措施的必要性。我们的实现可在https://github.com/cxx122/QuRA获取。
 - author: Wei Zhao, Zhe Li, Yige Li, Jun Sun 0001
   title: 'Q-MLLM: Vector Quantization for Robust Multimodal Large Language Model Security.'
   venue: NDSS
@@ -2838,11 +2921,32 @@
   doi: 10.14722/ndss.2026.230407
   ee: https://www.ndss-symposium.org/ndss-paper/q-mllm-vector-quantization-for-robust-multimodal-large-language-model-security/
   url: https://dblp.org/rec/conf/ndss/ZhaoLLS26
-  abstract: ''
+  abstract: 'Multimodal Large Language Models (MLLMs) have demonstrated impressive
+    capabilities in cross-modal understanding, but remain vulnerable to adversarial
+    attacks through visual inputs despite robust textual safety mechanisms.These vulnerabilities
+    arise from two core weaknesses: the continuous nature of visual representations,
+    which allows for gradient-based attacks, and the inadequate transfer of text-based
+    safety mechanisms to visual content.We introduce Q-MLLM, a novel architecture
+    that integrates two-level vector quantization to create a discrete bottleneck
+    against adversarial attacks while preserving multimodal reasoning capabilities.By
+    discretizing visual representations at both pixel-patch and semantic levels, Q-MLLM
+    blocks attack pathways and bridges the cross-modal safety alignment gap.Our two-stage
+    training methodology ensures robust learning while maintaining model utility.Experiments
+    demonstrate that Q-MLLM achieves significantly better defense success rate against
+    both jailbreak attacks and toxic image attacks than existing approaches.Notably,
+    Q-MLLM achieves perfect defense success rate (100%) against jailbreak attacks
+    except in one arguable case, while maintaining competitive performance on multiple
+    utility benchmarks with minimal inference overhead.This work establishes vector
+    quantization as an effective defense mechanism for secure multimodal AI systems
+    without requiring expensive safety-specific fine-tuning or detection overhead.Code
+    is available at https://github.com/QMLLM/Q-MLLM.'
   date_added: '2026-08-05'
   triage_score: 4
   triage_summary: 提出向量量化方法增强多模态大语言模型的安全性，涉及VLM量化与鲁棒性研究。
   subtopic: other
+  related_code: https://github.com/QMLLM/Q-MLLM
+  abstract_cn: 多模态大语言模型（MLLMs）在跨模态理解方面展现了令人印象深刻的能力，但尽管具备强大的文本安全机制，它们仍然容易受到通过视觉输入进行的对抗性攻击。这些脆弱性源于两个核心弱点：视觉表示的连续性，使得基于梯度的攻击成为可能；以及基于文本的安全机制向视觉内容的迁移不足。我们提出了Q-MLLM，一种新颖的架构，它集成了两级向量量化，以创建针对对抗性攻击的离散瓶颈，同时保持多模态推理能力。通过在像素块和语义两个层面离散化视觉表示，Q-MLLM阻断了攻击路径，并弥合了跨模态安全对齐的差距。我们的两阶段训练方法确保了稳健的学习，同时保持了模型的实用性。实验表明，Q-MLLM在针对越狱攻击和有毒图像攻击的防御成功率上显著优于现有方法。值得注意的是，除一个存在争议的情况外，Q-MLLM在越狱攻击上实现了完美的防御成功率（100%），同时在多个实用性基准上保持了具有竞争力的性能，且推理开销极小。这项工作确立了向量量化作为一种有效的防御机制，用于构建安全的多模态AI系统，而无需昂贵的特定安全微调或检测开销。代码可在
+    https://github.com/QMLLM/Q-MLLM 获取。
 - author: Tianpei Lu, Bingsheng Zhang, Xiaoyuan Zhang, Kui Ren 0001
   title: A New PPML Paradigm for Quantized Models.
   venue: NDSS
@@ -17325,11 +17429,32 @@
   doi: 10.18653/v1/2026.acl-industry.3
   ee: https://aclanthology.org/2026.acl-industry.3/
   url: https://dblp.org/rec/conf/acl/NiuLGWOZCHWZJLZ26
-  abstract: ''
+  abstract: 'Junbo Niu, Zheng Liu, Zhuangcheng Gu, Bin Wang, Linke Ouyang, Zhiyuan
+    Zhao, Tao Chu, Tianyao He, Fan Wu, Qintong Zhang, Zhenjiang Jin, Guang Liang,
+    Rui Zhang, Wenzheng Zhang, Yuan Qu, Zhifei Ren, Yuefeng Sun, Zirui Tang, Boyu
+    Niu, Yuanhong Zheng, Dongsheng Ma, Ziyang Miao, Hejun Dong, Siyi Qian, Junyuan
+    Zhang, Fangdong Wang, Jingzhou Chen, Xiaomeng Zhao, Liqun Wei, Wei Li, Shasha
+    Wang, RuiLiang Xu, Yuanyuan Cao, Lu Chen, Qianqian Wu, Huaiyu Gu, Lindong Lu,
+    Dechen Lin, Shenguanlin, Xuanhe Zhou, Linfeng Zhang, Yuhang Zang, Xiaoyi Dong,
+    Jiaqi Wang, Bo Zhang, Lei Bai, Pei Chu, Weijia Li, Jiang Wu, Lijun Wu, Zhenxiang
+    Li, Guangyu Wang, Zhongying Tu, Chao Xu, Kai Chen, Bowen Zhou, Dahua Lin, Wentao
+    Zhang, Conghui He. Proceedings of the 64th Annual Meeting of the Association for
+    Computational Linguistics (Volume 6: Industry Track). 2026.'
   date_added: '2026-08-05'
   triage_score: 4
   triage_summary: 提出解耦视觉语言模型MinerU2.5，实现高效高分辨率文档解析，面向端侧部署与推理优化。
   subtopic: other
+  related_code: ''
+  abstract_cn: Junbo Niu, Zheng Liu, Zhuangcheng Gu, Bin Wang, Linke Ouyang, Zhiyuan
+    Zhao, Tao Chu, Tianyao He, Fan Wu, Qintong Zhang, Zhenjiang Jin, Guang Liang,
+    Rui Zhang, Wenzheng Zhang, Yuan Qu, Zhifei Ren, Yuefeng Sun, Zirui Tang, Boyu
+    Niu, Yuanhong Zheng, Dongsheng Ma, Ziyang Miao, Hejun Dong, Siyi Qian, Junyuan
+    Zhang, Fangdong Wang, Jingzhou Chen, Xiaomeng Zhao, Liqun Wei, Wei Li, Shasha
+    Wang, RuiLiang Xu, Yuanyuan Cao, Lu Chen, Qianqian Wu, Huaiyu Gu, Lindong Lu,
+    Dechen Lin, Shenguanlin, Xuanhe Zhou, Linfeng Zhang, Yuhang Zang, Xiaoyi Dong,
+    Jiaqi Wang, Bo Zhang, Lei Bai, Pei Chu, Weijia Li, Jiang Wu, Lijun Wu, Zhenxiang
+    Li, Guangyu Wang, Zhongying Tu, Chao Xu, Kai Chen, Bowen Zhou, Dahua Lin, Wentao
+    Zhang, Conghui He. 第64届计算语言学协会年会论文集（第6卷：行业轨道）. 2026年.
 - author: Hao Feng 0009, Shu Wei, Xiang Fei, Wei Shi, Yingdong Han, Lei Liao, Jinghui
     Lu, Binghong Wu, Qi Liu, Chunhui Lin, Jingqun Tang, Hao Liu 0003, Can Huang 0002
   title: 'Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting.'
@@ -20788,11 +20913,27 @@
   doi: 10.18653/v1/2026.acl-industry.143
   ee: https://aclanthology.org/2026.acl-industry.143/
   url: https://dblp.org/rec/conf/acl/CaoPDAS26
-  abstract: ''
+  abstract: 'Vision-language models show promise for ecommerce automation but struggle
+    with noisy real-world images and multi-task requirements.We introduce MTIVE, a
+    curriculum learning framework that progressively adapts base models through three
+    stages: continued pre-training on large-scale e-commerce datasets with contrastive
+    learning and diverse dialogue templates, instruction tuning on synthetic data,
+    and modular task-specific expert training.Our architecture uses frozen base weights
+    with stacked LoRA adapters-shared modules for domain knowledge and lightweight
+    task-specific experts-enabling continual learning without catastrophic forgetting.MTIVE
+    outperforms open-source and proprietary baselines in both standard and continual
+    learning settings.* Describe visually present elements * State correct attributes
+    (color, size, number, position) * Make verifiable factual claims * Describe visible
+    spatial relationships * State obvious visible actions/states -ANALYSIS segments
+    include: * Reasonable interpretations * Style/mood/atmosphere observations *'
   date_added: '2026-08-05'
   triage_score: 2
   triage_summary: 构建基于VLM的电商多任务图像验证引擎，属通用视觉应用。
   subtopic: other
+  related_code: ''
+  abstract_cn: 视觉语言模型在电子商务自动化方面展现出潜力，但在处理嘈杂的真实世界图像和多任务需求时面临挑战。我们提出了MTIVE，一种课程学习框架，通过三个阶段逐步适应基础模型：在大规模电子商务数据集上进行持续预训练，结合对比学习和多样化对话模板；在合成数据上进行指令微调；以及模块化的任务特定专家训练。我们的架构使用冻结的基础权重和堆叠的LoRA适配器——共享模块用于领域知识，轻量级任务特定专家用于持续学习，而不会发生灾难性遗忘。MTIVE在标准设置和持续学习设置中均优于开源和专有基线。*
+    描述视觉上存在的元素 * 陈述正确的属性（颜色、大小、数量、位置） * 做出可验证的事实性声明 * 描述可见的空间关系 * 陈述明显的可见动作/状态 ——分析部分包括：*
+    合理的解释 * 风格/情绪/氛围观察
 - author: Tsan Tsai Chan, Varsha Suresh, Anisha Saha, Michael Hahn 0001, Vera Demberg
   title: System-Mediated Attention Imbalances Make Vision-Language Models Say Yes.
   venue: ACL
@@ -60018,7 +60159,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/ZhangDHL26
-  doi: ''
+  doi: 10.48550/arXiv.2605.04519
   ee: https://openreview.net/forum?id=2vNebz5r4b
   url: https://dblp.org/rec/journals/tmlr/ZhangDHL26
   abstract: 'Single-cell ATAC-seq (scATAC-seq) enables high-resolution mapping of
@@ -61441,7 +61582,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/ZhuMH26
-  doi: ''
+  doi: 10.48550/arXiv.2504.11645
   ee: https://openreview.net/forum?id=1xRG4ECacS
   url: https://dblp.org/rec/journals/tmlr/ZhuMH26
   abstract: Motivated by collaborative reinforcement learning (RL) and optimization
