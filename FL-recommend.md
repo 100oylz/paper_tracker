@@ -1,6 +1,6 @@
 # 🎯 FL 每日论文推荐
 
-> 已读基线 0 篇；按 triage+代码+venue+时效加权排序的未读推荐。
+> ⚠️ **已读基线 0 篇：未同步已读清单（READ_TITLES_URL 未配或拉取失败），本次为全量排序，可能重复推荐已读论文。**
 > 看完点 PUB 链接去 Chrome Zotero 插件加库；回填后用 wiki 的 sync_tracker_status.py 同步。
 
 | # | 论文 | 分值 | ★ | venue | year | 标签 |
