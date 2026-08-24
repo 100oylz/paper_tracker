@@ -61506,11 +61506,23 @@
   doi: 10.48550/arXiv.2407.08337
   ee: https://openreview.net/forum?id=7Hwk0bvvKn
   url: https://dblp.org/rec/journals/tmlr/YuZLP26
-  abstract: ''
+  abstract: Federated representation learning (FRL) aims to learn personalized federated
+    models with effective feature extraction from local data. FRL algorithms that
+    share the majority of the model parameters face significant challenges with huge
+    communication overhead. This overhead stems from the millions of neural network
+    parameters and slow aggregation progress of the averaging heuristic. To reduce
+    the overhead, we propose to share sufficient data summaries instead of raw model
+    parameters. The data summaries encode minimal sufficient statistics of an exponential
+    family, and Bayesian inference is utilized for global aggregation. It helps to
+    reduce message sizes and communication frequency. To further ensure formal privacy
+    guarantee, we extend it with differential privacy framework. Empirical results
+    demonstrate high learning accuracy with low communication overhead of our method.
   date_added: '2026-08-05'
   triage_score: 4
   triage_summary: 提出个性化联邦分类方法FedLog，减少通信量并提升灵活性，属个性化联邦学习。
   subtopic: other
+  related_code: ''
+  abstract_cn: 联邦表示学习（FRL）旨在通过从本地数据中有效提取特征来学习个性化的联邦模型。共享大部分模型参数的FRL算法面临巨大的通信开销挑战。这种开销源于数百万的神经网络参数以及平均启发式算法的缓慢聚合进度。为了减少开销，我们提出共享充分的数据摘要而非原始模型参数。数据摘要编码了指数族的最小充分统计量，并利用贝叶斯推断进行全局聚合。这有助于减少消息大小和通信频率。为了进一步确保正式的隐私保证，我们将其与差分隐私框架相结合。实验结果表明，我们的方法在低通信开销下实现了高学习精度。
 - author: Mariel A. Werner, Lie He, Michael I. Jordan, Martin Jaggi, Sai Praneeth
     Karimireddy
   title: Provably Personalized and Robust Federated Learning.
@@ -61566,7 +61578,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/UmeshVangapallyWCG26
-  doi: ''
+  doi: 10.48550/arXiv.2601.01649
   ee: https://openreview.net/forum?id=18yPFLbVRy
   url: https://dblp.org/rec/journals/tmlr/UmeshVangapallyWCG26
   abstract: ''
