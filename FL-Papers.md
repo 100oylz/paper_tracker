@@ -2566,6 +2566,8 @@
 
 #### TIFS
 
+- ★5 A Byzantine-Robust Secure Federated Learning Scheme in Heterogeneous Data. [[PUB](https://doi.org/10.1109/TIFS.2026.3714122)]
+  提出SFLBR框架，在密文空间实现拜占庭鲁棒的安全聚合，应对异构数据下的恶意梯度攻击。
 - ★5 A Wolf in Sheep&apos;s Clothing: Unveiling a Stealthy Backdoor Attack in Subgraph Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3659045)]
   揭示子图联邦学习中隐蔽后门攻击，研究联邦学习安全漏洞。
 - ★5 AMBER: Robust Federated Learning Based on Client Verification. [[PUB](https://doi.org/10.1109/TIFS.2026.3707790)]
@@ -2590,6 +2592,8 @@
   提出零信任D2D网络中去中心化安全聚合方案，保障联邦学习隐私与安全，属安全聚合核心技术。
 - ★5 Detection and Mitigation Data Poisoning Attacks in Multimodal Online Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3707417)]
   研究多模态在线联邦学习中的数据投毒攻击检测与缓解，涉及联邦学习安全与隐私保护。
+- ★5 DisT-FL: Enhancing Security for TEE-Based Aggregation in Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3715108)]
+  提出DisT-FL，利用多TEE形成追加式账本，增强联邦学习聚合的安全性，抵御状态回滚与I/O操纵攻击。
 - ★5 Divergence-Based Adaptive Aggregation for Byzantine Robust Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3707437)]
   提出基于散度的自适应聚合方法，抵御拜占庭攻击并缓解数据异构，提升联邦学习鲁棒性。
 - ★5 Efficient Byzantine-Robust Privacy-Preserving Federated Learning via Dimension Compression. [[PUB](https://doi.org/10.1109/TIFS.2026.3671104)]
@@ -3333,6 +3337,15 @@
   实验研究联邦学习在数据噪声下的鲁棒性，开发噪声生成工具并分析联邦与集中学习的差异，属于联邦学习应用实验。
 - ★4 HeteroFedSyn: Differentially Private Tabular Data Synthesis for Heterogeneous Federated Settings. [[PUB](https://doi.org/10.1145/3802072)]
   面向异构联邦场景提出差分隐私表格数据合成框架HeteroFedSyn，创新分布式边缘选择，实现与集中式相当的效用。
+
+#### ICDE
+
+- ★5 TopFGL: A Topology-Aware and Distributionagnostic Federated Learning Framework Tackling Topological Heterogeneity on Graph Data. [[PUB](https://doi.org/10.1109/ICDE65706.2026.00044)]
+  提出拓扑感知且分布无关的联邦图学习框架，处理图数据拓扑异质性，避免中间信息共享以保护隐私。
+- ★5 AdaFedRec: Adaptive Heterogeneous Federated Recommender Systems Across Multi-Device Users. [[CODE](https://github.com/Iridescentttttt/AdaFedRec)] [[PUB](https://doi.org/10.1109/ICDE65706.2026.00070)]
+  提出跨设备异构联邦推荐框架AdaFedRec，根据设备资源自适应分配异构模型并迁移，涉及联邦学习与隐私保护。
+- ★3 Federated Retrieval Over Embedding-Heterogeneous Vector Databases. [[PUB](https://doi.org/10.1109/ICDE65706.2026.00033)]
+  研究联邦环境下嵌入异构向量数据库的近似最近邻检索，提出自适应算法提升检索效率，属于联邦学习应用。
 
 ### 2025
 

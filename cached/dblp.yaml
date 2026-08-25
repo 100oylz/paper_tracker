@@ -61581,11 +61581,30 @@
   doi: 10.48550/arXiv.2601.01649
   ee: https://openreview.net/forum?id=18yPFLbVRy
   url: https://dblp.org/rec/journals/tmlr/UmeshVangapallyWCG26
-  abstract: ''
+  abstract: 'Federated AUC maximization is a powerful approach for learning from imbalanced
+    data in federated learning (FL). However, existing methods typically assume full
+    client availability, which is rarely practical. In real-world FL systems, clients
+    often participate in a cyclic manner: joining training according to a fixed, repeating
+    schedule. This setting poses unique optimization challenges for the non-decomposable
+    AUC objective. This paper addresses these challenges by developing and analyzing
+    communication-efficient algorithms for federated AUC maximization under cyclic
+    client participation. We investigate two key settings: First, we study AUC maximization
+    with a squared surrogate loss, which reformulates the problem as a nonconvex-strongly-concave
+    minimax optimization. By leveraging the Polyak-{\L}ojasiewicz (PL) condition,
+    we establish a state-of-the-art communication complexity of $\widetilde{O}(1/\epsilon^{1/2})$
+    and iteration complexity of $\widetilde{O}(1/\epsilon)$. Second, we consider general
+    pairwise AUC losses. We establish a communication complexity of $O(1/\epsilon^3)$
+    and an iteration complexity of $O(1/\epsilon^4)$. Further, under the PL condition,
+    these bounds improve to communication complexity of $\widetilde{O}(1/\epsilon^{1/2})$
+    and iteration complexity of $\widetilde{O}(1/\epsilon)$. Extensive experiments
+    on benchmark tasks in image classification, medical imaging, and fraud detection
+    demonstrate the superior efficiency and effectiveness of our proposed methods.'
   date_added: '2026-08-05'
   triage_score: 4
   triage_summary: 提出循环客户端参与下通信高效的联邦AUC最大化优化方法，属联邦学习与通信效率方向。
   subtopic: other
+  related_code: ''
+  abstract_cn: 联邦AUC最大化是联邦学习（FL）中处理不平衡数据的一种强大方法。然而，现有方法通常假设客户端完全可用，这在实践中很少成立。在真实世界的联邦学习系统中，客户端往往以循环方式参与：按照固定、重复的时间表加入训练。这种设置为不可分解的AUC目标带来了独特的优化挑战。本文通过开发并分析在循环客户端参与下用于联邦AUC最大化的通信高效算法来应对这些挑战。我们研究了两个关键场景：首先，我们研究使用平方替代损失的AUC最大化，该损失将问题重新表述为非凸-强凹极小极大优化。通过利用Polyak-{\L}ojasiewicz（PL）条件，我们建立了最先进的通信复杂度$\widetilde{O}(1/\epsilon^{1/2})$和迭代复杂度$\widetilde{O}(1/\epsilon)$。其次，我们考虑一般的成对AUC损失。我们建立了$O(1/\epsilon^3)$的通信复杂度和$O(1/\epsilon^4)$的迭代复杂度。此外，在PL条件下，这些界改进为通信复杂度$\widetilde{O}(1/\epsilon^{1/2})$和迭代复杂度$\widetilde{O}(1/\epsilon)$。在图像分类、医学影像和欺诈检测等基准任务上的大量实验表明，我们提出的方法具有优越的效率和有效性。
 - author: Feng Zhu 0025, Aritra Mitra, Robert W. Heath Jr.
   title: Achieving Tighter Finite-Time Rates for Heterogeneous Federated Stochastic
     Approximation under Markovian Sampling.
@@ -64941,6 +64960,76 @@
   triage_summary: 提出联邦学习中的隐蔽持久后门攻击Spa，利用特征空间对齐和动态触发器实现高成功率，属于联邦学习安全与隐私保护主线。
   subtopic: federated-learning
   date_added: '2026-08-19'
+- author: Jinbo Wang, Ruijin Wang, Zengpeng Li 0001, Fengli Zhang, Jingwei Li 0001,
+    Xiong Li 0002
+  title: A Byzantine-Robust Secure Federated Learning Scheme in Heterogeneous Data.
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/WangWLZLL26
+  doi: 10.1109/TIFS.2026.3714122
+  ee: https://doi.org/10.1109/TIFS.2026.3714122
+  url: https://dblp.org/rec/journals/tifs/WangWLZLL26
+  abstract: 'Secure Federated Learning protects user privacy by keeping local gradients
+    within the ciphertext space, thereby preventing direct exposure of raw gradients
+    during aggregation. Paradoxically, this very protection introduces a fundamental
+    vulnerability: the opacity of encrypted gradients blinds the server, rendering
+    honest and malicious gradients indistinguishable. An attacker can exploit this
+    opacity to inject manipulated gradients directly into the secure aggregation process,
+    compromising the integrity of the global model. To address this issue, we propose
+    SFLBR, a novel Byzantine-robust Secure Federated Learning framework. Specifically,
+    we adopt the gradient median as a robust benchmark and introduce a layer-wise
+    cosine similarity metric to differentiate malicious gradients. Furthermore, considering
+    the complexity of non-independent and identically distributed (Non-IID) scenarios,
+    we further design a proactive defense strategy that constrains the divergence
+    among honest gradients, and augment it with a trust score function to improve
+    robustness against potential misjudgments. Finally, we construct a series of secure
+    communication protocols based on a lightweight dual-masking encryption mechanism,
+    which enable efficient robust aggregation directly within the ciphertext space.
+    Extensive experiments validate the effectiveness of SFLBR, demonstrating state-of-the-art
+    (SOTA) defense performance across diverse attack scenarios.'
+  related_code: ''
+  abstract_cn: 安全联邦学习通过将本地梯度保持在密文空间内来保护用户隐私，从而防止原始梯度在聚合过程中直接暴露。矛盾的是，这种保护本身引入了一个根本性的漏洞：加密梯度的不透明性使服务器无法辨别，导致诚实梯度与恶意梯度难以区分。攻击者可以利用这种不透明性，将操纵后的梯度直接注入安全聚合过程，从而损害全局模型的完整性。为解决这一问题，我们提出了SFLBR，一种新颖的拜占庭鲁棒安全联邦学习框架。具体而言，我们采用梯度中位数作为鲁棒基准，并引入逐层余弦相似度度量来区分恶意梯度。此外，考虑到非独立同分布（Non-IID）场景的复杂性，我们进一步设计了一种主动防御策略，约束诚实梯度之间的发散程度，并辅以信任评分函数以增强对潜在误判的鲁棒性。最后，我们基于轻量级双重掩码加密机制构建了一系列安全通信协议，使得能够在密文空间内直接实现高效的鲁棒聚合。大量实验验证了SFLBR的有效性，展示了其在多种攻击场景下的最先进（SOTA）防御性能。
+  triage_score: 5
+  triage_summary: 提出SFLBR框架，在密文空间实现拜占庭鲁棒的安全聚合，应对异构数据下的恶意梯度攻击。
+  subtopic: secure-aggregation
+  date_added: '2026-08-26'
+- author: Guanlong Wu, Ju Yang, Zhen Huang, Jianyu Niu, Guoxing Chen, Jianzong Wang,
+    Yinqian Zhang
+  title: 'DisT-FL: Enhancing Security for TEE-Based Aggregation in Federated Learning.'
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/WuYHNCWZ26
+  doi: 10.1109/TIFS.2026.3715108
+  ee: https://doi.org/10.1109/TIFS.2026.3715108
+  url: https://dblp.org/rec/journals/tifs/WuYHNCWZ26
+  abstract: Trusted Execution Environments (TEEs)-aided federated learning protocols
+    emerge as promising solutions to counter server-side adversaries and ensure the
+    trustworthiness of the server. In this paper, we dissect existing protocols and
+    demonstrate that server-side adversaries can still manipulate client selection
+    and replay aggregation to compromise system robustness and privacy, by exploiting
+    TEE limitations, i.e., state rollback and I/O manipulation. To this end, we present
+    DisT-FL, a distributed system of servers guarded by multiple TEEs forming an append-only
+    ledger for privacy-preserved, robust FL aggregation. Specifically, DisT-FL ensures
+    operation linearizability to thwart state rollback attacks and incorporates inputs
+    from reliable servers to mitigate I/O manipulation threats. We implement DisT-FL
+    and conduct evaluations in WAN settings. Experimental results demonstrate that
+    DisT-FL can effectively counter the proposed attacks and match the single-TEE’s
+    performance while offering a 6x throughput boost over its counterparts, leveraging
+    TEE’s computational advantages.
+  related_code: ''
+  abstract_cn: 受信任执行环境（TEE）辅助的联邦学习协议，作为应对服务器端 adversaries 并确保服务器可信度的有前景方案而出现。本文剖析了现有协议，并证明服务器端
+    adversaries 仍可利用 TEE 的局限性（即状态回滚和 I/O 操纵）来操纵客户端选择与重放聚合，从而破坏系统鲁棒性和隐私性。为此，我们提出 DisT-FL，一种由多个
+    TEE 守护的分布式服务器系统，形成仅追加账本，用于隐私保护且鲁棒的联邦学习聚合。具体而言，DisT-FL 确保操作线性化以阻止状态回滚攻击，并整合来自可靠服务器的输入以缓解
+    I/O 操纵威胁。我们实现了 DisT-FL，并在广域网环境下进行评估。实验结果表明，DisT-FL 能有效抵御所提出的攻击，在匹配单一 TEE 性能的同时，利用
+    TEE 的计算优势，吞吐量比同类方案提升 6 倍。
+  triage_score: 5
+  triage_summary: 提出DisT-FL，利用多TEE形成追加式账本，增强联邦学习聚合的安全性，抵御状态回滚与I/O操纵攻击。
+  subtopic: secure-aggregation
+  date_added: '2026-08-26'
 'FL:streamid:journals/tkde:':
 - author: Fangcheng Fu, Xuanyu Wang, Jiawei Jiang 0001, Huanran Xue, Bin Cui 0001
   title: 'ProjPert: Projection-Based Perturbation for Label Protection in Split Learning
@@ -82714,6 +82803,125 @@
   triage_score: 4
   triage_summary: 提出分布式键值集合的安全聚合协议，保护数据隐私，可用于联邦学习等分布式场景。
   subtopic: other
+- author: Junyang Wang, Lan Zhang 0002, Yihang Cheng 0002, Mu Yuan, Tian Wang 0001,
+    Zhihui Fu, Jun Wang
+  title: 'TopFGL: A Topology-Aware and Distributionagnostic Federated Learning Framework
+    Tackling Topological Heterogeneity on Graph Data.'
+  venue: ICDE
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/WangZCYWFW26
+  doi: 10.1109/ICDE65706.2026.00044
+  ee: https://doi.org/10.1109/ICDE65706.2026.00044
+  url: https://dblp.org/rec/conf/icde/WangZCYWFW26
+  abstract: While the modern internet generates graph data at an unprecedented scale,
+    stringent privacy regulations like GDPR have fragmented it into silos, creating
+    an urgent need for distributed learning paradigms. Federated Graph Learning (FGL)
+    meets this demand, enabling collaborative training across graph silos. A core
+    challenge for FGL is that the graphs among participants are topologically heterogeneous
+    due to diverse sources and methods of structure collection, which leads to significant
+    performance degradation. However, recent works tackling heterogeneity require
+    clients to share class-wise intermediate information derived from local embeddings,
+    which could increase risks of label and structure leakage. Moreover, they are
+    often computationally expensive and narrowly tailored for a single type of heterogeneity,
+    which hinders their applicability in efficiency-demanding and distribution-variant
+    practical scenarios. To this end, we present TopFGL, the first topologyaware and
+    distribution-agnostic framework to tackle heterogeneity without intermediate information
+    sharing. TopFGL trains a topology learner in each client to learn local topological
+    patterns, and globally aggregates all learners along with the main task models.
+    We propose a multi-level topology extraction scheme to adapt to diverse distributions,
+    along with a streamlined training pipeline that reduces redundant computations.
+    Building upon the learners, we propose a server-side topological similarity-based
+    aggregation algorithm to share similar optimization directions across clients.
+    A client-side dual-model guided topology augmentation approach is also proposed
+    to supplement neighborhood connections for topology-insufficient nodes, improving
+    adaptability to imbalanced distributions. Experiments on 11 datasets with 3 topological
+    distributions across 3 \~{} 100 client counts show that TopFGL achieves up to
+    5.6% accuracy improvement along with 50% time cost reduction compared to state-of-the-art
+    baselines.
+  related_code: ''
+  abstract_cn: 虽然现代互联网以前所未有的规模生成图数据，但诸如GDPR等严格的隐私法规已将其分割成孤岛，从而产生了对分布式学习范式的迫切需求。联邦图学习（FGL）满足了这一需求，使得跨图孤岛的协作训练成为可能。FGL的一个核心挑战是，由于数据来源和结构采集方法的不同，参与者之间的图在拓扑上具有异质性，这会导致显著的性能下降。然而，近期解决异质性的工作要求客户端共享从本地嵌入中提取的类别级中间信息，这可能增加标签和结构泄露的风险。此外，这些方法通常计算成本高昂，且仅针对单一类型的异质性设计，阻碍了它们在高效需求和分布多变实际场景中的适用性。为此，我们提出了TopFGL，这是首个无需共享中间信息即可应对异质性的拓扑感知且分布无关的框架。TopFGL在每个客户端中训练一个拓扑学习器以学习局部拓扑模式，并在全局范围内将所有学习器与主任务模型一起聚合。我们提出了一种多级拓扑提取方案以适应多样化的分布，并设计了一条精简的训练流程以减少冗余计算。基于这些学习器，我们提出了一种服务器端基于拓扑相似性的聚合算法，以在客户端之间共享相似的优化方向。同时，还提出了一种客户端双模型引导的拓扑增强方法，为拓扑信息不足的节点补充邻域连接，从而提高对不均衡分布的适应性。在11个数据集、3种拓扑分布、客户端数量从3到100的实验表明，与最先进的基线相比，TopFGL实现了最高5.6%的准确率提升，同时降低了50%的时间成本。
+  triage_score: 5
+  triage_summary: 提出拓扑感知且分布无关的联邦图学习框架，处理图数据拓扑异质性，避免中间信息共享以保护隐私。
+  subtopic: federated-graph-learning
+  date_added: '2026-08-26'
+- author: Zhenkai Li, Ming Hu 0003, Chentao Jia, Yining Sun, Zhufeng Lu, Mingyang
+    Yu, Yanxin Yang, Xiaofei Xie, Mingsong Chen 0001
+  title: 'AdaFedRec: Adaptive Heterogeneous Federated Recommender Systems Across Multi-Device
+    Users.'
+  venue: ICDE
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/LiHJSLYYXC26
+  doi: 10.1109/ICDE65706.2026.00070
+  ee: https://doi.org/10.1109/ICDE65706.2026.00070
+  url: https://dblp.org/rec/conf/icde/LiHJSLYYXC26
+  abstract: Although Federated Learning (FL), as a distributed machine learning paradigm,
+    is promising for privacy-preserving model training in recommender systems, it
+    suffers from low training performance due to heterogeneous hardware resources
+    across user devices, especially among users with multiple devices. Specifically,
+    i) the limited hardware capabilities of some user devices prevent them from participating
+    in training large, highperformance models, while the limited number of users with
+    high-performance devices results in insufficient data for training the large model.
+    ii) Recommender systems are often deployed on multiple heterogeneous devices (e.g.,
+    personal computers and mobile phones) of each user, which makes it challenging
+    to migrate personalized features of users for heterogeneous recommender models
+    training across various uncertain devices. To address this issue, this paper presents
+    a novel heterogeneous FedRec framework, AdaFedRec, that adaptively assigns heterogeneous
+    models for local training based on the available resources of user devices and
+    employs an adaptive heterogeneous model migration mechanism across multiple devices
+    of a specific user. Specifically, AdaFedRec adopts an encoder-decoder-based heterogeneous
+    model generation strategy for collaborative model training among heterogeneous
+    devices. Additionally, AdaFedRec incorporates a knowledge-diffusion-based model-migration
+    mechanism for training models across users' heterogeneous devices. The experimental
+    results demonstrate that AdaFedRec achieves the best results across all datasets.
+    Our code can be accessed at https://github.com/Iridescentttttt/AdaFedRec.
+  related_code: https://github.com/Iridescentttttt/AdaFedRec
+  abstract_cn: 尽管联邦学习（FL）作为一种分布式机器学习范式，在推荐系统的隐私保护模型训练中具有广阔前景，但由于用户设备（尤其是拥有多设备的用户）之间异构硬件资源的存在，其训练性能较低。具体而言：i)
+    部分用户设备的硬件能力有限，无法参与训练大型高性能模型，而拥有高性能设备的用户数量有限，导致训练大型模型的数据不足。ii) 推荐系统通常部署在每个用户的多个异构设备（如个人电脑和手机）上，这使得在不同不确定设备上训练异构推荐模型时，迁移用户的个性化特征变得具有挑战性。为解决这一问题，本文提出了一种新颖的异构联邦推荐框架AdaFedRec，该框架根据用户设备的可用资源自适应地分配异构模型进行本地训练，并针对特定用户的多个设备采用自适应异构模型迁移机制。具体来说，AdaFedRec采用基于编码器-解码器的异构模型生成策略，以支持异构设备间的协同模型训练。此外，AdaFedRec融入了基于知识扩散的模型迁移机制，用于在用户的异构设备间训练模型。实验结果表明，AdaFedRec在所有数据集上均取得了最佳结果。我们的代码可在https://github.com/Iridescentttttt/AdaFedRec获取。
+  triage_score: 5
+  triage_summary: 提出跨设备异构联邦推荐框架AdaFedRec，根据设备资源自适应分配异构模型并迁移，涉及联邦学习与隐私保护。
+  subtopic: cross-device-federated-learning
+  date_added: '2026-08-26'
+- author: Yuxiang Wang 0014, Yongxin Tong, Zimu Zhou, Ziyuan He, Ruixi Hu, Ke Xu
+  title: Federated Retrieval Over Embedding-Heterogeneous Vector Databases.
+  venue: ICDE
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icde/WangTZHHX26
+  doi: 10.1109/ICDE65706.2026.00033
+  ee: https://doi.org/10.1109/ICDE65706.2026.00033
+  url: https://dblp.org/rec/conf/icde/WangTZHHX26
+  abstract: Vector databases are increasingly used to manage unstructured data by
+    mapping them into high-dimensional embeddings and enabling efficient similarity
+    retrieval. Many realworld applications, such as legal document retrieval and medical
+    question answering, require embedding-based retrieval in federated environments
+    where data are distributed across autonomous silos. We formulate this setting
+    as Federated Approximate Nearest Neighbor Search (FANNS), where a server issues
+    a query along with a query embedding model, aiming to retrieve the top- $k$ nearest
+    objects from datasets across all silos. A key challenge in FANNS is embedding
+    heterogeneity, where silos and the server employ different embedding models, a
+    problem overlooked in prior research. To address this challenge, we exploit the
+    nonIID nature of federated data and propose two novel adaptive algorithms for
+    FANNS queries. The first is a competition-based method that dynamically adjusts
+    retrieval sizes across silos, though it can be sensitive to misleading candidates.
+    The second is a contribution-based method that samples promising silos based on
+    their accumulated contributions, and we provide theoretical guarantees on its
+    latency reduction. Evaluations on four datasets show that our method achieves
+    over 90% retrieval accuracy and $\mathbf{2. 3} \times$ to $\mathbf{6. 2} \times$
+    speedups over existing solutions.
+  related_code: ''
+  abstract_cn: 向量数据库越来越多地用于管理非结构化数据，通过将其映射为高维嵌入并实现高效的相似性检索。许多实际应用，如法律文档检索和医学问答，需要在联邦环境中进行基于嵌入的检索，而联邦环境中的数据分布在多个自治的数据孤岛中。我们将这一场景定义为联邦近似最近邻搜索（FANNS），其中服务器发出查询以及查询嵌入模型，旨在从所有数据孤岛的数据集中检索前
+    $k$ 个最近对象。FANNS 的一个关键挑战是嵌入异构性，即数据孤岛和服务器使用不同的嵌入模型，而这一问题在以往的研究中被忽视了。为了应对这一挑战，我们利用联邦数据的非独立同分布特性，提出了两种新颖的自适应算法用于
+    FANNS 查询。第一种是基于竞争的方法，动态调整各数据孤岛的检索规模，但它可能对误导性候选敏感。第二种是基于贡献的方法，根据各数据孤岛的累积贡献对有希望的孤岛进行采样，我们为其延迟降低提供了理论保证。在四个数据集上的评估表明，我们的方法实现了超过
+    90% 的检索准确率，并且相比现有解决方案实现了 $\mathbf{2.3}\times$ 到 $\mathbf{6.2}\times$ 的加速。
+  triage_score: 3
+  triage_summary: 研究联邦环境下嵌入异构向量数据库的近似最近邻检索，提出自适应算法提升检索效率，属于联邦学习应用。
+  subtopic: cross-silo-federated-learning
+  date_added: '2026-08-26'
 'FL:streamid:journals/pvldb:':
 - author: Yuexiang Xie, Zhen Wang 0036, Dawei Gao, Daoyuan Chen, Liuyi Yao, Weirui
     Kuang, Yaliang Li, Bolin Ding, Jingren Zhou 0001
