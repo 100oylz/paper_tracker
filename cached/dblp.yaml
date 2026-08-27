@@ -60063,7 +60063,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/WangCC26
-  doi: ''
+  doi: 10.48550/arXiv.2511.19959
   ee: https://openreview.net/forum?id=Hnf7eCdBeV
   url: https://dblp.org/rec/journals/tmlr/WangCC26
   abstract: Federated learning (FL) has been extensively studied as a privacy-preserving
