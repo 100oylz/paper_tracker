@@ -6388,6 +6388,25 @@
 
 ## Others
 
+### 2026
+
+#### ICDAR
+
+- ★4 Automatic Layout Detection in Historical Civil Records Using Deep Object Detection. [[PUB](https://doi.org/10.1007/978-3-032-36039-7_11)]
+  利用深度目标检测自动识别历史民事记录中的版面布局，属于文档解析流水线中的版面检测环节。
+- ★3 Evaluating Vision-Language Models on Historical Postcards. [[PUB](https://doi.org/10.1007/978-3-032-36039-7_20)]
+  评估视觉-语言模型在历史明信片上的理解能力，属于文档理解应用。
+- ★4 From Pixels to Structure: Lightweight Vision-Language Models for Document OCR and Structured JSON Extraction. [[PUB](https://doi.org/10.1007/978-3-032-36039-7_30)]
+  提出轻量级视觉-语言模型用于文档OCR和结构化JSON提取，涉及文档解析与VLM轻量化。
+- ★4 Meaning Lies in Structure: Fine-Grained Table-Centric Document Semantic Parsing. [[PUB](https://doi.org/10.1007/978-3-032-36033-5_18)]
+  提出细粒度表格中心文档语义解析方法，聚焦表格结构理解，属于文档解析主线。
+- ★3 Specialized HTR vs Vision-Language Models: Evaluating DANIEL and Fine-Tuned Qwen on Historical Documents. [[PUB](https://doi.org/10.1007/978-3-032-36033-5_41)]
+  评估专用手写识别模型DANIEL与微调Qwen在历史文档上的表现，属于文档解析应用。
+- ★4 Towards Khmer Camera-Captured Document Layout Detection. [[PUB](https://doi.org/10.1007/978-3-032-36039-7_40)]
+  针对高棉语场景文档版面检测，构建数据集、合成增强工具及基于YOLO的定向边界框基线，推动文档解析研究。
+- ★3 Vision-Language Model Based Transfer Learning for Historical Document Recognition. [[PUB](https://doi.org/10.1007/978-3-032-36039-7_24)]
+  利用视觉-语言模型迁移学习进行历史文档识别，属于文档理解与VLM应用。
+
 ### 2025
 
 #### ICSE

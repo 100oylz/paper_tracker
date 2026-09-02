@@ -744,6 +744,8 @@
   利用信息几何投影在贝叶斯联邦学习中实现零成本个性化，属个性化联邦学习方法创新。
 - ★4 DuoShapley: Adaptive and Scalable Shapley Value Approximation for Federated Learning. [[PDF](https://openreview.net/pdf?id=zjgZFNEEHn)] [[PUB](https://openreview.net/forum?id=zjgZFNEEHn)]
   提出自适应可扩展的Shapley值近似方法用于联邦学习贡献评估，涉及联邦学习。
+- ★5 Federated Learning with Projected Trajectory Regularization. [[PDF](https://openreview.net/pdf?id=vfCztZvcP3)] [[PUB](https://openreview.net/forum?id=vfCztZvcP3)]
+  提出基于投影轨迹正则化的联邦学习框架，缓解客户端数据异构问题，涉及隐私保护。
 - ★5 FL-Sailer: Efficient and Privacy-Preserving Federated Learning for Scalable Single-Cell Epigenetic Data Analysis via Adaptive Sampling. [[PDF](https://openreview.net/pdf?id=2vNebz5r4b)] [[PUB](https://openreview.net/forum?id=2vNebz5r4b)]
   提出基于自适应采样的隐私保护联邦学习方法，用于单细胞表观遗传数据高效分析，属联邦学习与隐私保护主线。
 - ★4 Gaming and Cooperation in Federated Learning: What Can Happen and How to Monitor It. [[PDF](https://openreview.net/pdf?id=Ck3q5YdWIv)] [[PUB](https://openreview.net/forum?id=Ck3q5YdWIv)]
@@ -778,6 +780,10 @@
   提出循环客户端参与下通信高效的联邦AUC最大化优化方法，属联邦学习与通信效率方向。
 - ★5 DP-FedSOFIM: Differentially Private Federated Stochastic Optimization using Regularized Fisher Information Matrix. [[PDF](https://openreview.net/pdf?id=aDzj9DrwAR)] [[PUB](https://openreview.net/forum?id=aDzj9DrwAR)]
   提出基于正则化Fisher信息矩阵的差分隐私联邦随机优化方法，平衡隐私与性能，属联邦学习隐私保护。
+- ★5 Federated Class-Incremental Learning with Hierarchical Generative Prototypes. [[PDF](https://openreview.net/pdf?id=k2TT42Ei8W)] [[PUB](https://openreview.net/forum?id=k2TT42Ei8W)]
+  面向联邦类增量学习，提出层次化生成原型方法，涉及联邦学习与隐私保护。
+- ★4 FedIndex: Federated Domain Adaptation with Continuous Domain Indices. [[PDF](https://openreview.net/pdf?id=fnbGFH0330)] [[PUB](https://openreview.net/forum?id=fnbGFH0330)]
+  提出基于连续域索引的联邦域适应方法，应对联邦学习中的数据异构问题。
 - ★4 FedLog: Personalized Federated Classification with Less Communication and More Flexibility. [[PDF](https://openreview.net/pdf?id=7Hwk0bvvKn)] [[PUB](https://openreview.net/forum?id=7Hwk0bvvKn)]
   提出个性化联邦分类方法FedLog，减少通信量并提升灵活性，属个性化联邦学习。
 - ★4 FedProTIP: Task-Agnostic Federated Continual Learning via Replay-Free Gradient Projection. [[PDF](https://openreview.net/pdf?id=GW4aw0fUKC)] [[PUB](https://openreview.net/forum?id=GW4aw0fUKC)]

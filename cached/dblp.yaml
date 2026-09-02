@@ -598,6 +598,134 @@
   triage_score: 3
   triage_summary: 利用视觉大模型的上下文推理增强手写数学公式识别能力，属文档理解应用。
   subtopic: other
+- author: Xuan Li, Mengfei Xiao, Jingtian Wei, Jialiang Dong, Raymond Wong
+  title: 'Meaning Lies in Structure: Fine-Grained Table-Centric Document Semantic
+    Parsing.'
+  venue: ICDAR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icdar/LiXWDW26
+  doi: 10.1007/978-3-032-36033-5_18
+  ee: https://doi.org/10.1007/978-3-032-36033-5_18
+  url: https://dblp.org/rec/conf/icdar/LiXWDW26
+  abstract: ''
+  triage_score: 4
+  triage_summary: 提出细粒度表格中心文档语义解析方法，聚焦表格结构理解，属于文档解析主线。
+  subtopic: table-recognition
+  date_added: '2026-09-02'
+- author: Wissam AlKendi, Franck Gechter, Laurent Heyberger, Christophe Guyeux
+  title: Automatic Layout Detection in Historical Civil Records Using Deep Object
+    Detection.
+  venue: ICDAR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icdar/AlKendiGHG26
+  doi: 10.1007/978-3-032-36039-7_11
+  ee: https://doi.org/10.1007/978-3-032-36039-7_11
+  url: https://dblp.org/rec/conf/icdar/AlKendiGHG26
+  abstract: ''
+  triage_score: 4
+  triage_summary: 利用深度目标检测自动识别历史民事记录中的版面布局，属于文档解析流水线中的版面检测环节。
+  subtopic: layout-detection
+  date_added: '2026-09-02'
+- author: Marry Kong, Rina Buoy, Sovisal Chenda, Nguonly Taing, Masakazu Iwamura,
+    Koichi Kise
+  title: Towards Khmer Camera-Captured Document Layout Detection.
+  venue: ICDAR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icdar/KongBCTIK26
+  doi: 10.1007/978-3-032-36039-7_40
+  ee: https://doi.org/10.1007/978-3-032-36039-7_40
+  url: https://dblp.org/rec/conf/icdar/KongBCTIK26
+  abstract: 'While document layout analysis for Latin scripts has advanced significantly,
+    driven by the advent of large multimodal models (LMMs), progress for the Khmer
+    language remains constrained because of the scarcity of annotated training data.
+    This gap is particularly acute for scene documents, where perspective distortions
+    and complex backgrounds challenge traditional methods. Given the structural complexities
+    of Khmer script, such as diacritics and multi-layer character stacking, existing
+    Latin-based layout analysis models fail to accurately delineate semantic layout
+    units, particularly for dense text regions (e.g., list items). In this paper,
+    we present the first comprehensive study on Khmer scene document layout detection.
+    We contribute a novel framework comprising three key elements: (1) a robust training
+    and benchmarking dataset specifically for Khmer scene layouts; (2) an open-source
+    document augmentation tool capable of synthesizing realistic scene documents to
+    scale training data; and (3) layout detection baselines utilizing YOLO-based architectures
+    with oriented bounding boxes (OBB) to handle geometric distortions. To foster
+    further research in the Khmer document analysis and recognition (DAR) community,
+    we release our models, code, and datasets in this gated repository (in review).'
+  related_code: ''
+  abstract_cn: 尽管拉丁文字版面分析因大型多模态模型（LMMs）的出现而取得了显著进展，但高棉语在该领域的发展仍因标注训练数据的匮乏而受到制约。这一差距在场景文档中尤为突出，因为透视畸变和复杂背景对传统方法构成了挑战。鉴于高棉文字的结构复杂性，如变音符号和多层字符堆叠，现有的基于拉丁文字版面分析模型无法准确划分语义版面单元，尤其是在密集文本区域（如列表项）中。本文首次对高棉语场景文档版面检测进行了全面研究。我们提出了一种包含三个关键要素的新框架：（1）专门针对高棉语场景版面的稳健训练与基准测试数据集；（2）一个开源文档增强工具，能够合成逼真的场景文档以扩展训练数据；（3）利用基于YOLO架构的定向边界框（OBB）来处理几何畸变的版面检测基线。为促进高棉语文档分析与识别（DAR）领域的进一步研究，我们在该受控仓库（审核中）中发布了我们的模型、代码和数据集。
+  triage_score: 4
+  triage_summary: 针对高棉语场景文档版面检测，构建数据集、合成增强工具及基于YOLO的定向边界框基线，推动文档解析研究。
+  subtopic: layout-detection
+  date_added: '2026-09-02'
+- author: Uddipan Basu Bir, Vincent Christlein, Andreas K. Maier, Mathias Zinnen
+  title: 'From Pixels to Structure: Lightweight Vision-Language Models for Document
+    OCR and Structured JSON Extraction.'
+  venue: ICDAR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icdar/BirCMZ26
+  doi: 10.1007/978-3-032-36039-7_30
+  ee: https://doi.org/10.1007/978-3-032-36039-7_30
+  url: https://dblp.org/rec/conf/icdar/BirCMZ26
+  abstract: ''
+  triage_score: 4
+  triage_summary: 提出轻量级视觉-语言模型用于文档OCR和结构化JSON提取，涉及文档解析与VLM轻量化。
+  subtopic: vision-language-model
+  date_added: '2026-09-02'
+- author: Gabriel Frossard, Flavian Theurel, Wissam AlKendi, Franck Gechter
+  title: 'Specialized HTR vs Vision-Language Models: Evaluating DANIEL and Fine-Tuned
+    Qwen on Historical Documents.'
+  venue: ICDAR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icdar/FrossardTAG26
+  doi: 10.1007/978-3-032-36033-5_41
+  ee: https://doi.org/10.1007/978-3-032-36033-5_41
+  url: https://dblp.org/rec/conf/icdar/FrossardTAG26
+  abstract: ''
+  triage_score: 3
+  triage_summary: 评估专用手写识别模型DANIEL与微调Qwen在历史文档上的表现，属于文档解析应用。
+  subtopic: document-parsing
+  date_added: '2026-09-02'
+- author: Yifan Huang, Liangrui Peng, Tianqi Zhao, Di Wu, Kemeng Zhao, Shuo Li, Zhiyu
+    Li, Yuyang Li
+  title: Vision-Language Model Based Transfer Learning for Historical Document Recognition.
+  venue: ICDAR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icdar/HuangPZWZLLL26
+  doi: 10.1007/978-3-032-36039-7_24
+  ee: https://doi.org/10.1007/978-3-032-36039-7_24
+  url: https://dblp.org/rec/conf/icdar/HuangPZWZLLL26
+  abstract: ''
+  triage_score: 3
+  triage_summary: 利用视觉-语言模型迁移学习进行历史文档识别，属于文档理解与VLM应用。
+  subtopic: vision-language-model
+  date_added: '2026-09-02'
+- author: Matthieu Pelingre, Salvatore Tabbone
+  title: Evaluating Vision-Language Models on Historical Postcards.
+  venue: ICDAR
+  year: '2026'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/icdar/PelingreT26
+  doi: 10.1007/978-3-032-36039-7_20
+  ee: https://doi.org/10.1007/978-3-032-36039-7_20
+  url: https://dblp.org/rec/conf/icdar/PelingreT26
+  abstract: ''
+  triage_score: 3
+  triage_summary: 评估视觉-语言模型在历史明信片上的理解能力，属于文档理解应用。
+  subtopic: vision-language-model
+  date_added: '2026-09-02'
 'DP:venue:DAC:':
 - author: Silin Chen, Kangjian Di, Guohao Wang, Wenzheng Zhao, Li Du, Ningmu Zou
   title: 'Delving into Topology Representation for Layout Pattern: A Novel Contrastive
@@ -61676,6 +61804,71 @@
   triage_score: 5
   triage_summary: 提出基于子空间的联邦遗忘方法，用于移除特定客户端数据影响，属联邦学习隐私保护方向。
   subtopic: other
+- author: Tiejin Chen, Yuanpu Cao, Yujia Wang, Cho-Jui Hsieh, Jinghui Chen
+  title: Federated Learning with Projected Trajectory Regularization.
+  venue: Trans. Mach. Learn. Res.
+  year: '2026'
+  type: Journal Articles
+  access: open
+  key: journals/tmlr/ChenCWHC26
+  doi: ''
+  ee: https://openreview.net/forum?id=vfCztZvcP3
+  url: https://dblp.org/rec/journals/tmlr/ChenCWHC26
+  abstract: Federated learning enables joint training of machine learning models from
+    distributed clients without sharing their local data. One key challenge in federated
+    learning is to handle non-identically distributed data across the clients, which
+    leads to deteriorated model training performances. Prior works in this line of
+    research mainly focus on utilizing last-step global model parameters/gradients
+    or the linear combinations of the past model parameters/gradients, which do not
+    fully exploit the potential of global information from the model training trajectory.
+    In this paper, we propose a novel federated learning framework with projected
+    trajectory regularization (FedPTR) for tackling the data heterogeneity issue,
+    which proposes a unique way to better extract the essential global information
+    from the model training trajectory. Specifically, FedPTR allows local clients
+    or the server to optimize an auxiliary (synthetic) dataset that mimics the learning
+    dynamics of the recent model update and utilizes it to project the next-step model
+    trajectory for local training regularization. We conduct rigorous theoretical
+    analysis for our proposed framework under nonconvex stochastic settings to verify
+    its fast convergence under heterogeneous data distributions. Experiments on various
+    benchmark datasets and non-i.i.d. settings validate the effectiveness of our proposed
+    framework.
+  related_code: ''
+  abstract_cn: 联邦学习使得分布式客户端能够在无需共享本地数据的情况下联合训练机器学习模型。联邦学习中的一个关键挑战是处理客户端间数据非同分布的问题，这会导致模型训练性能下降。该研究方向此前的相关工作主要利用最后一步的全局模型参数/梯度，或过去模型参数/梯度的线性组合，未能充分挖掘模型训练轨迹中全局信息的潜力。本文提出了一种新颖的带投影轨迹正则化的联邦学习框架（FedPTR），用于解决数据异质性问题，该框架提出了一种独特的方式，能够更好地从模型训练轨迹中提取关键的全局信息。具体而言，FedPTR允许本地客户端或服务器优化一个辅助（合成）数据集，该数据集模拟近期模型更新的学习动态，并利用它来投影下一步的模型轨迹，以进行本地训练正则化。我们在非凸随机设置下对所提出的框架进行了严格的理论分析，以验证其在异构数据分布下的快速收敛性。在多种基准数据集和非独立同分布设置下的实验验证了我们所提出框架的有效性。
+  triage_score: 5
+  triage_summary: 提出基于投影轨迹正则化的联邦学习框架，缓解客户端数据异构问题，涉及隐私保护。
+  subtopic: data-heterogeneity
+  date_added: '2026-09-02'
+- author: Riccardo Salami, Pietro Buzzega, Matteo Mosconi, Mattia Verasani, Simone
+    Calderara
+  title: Federated Class-Incremental Learning with Hierarchical Generative Prototypes.
+  venue: Trans. Mach. Learn. Res.
+  year: '2026'
+  type: Journal Articles
+  access: open
+  key: journals/tmlr/SalamiBMVC26
+  doi: ''
+  ee: https://openreview.net/forum?id=k2TT42Ei8W
+  url: https://dblp.org/rec/journals/tmlr/SalamiBMVC26
+  abstract: ''
+  triage_score: 5
+  triage_summary: 面向联邦类增量学习，提出层次化生成原型方法，涉及联邦学习与隐私保护。
+  subtopic: federated-learning
+  date_added: '2026-09-02'
+- author: Qingyang Yu, Hao Wang, Qizhen Zhang, Hao Wang
+  title: 'FedIndex: Federated Domain Adaptation with Continuous Domain Indices.'
+  venue: Trans. Mach. Learn. Res.
+  year: '2026'
+  type: Journal Articles
+  access: open
+  key: journals/tmlr/YuWZW26
+  doi: ''
+  ee: https://openreview.net/forum?id=fnbGFH0330
+  url: https://dblp.org/rec/journals/tmlr/YuWZW26
+  abstract: ''
+  triage_score: 4
+  triage_summary: 提出基于连续域索引的联邦域适应方法，应对联邦学习中的数据异构问题。
+  subtopic: data-heterogeneity
+  date_added: '2026-09-02'
 'FL:streamid:journals/tifs:':
 - author: Yifan Sui, Yongqi Sun, Naiyue Chen, Yingying Zhao, Hongbo Cao, Baomin Xu
   title: 'Backdoor Detection in Federated Learning With Feature Map: A Multi-Task
