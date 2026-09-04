@@ -61811,7 +61811,7 @@
   type: Journal Articles
   access: open
   key: journals/tmlr/ChenCWHC26
-  doi: ''
+  doi: 10.48550/arXiv.2312.14380
   ee: https://openreview.net/forum?id=vfCztZvcP3
   url: https://dblp.org/rec/journals/tmlr/ChenCWHC26
   abstract: Federated learning enables joint training of machine learning models from
