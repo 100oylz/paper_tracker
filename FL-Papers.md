@@ -2598,6 +2598,7 @@
   提出零信任D2D网络中去中心化安全聚合方案，保障联邦学习隐私与安全，属安全聚合核心技术。
 - ★5 Detection and Mitigation Data Poisoning Attacks in Multimodal Online Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3707417)]
   研究多模态在线联邦学习中的数据投毒攻击检测与缓解，涉及联邦学习安全与隐私保护。
+- Differential Privacy Enabled Cascaded Filter for Efficient and Privacy-Preserving Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3723146)]
 - ★5 DisT-FL: Enhancing Security for TEE-Based Aggregation in Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3715108)]
   提出DisT-FL，利用多TEE形成追加式账本，增强联邦学习聚合的安全性，抵御状态回滚与I/O操纵攻击。
 - ★5 Divergence-Based Adaptive Aggregation for Byzantine Robust Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3707437)]
@@ -2630,6 +2631,7 @@
   利用置信度一致性检测纵向联邦学习中的毒样本，属于联邦学习鲁棒性与数据安全方法创新。
 - ★5 Model Hijacking Attack in Federated Learning. [[CODE](https://github.com/zhenglisec/HijackFL)] [[PUB](https://doi.org/10.1109/TIFS.2026.3666296)]
   提出联邦学习中的模型劫持攻击，直接关系联邦学习安全与隐私保护，与隐私保护主线相关。
+- MsaaDI: A Heterogeneity-Resilient Federated Learning Framework for IoT Device Identification With Multi-Scale Adaptive Aggregation. [[PUB](https://doi.org/10.1109/TIFS.2026.3723076)]
 - ★5 N Truths and a Lie: Consistency-Based Backdoor Defense for Vertical Federated Learning. [[PUB](https://doi.org/10.1109/TIFS.2026.3675464)]
   提出基于一致性的纵向联邦学习后门防御方法，增强联邦学习安全性，与隐私保护主线直接相关。
 - ★4 PDFL: A Privacy-Enhancing and Robust Poisoning Defense Federated Learning Scheme. [[PUB](https://doi.org/10.1109/TIFS.2025.3648147)]
@@ -2668,6 +2670,7 @@
   通过组装差分隐私噪声份额增强联邦学习安全聚合，降低通信开销并提升隐私保护能力。
 - ★5 Model Inversion Attack Against Federated Unlearning. [[PUB](https://doi.org/10.1109/TIFS.2026.3666295)]
   针对联邦遗忘过程提出模型反转攻击，揭示隐私泄漏风险，属联邦学习隐私攻击研究。
+- PACT: Enhancing Privacy and Efficiency in Tree Evaluation via Secure Parallel Comparison and Oblivious Tree Aggregation. [[PUB](https://doi.org/10.1109/TIFS.2026.3723094)]
 - ★2 Secure Acceleration of Aggregation Queries Over Homomorphically Encrypted Databases. [[PUB](https://doi.org/10.1109/TIFS.2026.3658997)]
   研究同态加密数据库上聚合查询的安全加速，属于通用隐私计算技术，与主线关联较弱。
 - ★5 Secure Optimization With Asynchronous Structured Skyline Predicates Under Vertical Data Federation. [[PUB](https://doi.org/10.1109/TIFS.2026.3696555)]

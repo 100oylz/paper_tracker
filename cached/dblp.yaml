@@ -65223,6 +65223,102 @@
   triage_summary: 提出DisT-FL，利用多TEE形成追加式账本，增强联邦学习聚合的安全性，抵御状态回滚与I/O操纵攻击。
   subtopic: secure-aggregation
   date_added: '2026-08-26'
+- author: Zhiqiang Chen, Yuchen Jiang 0004, Ray Y. Zhong, Xiaochun Cao
+  title: Differential Privacy Enabled Cascaded Filter for Efficient and Privacy-Preserving
+    Federated Learning.
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/ChenJZC26
+  doi: 10.1109/TIFS.2026.3723146
+  ee: https://doi.org/10.1109/TIFS.2026.3723146
+  url: https://dblp.org/rec/journals/tifs/ChenJZC26
+  abstract: Federated learning (FL) enables collaborative model training across multiple
+    clients in a privacy-preserving manner. However, the employment of homomorphic
+    encryption algorithms might lead to high computational cost while the application
+    of differential privacy (DP) methods would sacrifice model performance. To establish
+    efficient and secure FL system as well as maintaining competitive performance,
+    we introduce a DP-enabled cascaded filter with novel model-aggregation mechanism.
+    Taking the model parameters of one client for example, dimensions with large absolute
+    values and significant variations are selected by the cascaded filter and regarded
+    as important dimensions. After that, random noise are added to these important
+    dimensions for data security. Finally, the model parameters will be sent to the
+    central server for aggregation. Unlike traditional DP-based approaches, our method
+    considers each dimension’s informational importance, i.e., both absolute value
+    and its variation. We theoretically prove the convergence of our method and verify
+    the effectiveness on different scenarios including four datasets. The experimental
+    results suggest that our method outperforms the other ones from literature under
+    both IID and non-IID conditions while achieving high level of efficiency and privacy
+    protection performance.
+  related_code: ''
+  abstract_cn: ''
+  date_added: '2026-09-06'
+- author: Tong Sun, Qian Lu, Hanlin Zhang 0001, Fei Chen 0014, Hequn Xian
+  title: 'MsaaDI: A Heterogeneity-Resilient Federated Learning Framework for IoT Device
+    Identification With Multi-Scale Adaptive Aggregation.'
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/SunLZCX26
+  doi: 10.1109/TIFS.2026.3723076
+  ee: https://doi.org/10.1109/TIFS.2026.3723076
+  url: https://dblp.org/rec/journals/tifs/SunLZCX26
+  abstract: Accurate IoT device identification is critical to network forensics, access
+    control, and anomaly detection in large-scale, security-sensitive environments.
+    Federated learning (FL) provides a decentralized and privacy-enhancing approach
+    well suited to IoT, but FL-based identification remains hampered by cross-client
+    data heterogeneity, i.e., Non-IID distributions, and intra-client class imbalance,
+    which jointly degrade global model performance and stability. To address these
+    challenges, we propose MsaaDI, a novel federated device identification framework
+    featuring Multi-Scale Adaptive Aggregation (MSAA) on the server side and a lightweight
+    device fingerprinting pipeline with an enhanced local training strategy on the
+    client side. The MSAA mechanism employs a three-stage aggregation scheme with
+    real-time monitoring that robustly reweights heterogeneous client updates and
+    refines global parameters to mitigate cross-client distribution skew, while the
+    client design produces compact grayscale-image representations and alleviates
+    intra-client imbalance and improves cross-client model consistency during local
+    optimization. Extensive experiments on the UNSW and Aalto IoT device datasets
+    show that, under extreme label-skewed Non-IID conditions with only 20% training
+    data, MsaaDI achieves accuracies of 94.35% and 87.72%, respectively. It delivers
+    up to 14.33% absolute improvement over the best-performing baseline, DA-PFL, and
+    exhibits faster convergence and higher robustness. These results demonstrate MsaaDI’s
+    effectiveness and adaptability for reliable IoT device identification in realistic
+    deployments.
+  related_code: ''
+  abstract_cn: ''
+  date_added: '2026-09-06'
+- author: Jiaqi Zhao 0005, Hui Zhu 0001, Junpeng Zhang, Fengwei Wang, Yandong Zheng,
+    Hui Li 0006
+  title: 'PACT: Enhancing Privacy and Efficiency in Tree Evaluation via Secure Parallel
+    Comparison and Oblivious Tree Aggregation.'
+  venue: IEEE Trans. Inf. Forensics Secur.
+  year: '2026'
+  type: Journal Articles
+  access: closed
+  key: journals/tifs/ZhaoZZWZL26
+  doi: 10.1109/TIFS.2026.3723094
+  ee: https://doi.org/10.1109/TIFS.2026.3723094
+  url: https://dblp.org/rec/journals/tifs/ZhaoZZWZL26
+  abstract: As a classical type of machine learning algorithms, tree models have been
+    widely employed in various fields, such as financial analysis and health diagnostics,
+    offering high-accuracy and low-latency prediction services to users. However,
+    tree evaluation also raises significant privacy concerns, particularly with respect
+    to the tree model and the query sample, while the existing private decision tree
+    evaluation schemes are unable to reach a good trade-off between privacy and efficiency
+    in practice. Therefore, in this paper, we propose an efficient and privacy-preserving
+    tree evaluation scheme based on additive homomorphic encryption, namely PACT.
+    Specifically, PACT introduces an innovative algorithm by leveraging the overflow
+    characteristic of two’s complement to support AHE-based parallel comparison, and
+    it utilizes the lightweight homomorphic addition to select tree paths non-interactively.
+    Meanwhile, we carefully design perturbation and shuffle methods to enhance model
+    and sample privacy. The security of PACT is verified based on the ideal-real paradigm.
+    Experimental results on real-world and synthetic datasets demonstrate the lossless
+    accuracy and superior running efficiency of PACT.
+  related_code: ''
+  abstract_cn: ''
+  date_added: '2026-09-06'
 'FL:streamid:journals/tkde:':
 - author: Fangcheng Fu, Xuanyu Wang, Jiawei Jiang 0001, Huanran Xue, Bin Cui 0001
   title: 'ProjPert: Projection-Based Perturbation for Label Protection in Split Learning
